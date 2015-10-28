@@ -1,0 +1,20 @@
+﻿Build started 24.10.2015 г. 17:56:38.
+     1>Project "C:\Users\Nikolai\Documents\Unreal Projects\TwinStickShooter\Intermediate\ProjectFiles\TwinStickShooter.vcxproj" on node 2 (Build target(s)).
+     1>Build:
+         "C:\Program Files\Epic Games\4.9\Engine\Build\BatchFiles\Build.bat" TwinStickShooterEditor Win64 Development "C:\Users\Nikolai\Documents\Unreal Projects\TwinStickShooter\TwinStickShooter.uproject" -rocket
+         Compiling game modules for hot reload
+         Parsing headers for TwinStickShooterEditor
+           Running UnrealHeaderTool "C:\Users\Nikolai\Documents\Unreal Projects\TwinStickShooter\TwinStickShooter.uproject" "C:\Users\Nikolai\Documents\Unreal Projects\TwinStickShooter\Intermediate\Build\Win64\TwinStickShooterEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+         Reflection code generated for TwinStickShooterEditor in 14,4633279 seconds
+         Performing 3 actions (2 in parallel)
+         BaseCharacter.cpp
+         TwinStickShooter.generated.cpp
+         [3/3] Link UE4Editor-TwinStickShooter-7887.dll
+            Creating library C:\Users\Nikolai\Documents\Unreal Projects\TwinStickShooter\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TwinStickShooter-7887.lib and object C:\Users\Nikolai\Documents\Unreal Projects\TwinStickShooter\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TwinStickShooter-7887.exp
+         -------- End Detailed Actions Stats -----------------------------------------------------------
+         Total build time: 101,56 seconds
+     1>Done Building Project "C:\Users\Nikolai\Documents\Unreal Projects\TwinStickShooter\Intermediate\ProjectFiles\TwinStickShooter.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:43.24

@@ -1,0 +1,1066 @@
+﻿[2015.10.25-10.22.42:776][  0]Log file open, 10/25/15 12:22:42
+[2015.10.25-10.22.42:776][  0]LogInit:Display: Running engine for game: TwinStickShooter
+[2015.10.25-10.22.42:776][  0]LogInit:Display: RandInit(469556796) SRandInit(469556797).
+[2015.10.25-10.22.42:776][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.10.25-10.22.42:776][  0]LogStats: Stats thread started at 0.116447
+[2015.10.25-10.22.42:776][  0]LogInit: Version: 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.10.25-10.22.42:776][  0]LogInit: API Version: 2672455
+[2015.10.25-10.22.42:776][  0]LogInit: Compiled (64-bit): Aug 28 2015 12:33:01
+[2015.10.25-10.22.42:776][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.25-10.22.42:776][  0]LogInit: Build Configuration: Development
+[2015.10.25-10.22.42:776][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.25-10.22.42:776][  0]LogInit: Command line: 
+[2015.10.25-10.22.42:776][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.25-10.22.42:776][  0]LogInit: Rocket: 1
+[2015.10.25-10.22.42:813][  0]LogInit: Using libcurl 7.41.0
+[2015.10.25-10.22.42:813][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.25-10.22.42:813][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.25-10.22.42:813][  0]LogInit:  - other features:
+[2015.10.25-10.22.42:813][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.25-10.22.42:813][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.25-10.22.42:813][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.25-10.22.42:813][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.25-10.22.42:813][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.25-10.22.42:814][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.25-10.22.42:814][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.25-10.22.42:814][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.25-10.22.42:814][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.25-10.22.42:814][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.25-10.22.42:836][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.25-10.22.42:849][  0]LogInit: Object subsystem initialized
+[2015.10.25-10.22.42:860][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.25-10.22.42:860][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.25-10.22.42:924][  0]LogInit: Computer: THEPROTO
+[2015.10.25-10.22.42:924][  0]LogInit: User: Nikolai
+[2015.10.25-10.22.42:924][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.10.25-10.22.42:924][  0]LogInit: High frequency timer resolution =2.630739 MHz
+[2015.10.25-10.22.42:924][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2015.10.25-10.22.42:924][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.25-10.22.42:924][  0]LogMemory: Process Physical Memory: 52.13 MB used, 52.13 MB peak
+[2015.10.25-10.22.42:924][  0]LogMemory: Process Virtual Memory: 57.02 MB used, 57.02 MB peak
+[2015.10.25-10.22.42:924][  0]LogMemory: Physical Memory: 3026.67 MB used, 4044.71 MB total
+[2015.10.25-10.22.42:924][  0]LogMemory: Virtual Memory: 346.99 MB used, 134217728.00 MB total
+[2015.10.25-10.22.42:997][  0]LogTextLocalizationManager: No translations for ('bg-BG') exist, falling back to 'en' for localization and internationalization data.
+[2015.10.25-10.22.45:263][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R7 200 Series (Feature Level 11_0)
+[2015.10.25-10.22.45:263][  0]LogD3D11RHI: Adapter has 2027MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 1 output[s]
+[2015.10.25-10.22.45:295][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.25-10.22.45:295][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.10.25-10.22.45:298][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.25-10.22.45:314][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.25-10.22.45:314][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.25-10.22.45:330][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.10.25-10.22.45:347][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Intermediate/Shaders/WorkingDirectory/11036/).
+[2015.10.25-10.22.45:369][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Intermediate/Shaders/tmp/867706E240258D7C26E174AD87B08F2C/'.
+[2015.10.25-10.22.45:369][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.25-10.22.48:712][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.25-10.22.48:725][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.25-10.22.48:735][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.25-10.22.48:750][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.25-10.22.48:762][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.25-10.22.48:781][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.25-10.22.48:817][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.25-10.22.48:826][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.25-10.22.48:831][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.25-10.22.48:843][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.25-10.22.48:848][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.25-10.22.48:874][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.25-10.22.48:882][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.25-10.22.48:924][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.25-10.22.48:928][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.25-10.22.48:934][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.25-10.22.48:961][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.25-10.22.48:961][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.25-10.22.49:188][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.25-10.22.49:456][  0]LogDerivedDataCache: Loaded boot cache 0.27s 41MB C:/Users/Nikolai/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.25-10.22.49:456][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Nikolai/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.25-10.22.49:458][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.25-10.22.49:458][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.25-10.22.49:458][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.25-10.22.49:458][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.25-10.22.49:806][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.25-10.22.49:818][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nikolai/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.25-10.22.50:893][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.25-10.22.50:906][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.25-10.22.51:530][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.25-10.22.51:530][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.25-10.22.53:427][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.25-10.23.11:575][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.25-10.23.12:023][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2015.10.25-10.23.13:012][  0]SourceControl: Info Source control is disabled
+[2015.10.25-10.23.13:013][  0]SourceControl: Info Source control is disabled
+[2015.10.25-10.23.13:037][  0]SourceControl: Info Source control is disabled
+[2015.10.25-10.23.13:055][  0]SourceControl: Info Source control is disabled
+[2015.10.25-10.23.13:748][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.25-10.23.13:923][  0]LogObj: 28373 objects as part of root set at end of initial load.
+[2015.10.25-10.23.13:923][  0]LogUObjectAllocator: 6048600 out of 0 bytes used by permanent object pool.
+[2015.10.25-10.23.14:053][  0]LogEngine: Initializing Engine...
+[2015.10.25-10.23.14:057][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.10.25-10.23.14:062][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.10.25-10.23.14:881][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.25-10.23.14:889][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.25-10.23.14:910][  0]LogInit: FAudioDevice initialized.
+[2015.10.25-10.23.14:954][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/Nikolai/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.25-10.23.14:969][  0]LogInit: Texture streaming: Enabled
+[2015.10.25-10.23.14:976][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.25-10.23.14:977][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.10.25-10.23.14:977][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 53f6fc274a2158c2f1746fa617a06228|6e4a51694ea9490fbeb018a9c89f70b0|fd8891bc-30c8-439a-9b49-a1618c91fbf9
+[2015.10.25-10.23.14:977][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.25-10.23.15:106][  0]LogInit: Transaction tracking system initialized
+[2015.10.25-10.23.15:205][  0]BlueprintLog: New page: Editor Load
+[2015.10.25-10.23.15:467][  0]LocalizationService: Info Localization service is disabled
+[2015.10.25-10.23.16:252][  0]LogConsoleResponse:Display: 
+[2015.10.25-10.23.17:529][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.25-10.23.17:849][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/' took 0.05s
+[2015.10.25-10.23.17:849][  0]SourceControl: Info Source control is disabled
+[2015.10.25-10.23.17:849][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.25-10.23.17:918][  0]LightingResults: New page: Lighting Build
+[2015.10.25-10.23.17:925][  0]MapCheck: New page: Map Check
+[2015.10.25-10.23.17:925][  0]LightingResults: New page: Lighting Build
+[2015.10.25-10.23.17:961][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000963A0DDE40
+[2015.10.25-10.23.19:476][  0]LogAIModule: Creating AISystem for world NewMap
+[2015.10.25-10.23.19:527][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.25-10.23.19:528][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.25-10.23.19:624][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 95.696ms to complete.
+[2015.10.25-10.23.19:624][  0]LogFileHelpers: Loading map 'NewMap' took 1.775
+[2015.10.25-10.23.19:839][  0]LogCollectionManager: Loaded 0 collections in 0.049065 seconds
+[2015.10.25-10.23.19:878][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Collections/' took 0.01s
+[2015.10.25-10.23.19:878][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Developers/Nikolai/Collections/' took 0.01s
+[2015.10.25-10.23.19:878][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Collections/' took 0.00s
+[2015.10.25-10.23.19:878][  0]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 1868 classes and 335 folders.
+[2015.10.25-10.23.19:885][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.10.25-10.23.19:896][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2015.10.25-10.23.19:986][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2015.10.25-10.23.20:087][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2015.10.25-10.23.20:205][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.25-10.23.20:221][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.25-10.23.20:256][  0]LogLoad: Full Startup: 42.63 seconds (BP compile: 0.05 seconds)
+[2015.10.25-10.23.20:723][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.10.25-10.23.21:131][  0]LogRenderer: Reallocating scene render targets to support 772x612 (Frame:2).
+[2015.10.25-10.23.22:933][  4]LogAssetRegistry: Asset discovery search completed in 10.9207 seconds
+[2015.10.25-10.23.22:933][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.10.25-10.23.22:933][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000031 seconds (updated 0 objects)
+[2015.10.25-10.30.09:454][452]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.10.25-11.10.13:361][459]LogAssetTools:Warning: Failed to import 'C:\Users\Nikolai\Desktop\ThirdPersonExampleMap.umap'. Unknown extension 'umap'.
+[2015.10.25-11.10.51:888][616]LogAssetTools:Warning: Failed to import 'C:\Users\Nikolai\Desktop\ThirdPersonExampleMap.umap'. Unknown extension 'umap'.
+[2015.10.25-11.11.00:537][406]LogAssetTools:Warning: Failed to import 'C:\Users\Nikolai\Desktop\ThirdPersonExampleMap.umap'. Unknown extension 'umap'.
+[2015.10.25-11.17.01:951][262]LogLinker:Warning: Asset '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/ThirdPersonExampleMap.umap' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.9.0-2672455+++depot+UE4-Releases+4.9 AssetEngineVersion: 4.9.1-2672455+++depot+UE4-Releases+4.9
+[2015.10.25-11.17.01:953][262]LogLinker:Warning: Asset '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/ThirdPersonExampleMap.umap' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.9.0-2672455+++depot+UE4-Releases+4.9 AssetEngineVersion: 4.9.1-2672455+++depot+UE4-Releases+4.9
+[2015.10.25-11.17.01:954][262]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap'
+[2015.10.25-11.17.16:166][611]LogLinker:Warning: Asset '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/ThirdPersonExampleMap.umap' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.9.0-2672455+++depot+UE4-Releases+4.9 AssetEngineVersion: 4.9.1-2672455+++depot+UE4-Releases+4.9
+[2015.10.25-11.17.16:166][611]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap'
+[2015.10.25-11.17.19:351][919]LogLinker:Warning: Asset '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/ThirdPersonExampleMap.umap' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.9.0-2672455+++depot+UE4-Releases+4.9 AssetEngineVersion: 4.9.1-2672455+++depot+UE4-Releases+4.9
+[2015.10.25-11.17.19:360][919]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap'
+[2015.10.25-11.17.21:661][123]LogLinker:Warning: Asset '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/ThirdPersonExampleMap.umap' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.9.0-2672455+++depot+UE4-Releases+4.9 AssetEngineVersion: 4.9.1-2672455+++depot+UE4-Releases+4.9
+[2015.10.25-11.17.21:662][123]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap'
+[2015.10.25-11.17.23:149][249]LogLinker:Warning: Asset '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/ThirdPersonExampleMap.umap' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.9.0-2672455+++depot+UE4-Releases+4.9 AssetEngineVersion: 4.9.1-2672455+++depot+UE4-Releases+4.9
+[2015.10.25-11.17.23:151][249]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap'
+[2015.10.25-11.17.27:916][681]LogLinker:Warning: Asset '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/ThirdPersonExampleMap.umap' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.9.0-2672455+++depot+UE4-Releases+4.9 AssetEngineVersion: 4.9.1-2672455+++depot+UE4-Releases+4.9
+[2015.10.25-11.17.27:918][681]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap'
+[2015.10.25-11.17.28:752][746]LogLinker:Warning: Asset '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/ThirdPersonExampleMap.umap' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.9.0-2672455+++depot+UE4-Releases+4.9 AssetEngineVersion: 4.9.1-2672455+++depot+UE4-Releases+4.9
+[2015.10.25-11.17.28:754][746]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap'
+[2015.10.25-11.17.29:321][785]LogLinker:Warning: Asset '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/ThirdPersonExampleMap.umap' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.9.0-2672455+++depot+UE4-Releases+4.9 AssetEngineVersion: 4.9.1-2672455+++depot+UE4-Releases+4.9
+[2015.10.25-11.17.29:323][785]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap'
+[2015.10.25-11.17.29:741][812]LogLinker:Warning: Asset '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/ThirdPersonExampleMap.umap' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.9.0-2672455+++depot+UE4-Releases+4.9 AssetEngineVersion: 4.9.1-2672455+++depot+UE4-Releases+4.9
+[2015.10.25-11.17.29:757][812]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap'
+[2015.10.25-11.17.30:059][828]LogLinker:Warning: Asset '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/ThirdPersonExampleMap.umap' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.9.0-2672455+++depot+UE4-Releases+4.9 AssetEngineVersion: 4.9.1-2672455+++depot+UE4-Releases+4.9
+[2015.10.25-11.17.30:076][828]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap'
+[2015.10.25-11.17.30:527][850]LogLinker:Warning: Asset '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/ThirdPersonExampleMap.umap' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.9.0-2672455+++depot+UE4-Releases+4.9 AssetEngineVersion: 4.9.1-2672455+++depot+UE4-Releases+4.9
+[2015.10.25-11.17.30:544][850]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap'
+[2015.10.25-11.17.31:064][880]LogLinker:Warning: Asset '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/ThirdPersonExampleMap.umap' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.9.0-2672455+++depot+UE4-Releases+4.9 AssetEngineVersion: 4.9.1-2672455+++depot+UE4-Releases+4.9
+[2015.10.25-11.17.31:076][880]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap'
+[2015.10.25-11.17.37:320][ 14]LogLinker:Warning: Asset '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/ThirdPersonExampleMap.umap' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.9.0-2672455+++depot+UE4-Releases+4.9 AssetEngineVersion: 4.9.1-2672455+++depot+UE4-Releases+4.9
+[2015.10.25-11.17.37:321][ 14]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap'
+[2015.10.25-11.17.42:778][547]LogLinker:Warning: Asset '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/ThirdPersonExampleMap.umap' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.9.0-2672455+++depot+UE4-Releases+4.9 AssetEngineVersion: 4.9.1-2672455+++depot+UE4-Releases+4.9
+[2015.10.25-11.17.42:779][547]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap'
+[2015.10.25-11.17.43:263][547]LogFileManager:Warning: Error deleting file: ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/ThirdPersonExampleMap.umap (Error Code 0)
+[2015.10.25-11.17.45:491][761]LogLinker:Warning: Asset '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/ThirdPersonExampleMap.umap' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.9.0-2672455+++depot+UE4-Releases+4.9 AssetEngineVersion: 4.9.1-2672455+++depot+UE4-Releases+4.9
+[2015.10.25-11.17.45:491][761]LogLinker:Warning: Asset '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/ThirdPersonExampleMap.umap' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.9.0-2672455+++depot+UE4-Releases+4.9 AssetEngineVersion: 4.9.1-2672455+++depot+UE4-Releases+4.9
+[2015.10.25-11.17.45:491][761]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap'
+[2015.10.25-11.17.45:604][761]LogFileManager:Warning: Error deleting file: ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/ThirdPersonExampleMap.umap (Error Code 0)
+[2015.10.25-11.17.47:813][982]LogLinker:Warning: Asset '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/ThirdPersonExampleMap.umap' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.9.0-2672455+++depot+UE4-Releases+4.9 AssetEngineVersion: 4.9.1-2672455+++depot+UE4-Releases+4.9
+[2015.10.25-11.17.47:814][982]LogLinker:Warning: Asset '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/ThirdPersonExampleMap.umap' has been saved with engine version newer than current and therefore can't be loaded. CurrEngineVersion: 4.9.0-2672455+++depot+UE4-Releases+4.9 AssetEngineVersion: 4.9.1-2672455+++depot+UE4-Releases+4.9
+[2015.10.25-11.17.47:814][982]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap'
+[2015.10.25-11.17.47:925][982]LogFileManager:Warning: Error deleting file: ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/ThirdPersonExampleMap.umap (Error Code 0)
+[2015.10.25-12.12.15:484][594]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body'
+[2015.10.25-12.12.15:499][594]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset.
+[2015.10.25-12.12.15:509][594]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body
+[2015.10.25-12.12.15:509][594]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo'
+[2015.10.25-12.12.15:509][594]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset.
+[2015.10.25-12.12.15:520][594]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo
+[2015.10.25-12.12.15:520][594]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body'
+[2015.10.25-12.12.15:520][594]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset.
+[2015.10.25-12.12.15:520][594]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo'
+[2015.10.25-12.12.15:520][594]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset.
+[2015.10.25-12.12.15:520][594]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset'
+[2015.10.25-12.12.15:521][594]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset.
+[2015.10.25-12.12.15:521][594]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset
+[2015.10.25-12.12.15:521][594]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.25-12.12.15:521][594]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset.
+[2015.10.25-12.12.15:521][594]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton
+[2015.10.25-12.12.15:521][594]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset'
+[2015.10.25-12.12.15:522][594]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset.
+[2015.10.25-12.12.15:522][594]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.25-12.12.15:522][594]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset.
+[2015.10.25-12.12.16:700][594]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.25-12.12.16:701][594]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by SK_Mannequin
+[2015.10.25-12.12.16:701][594]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2015.10.25-12.12.16:725][594]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset'
+[2015.10.25-12.12.16:725][594]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset.SK_Mannequin_PhysicsAsset Referenced by SK_Mannequin
+[2015.10.25-12.12.16:725][594]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset' while loading NULL.
+[2015.10.25-12.12.16:753][594]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body'
+[2015.10.25-12.12.16:753][594]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.M_UE4Man_Body Referenced by SK_Mannequin
+[2015.10.25-12.12.16:753][594]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body' while loading NULL.
+[2015.10.25-12.12.16:753][594]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo'
+[2015.10.25-12.12.16:753][594]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo.M_UE4Man_ChestLogo Referenced by SK_Mannequin
+[2015.10.25-12.12.16:753][594]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo' while loading NULL.
+[2015.10.25-12.12.18:111][594]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.25-12.12.21:377][594]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0025 seconds. Added 107 classes and 0 folders.
+[2015.10.25-12.12.41:145][819]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.14.39:694][516]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.10.25-12.15.08:397][573]BlueprintLog: New page: Compile HeroCharacter
+[2015.10.25-12.15.09:067][573]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.10.25-12.15.09:223][573]BlueprintEditorCompileResults: Info [6751.59] Compile of HeroCharacter successful! [in 810 ms]
+[2015.10.25-12.15.10:024][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HeroCharacter" FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset" SILENT=true
+[2015.10.25-12.15.10:400][602]LogSavePackage: Save=316.035919ms
+[2015.10.25-12.15.10:401][602]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/HeroCharacter4AE40DE84F124BD640639584B67FEFBD.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset'
+[2015.10.25-12.15.10:471][602]LogSavePackage: Total save time: 401.359089ms
+[2015.10.25-12.15.10:471][602]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset
+[2015.10.25-12.15.13:269][697]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.25-12.15.13:427][697]PIE: New page: PIE session: NewMap (Oct 25, 2015, 4:15:13 PM)
+[2015.10.25-12.15.13:470][697]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2015.10.25-12.15.13:601][697]LogPlayLevel: PIE: StaticDuplicateObject took: (0.130462s)
+[2015.10.25-12.15.13:602][697]LogAIModule: Creating AISystem for world NewMap
+[2015.10.25-12.15.13:603][697]LogPlayLevel: PIE: World Init took: (0.001879s)
+[2015.10.25-12.15.13:610][697]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.140352s)
+[2015.10.25-12.15.13:631][697]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.15.13:772][697]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.25-12.15.13:811][697]LogInit: FAudioDevice initialized.
+[2015.10.25-12.15.14:134][697]LogWorld: Game class is 'TwinStickMode_C'
+[2015.10.25-12.15.14:509][697]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2015.10.25-14.15.14
+[2015.10.25-12.15.14:509][697]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.15.14:516][697]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.15.14:534][697]LogWorld: Bringing up level for play took: 0.049404
+[2015.10.25-12.15.15:049][697]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 1.822
+[2015.10.25-12.15.22:997][ 53]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000964982CB80
+[2015.10.25-12.15.50:543][826]BlueprintLog: New page: Compile HeroCharacter
+[2015.10.25-12.15.50:689][826]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.15.50:744][826]BlueprintEditorCompileResults: Info [6793.12] Compile of HeroCharacter successful! [in 200 ms]
+[2015.10.25-12.15.51:295][848]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HeroCharacter" FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset" SILENT=true
+[2015.10.25-12.15.51:348][848]LogSavePackage: Save=49.178955ms
+[2015.10.25-12.15.51:348][848]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/HeroCharacterAF3D903349663D5DA51BF6BFC5177024.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset'
+[2015.10.25-12.15.51:350][848]LogSavePackage: Total save time: 53.269062ms
+[2015.10.25-12.15.51:350][848]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset
+[2015.10.25-12.15.53:181][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HeroCharacter" FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset" SILENT=true
+[2015.10.25-12.15.53:222][950]LogSavePackage: Save=38.730560ms
+[2015.10.25-12.15.53:222][950]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/HeroCharacterB69B351849AAF24B2DA672B1E3BC754C.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset'
+[2015.10.25-12.15.53:224][950]LogSavePackage: Total save time: 41.415740ms
+[2015.10.25-12.15.53:224][950]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset
+[2015.10.25-12.15.55:288][105]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.25-12.15.55:288][105]PIE: New page: PIE session: NewMap (Oct 25, 2015, 4:15:55 PM)
+[2015.10.25-12.15.55:288][105]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2015.10.25-12.15.55:293][105]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004845s)
+[2015.10.25-12.15.55:294][105]LogAIModule: Creating AISystem for world NewMap
+[2015.10.25-12.15.55:294][105]LogPlayLevel: PIE: World Init took: (0.001089s)
+[2015.10.25-12.15.55:294][105]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.006155s)
+[2015.10.25-12.15.55:294][105]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.15.55:337][105]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000964346F740
+[2015.10.25-12.15.55:345][105]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.25-12.15.55:352][105]LogInit: FAudioDevice initialized.
+[2015.10.25-12.15.55:385][105]LogWorld: Game class is 'TwinStickMode_C'
+[2015.10.25-12.15.55:388][105]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2015.10.25-14.15.55
+[2015.10.25-12.15.55:388][105]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.15.55:388][105]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.15.55:388][105]LogWorld: Bringing up level for play took: 0.002574
+[2015.10.25-12.15.55:413][105]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.185
+[2015.10.25-12.16.12:610][149]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009648E73880
+[2015.10.25-12.17.09:351][143]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.17.25:824][689]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.10.25-12.17.32:271][917]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.10.25-12.21.19:230][177]LogEditorTransaction: Undo Add Node
+[2015.10.25-12.21.19:239][177]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.10.25-12.22.55:861][839]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.10.25-12.22.56:031][839]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.170
+[2015.10.25-12.22.56:080][839]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/HeroCharacter] ([1] browsable assets)...
+[2015.10.25-12.22.56:111][839]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/HeroCharacter.HeroCharacter]
+[2015.10.25-12.22.56:111][839]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/HeroCharacter]
+[2015.10.25-12.22.56:314][839]LogSavePackage: Save=154.017563ms
+[2015.10.25-12.22.56:314][839]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/HeroCharacter_Auto1C4B314A44B53B497A51A9EBC8F152C81.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Autosaves/Game/Blueprints/HeroCharacter_Auto1.uasset'
+[2015.10.25-12.22.56:316][839]LogSavePackage: Total save time: 187.228758ms
+[2015.10.25-12.22.56:316][839]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Autosaves/Game/Blueprints/HeroCharacter_Auto1.uasset
+[2015.10.25-12.22.56:316][839]LogFileHelpers: Auto-saving content packages took 0.284
+[2015.10.25-12.25.37:951][422]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.25.46:849][752]BlueprintLog: New page: Compile HeroCharacter
+[2015.10.25-12.25.46:994][752]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.10.25-12.25.47:075][752]BlueprintEditorCompileResults: Info [7389.45] Compile of HeroCharacter successful! [in 225 ms]
+[2015.10.25-12.25.49:635][842]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.25-12.25.49:635][842]PIE: New page: PIE session: NewMap (Oct 25, 2015, 4:25:49 PM)
+[2015.10.25-12.25.49:635][842]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2015.10.25-12.25.49:643][842]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007744s)
+[2015.10.25-12.25.49:645][842]LogAIModule: Creating AISystem for world NewMap
+[2015.10.25-12.25.49:645][842]LogPlayLevel: PIE: World Init took: (0.002061s)
+[2015.10.25-12.25.49:645][842]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.010040s)
+[2015.10.25-12.25.49:645][842]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.25.49:720][842]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.25-12.25.49:728][842]LogInit: FAudioDevice initialized.
+[2015.10.25-12.25.49:779][842]LogWorld: Game class is 'TwinStickMode_C'
+[2015.10.25-12.25.49:783][842]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2015.10.25-14.25.49
+[2015.10.25-12.25.49:783][842]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.25.49:784][842]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.25.49:784][842]LogWorld: Bringing up level for play took: 0.003907
+[2015.10.25-12.25.49:789][842]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.562
+[2015.10.25-12.25.52:556][954]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000965B8699E0
+[2015.10.25-12.25.54:615][ 33]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.25-12.25.54:616][ 33]PIE: New page: PIE session: NewMap (Oct 25, 2015, 4:25:54 PM)
+[2015.10.25-12.25.54:616][ 33]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2015.10.25-12.25.54:622][ 33]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006001s)
+[2015.10.25-12.25.54:623][ 33]LogAIModule: Creating AISystem for world NewMap
+[2015.10.25-12.25.54:624][ 33]LogPlayLevel: PIE: World Init took: (0.001151s)
+[2015.10.25-12.25.54:624][ 33]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.007396s)
+[2015.10.25-12.25.54:720][ 33]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.25-12.25.54:741][ 33]LogInit: FAudioDevice initialized.
+[2015.10.25-12.25.54:798][ 33]LogWorld: Game class is 'TwinStickMode_C'
+[2015.10.25-12.25.54:801][ 33]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2015.10.25-14.25.54
+[2015.10.25-12.25.54:802][ 33]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.25.54:802][ 33]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.25.54:802][ 33]LogWorld: Bringing up level for play took: 0.002779
+[2015.10.25-12.25.54:805][ 33]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.422
+[2015.10.25-12.26.12:403][183]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000965AEB7CE0
+[2015.10.25-12.26.47:500][609]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.25-12.26.47:500][609]PIE: New page: PIE session: NewMap (Oct 25, 2015, 4:26:47 PM)
+[2015.10.25-12.26.47:500][609]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2015.10.25-12.26.47:505][609]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004607s)
+[2015.10.25-12.26.47:506][609]LogAIModule: Creating AISystem for world NewMap
+[2015.10.25-12.26.47:506][609]LogPlayLevel: PIE: World Init took: (0.001294s)
+[2015.10.25-12.26.47:507][609]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.006155s)
+[2015.10.25-12.26.47:507][609]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.26.47:577][609]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.25-12.26.47:594][609]LogInit: FAudioDevice initialized.
+[2015.10.25-12.26.47:633][609]LogWorld: Game class is 'TwinStickMode_C'
+[2015.10.25-12.26.47:636][609]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2015.10.25-14.26.47
+[2015.10.25-12.26.47:637][609]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.26.47:637][609]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.26.47:638][609]LogWorld: Bringing up level for play took: 0.004078
+[2015.10.25-12.26.47:642][609]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.415
+[2015.10.25-12.26.50:667][795]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096434011C0
+[2015.10.25-12.26.58:206][272]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.10.25-12.27.04:774][655]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.10.25-12.27.07:234][817]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.10.25-12.27.13:740][245]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.25-12.27.13:740][245]PIE: New page: PIE session: NewMap (Oct 25, 2015, 4:27:13 PM)
+[2015.10.25-12.27.13:740][245]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2015.10.25-12.27.13:754][245]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013550s)
+[2015.10.25-12.27.13:756][245]LogAIModule: Creating AISystem for world NewMap
+[2015.10.25-12.27.13:757][245]LogPlayLevel: PIE: World Init took: (0.003218s)
+[2015.10.25-12.27.13:758][245]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.017107s)
+[2015.10.25-12.27.13:823][245]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.25-12.27.13:837][245]LogInit: FAudioDevice initialized.
+[2015.10.25-12.27.13:875][245]LogWorld: Game class is 'TwinStickMode_C'
+[2015.10.25-12.27.13:878][245]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2015.10.25-14.27.13
+[2015.10.25-12.27.13:878][245]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.27.13:879][245]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.27.13:880][245]LogWorld: Bringing up level for play took: 0.003790
+[2015.10.25-12.27.13:885][245]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.657
+[2015.10.25-12.27.38:417][ 34]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096435B8EA0
+[2015.10.25-12.29.11:669][926]BlueprintLog: New page: Compile HeroCharacter
+[2015.10.25-12.29.11:740][926]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.29.11:794][926]BlueprintEditorCompileResults: Info [7594.17] Compile of HeroCharacter successful! [in 125 ms]
+[2015.10.25-12.29.12:308][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HeroCharacter" FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset" SILENT=true
+[2015.10.25-12.29.12:414][955]LogSavePackage: Save=96.891785ms
+[2015.10.25-12.29.12:414][955]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/HeroCharacterC71C48304AA72BD38961CC95B93BF560.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset'
+[2015.10.25-12.29.12:419][955]LogSavePackage: Total save time: 107.806209ms
+[2015.10.25-12.29.12:419][955]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset
+[2015.10.25-12.29.15:440][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.25-12.29.15:440][183]PIE: New page: PIE session: NewMap (Oct 25, 2015, 4:29:15 PM)
+[2015.10.25-12.29.15:440][183]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2015.10.25-12.29.15:445][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004455s)
+[2015.10.25-12.29.15:446][183]LogAIModule: Creating AISystem for world NewMap
+[2015.10.25-12.29.15:446][183]LogPlayLevel: PIE: World Init took: (0.001013s)
+[2015.10.25-12.29.15:446][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.005693s)
+[2015.10.25-12.29.15:446][183]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.29.15:489][183]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000964355BE20
+[2015.10.25-12.29.15:497][183]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.25-12.29.15:504][183]LogInit: FAudioDevice initialized.
+[2015.10.25-12.29.15:544][183]LogWorld: Game class is 'TwinStickMode_C'
+[2015.10.25-12.29.15:547][183]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2015.10.25-14.29.15
+[2015.10.25-12.29.15:547][183]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.29.15:547][183]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.29.15:548][183]LogWorld: Bringing up level for play took: 0.002844
+[2015.10.25-12.29.15:550][183]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.323
+[2015.10.25-12.29.32:482][201]Cmd: SELECT NONE
+[2015.10.25-12.29.33:202][256]Cmd: SELECT NONE
+[2015.10.25-12.29.34:315][378]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009651305C60
+[2015.10.25-12.29.45:896][304]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.10.25-12.30.11:963][227]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.10.25-12.30.17:365][645]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.25-12.30.17:365][645]PIE: New page: PIE session: NewMap (Oct 25, 2015, 4:30:17 PM)
+[2015.10.25-12.30.17:365][645]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2015.10.25-12.30.17:518][645]LogPlayLevel: PIE: StaticDuplicateObject took: (0.151731s)
+[2015.10.25-12.30.17:519][645]LogAIModule: Creating AISystem for world NewMap
+[2015.10.25-12.30.17:519][645]LogPlayLevel: PIE: World Init took: (0.001248s)
+[2015.10.25-12.30.17:519][645]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.153206s)
+[2015.10.25-12.30.17:519][645]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.30.17:573][645]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.25-12.30.17:580][645]LogInit: FAudioDevice initialized.
+[2015.10.25-12.30.17:617][645]LogWorld: Game class is 'TwinStickMode_C'
+[2015.10.25-12.30.17:620][645]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2015.10.25-14.30.17
+[2015.10.25-12.30.17:620][645]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.30.17:620][645]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.30.17:621][645]LogWorld: Bringing up level for play took: 0.002696
+[2015.10.25-12.30.17:624][645]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.396
+[2015.10.25-12.30.27:326][782]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009648F70EA0
+[2015.10.25-12.30.53:377][268]BlueprintLog: New page: Compile HeroCharacter
+[2015.10.25-12.30.53:449][268]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.30.53:505][268]BlueprintEditorCompileResults: Info [7695.88] Compile of HeroCharacter successful! [in 128 ms]
+[2015.10.25-12.30.54:219][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HeroCharacter" FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset" SILENT=true
+[2015.10.25-12.30.54:297][306]LogSavePackage: Save=74.417496ms
+[2015.10.25-12.30.54:297][306]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/HeroCharacterABFDBFB14775DD11E3CC85AD91C08EC2.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset'
+[2015.10.25-12.30.54:303][306]LogSavePackage: Total save time: 82.211882ms
+[2015.10.25-12.30.54:303][306]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset
+[2015.10.25-12.30.56:478][469]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.25-12.30.56:478][469]PIE: New page: PIE session: NewMap (Oct 25, 2015, 4:30:56 PM)
+[2015.10.25-12.30.56:478][469]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2015.10.25-12.30.56:530][469]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051998s)
+[2015.10.25-12.30.56:531][469]LogAIModule: Creating AISystem for world NewMap
+[2015.10.25-12.30.56:532][469]LogPlayLevel: PIE: World Init took: (0.001253s)
+[2015.10.25-12.30.56:532][469]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.053480s)
+[2015.10.25-12.30.56:532][469]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.30.56:575][469]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000964914AD40
+[2015.10.25-12.30.56:583][469]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.25-12.30.56:590][469]LogInit: FAudioDevice initialized.
+[2015.10.25-12.30.56:627][469]LogWorld: Game class is 'TwinStickMode_C'
+[2015.10.25-12.30.56:630][469]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2015.10.25-14.30.56
+[2015.10.25-12.30.56:630][469]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.30.56:630][469]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.30.56:630][469]LogWorld: Bringing up level for play took: 0.002616
+[2015.10.25-12.30.56:633][469]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.594
+[2015.10.25-12.31.15:564][720]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009648726480
+[2015.10.25-12.32.43:358][383]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.32.44:137][423]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.10.25-12.32.59:058][213]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.10.25-12.32.59:691][246]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.10.25-12.33.01:438][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HeroCharacter" FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset" SILENT=true
+[2015.10.25-12.33.01:516][334]LogSavePackage: Save=75.089165ms
+[2015.10.25-12.33.01:516][334]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/HeroCharacterFC7BD8554D4BA12E1CCBBA90D0BEC0D1.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset'
+[2015.10.25-12.33.01:519][334]LogSavePackage: Total save time: 79.590566ms
+[2015.10.25-12.33.01:519][334]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset
+[2015.10.25-12.33.02:628][393]BlueprintLog: New page: Compile HeroCharacter
+[2015.10.25-12.33.02:698][393]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.10.25-12.33.02:752][393]BlueprintEditorCompileResults: Info [7825.13] Compile of HeroCharacter successful! [in 124 ms]
+[2015.10.25-12.33.04:901][531]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.25-12.33.04:901][531]PIE: New page: PIE session: NewMap (Oct 25, 2015, 4:33:04 PM)
+[2015.10.25-12.33.04:901][531]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2015.10.25-12.33.04:906][531]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004646s)
+[2015.10.25-12.33.04:907][531]LogAIModule: Creating AISystem for world NewMap
+[2015.10.25-12.33.04:907][531]LogPlayLevel: PIE: World Init took: (0.001280s)
+[2015.10.25-12.33.04:907][531]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.006158s)
+[2015.10.25-12.33.04:907][531]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.33.04:959][531]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.25-12.33.04:967][531]LogInit: FAudioDevice initialized.
+[2015.10.25-12.33.05:008][531]LogWorld: Game class is 'TwinStickMode_C'
+[2015.10.25-12.33.05:011][531]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2015.10.25-14.33.05
+[2015.10.25-12.33.05:011][531]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.33.05:011][531]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.33.05:011][531]LogWorld: Bringing up level for play took: 0.002588
+[2015.10.25-12.33.05:014][531]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.213
+[2015.10.25-12.33.36:818][753]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000965E08E0C0
+[2015.10.25-12.33.39:278][940]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.10.25-12.33.43:180][114]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.33.43:505][131]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.10.25-12.33.45:022][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HeroCharacter" FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset" SILENT=true
+[2015.10.25-12.33.45:101][204]LogSavePackage: Save=75.403526ms
+[2015.10.25-12.33.45:101][204]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/HeroCharacterB0A4B70641DF6437A06592A9CCA776E7.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset'
+[2015.10.25-12.33.45:104][204]LogSavePackage: Total save time: 80.492593ms
+[2015.10.25-12.33.45:104][204]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset
+[2015.10.25-12.33.45:714][235]BlueprintLog: New page: Compile HeroCharacter
+[2015.10.25-12.33.45:782][235]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2015.10.25-12.33.45:838][235]BlueprintEditorCompileResults: Info [7868.22] Compile of HeroCharacter successful! [in 123 ms]
+[2015.10.25-12.33.50:745][483]LogRenderer: Reallocating scene render targets to support 908x612 (Frame:134442).
+[2015.10.25-12.34.30:344][639]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.34.36:797][ 43]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2015.10.25-12.34.48:083][217]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.10.25-12.34.48:086][217]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2015.10.25-12.34.48:096][217]LogPlayLevel: [PlayLevel] Compiling HeroCharacter before play...
+[2015.10.25-12.34.48:214][217]LogPlayLevel: PlayLevel: Blueprint regeneration took 130 ms (1 blueprints)
+[2015.10.25-12.34.48:302][217]PIE: New page: PIE session: NewMap (Oct 25, 2015, 4:34:48 PM)
+[2015.10.25-12.34.48:302][217]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2015.10.25-12.34.48:317][217]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014957s)
+[2015.10.25-12.34.48:319][217]LogAIModule: Creating AISystem for world NewMap
+[2015.10.25-12.34.48:319][217]LogPlayLevel: PIE: World Init took: (0.001977s)
+[2015.10.25-12.34.48:319][217]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.017180s)
+[2015.10.25-12.34.48:447][217]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.25-12.34.48:493][217]LogInit: FAudioDevice initialized.
+[2015.10.25-12.34.48:559][217]LogWorld: Game class is 'TwinStickMode_C'
+[2015.10.25-12.34.48:562][217]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2015.10.25-14.34.48
+[2015.10.25-12.34.48:562][217]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.34.48:562][217]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.34.48:563][217]LogWorld: Bringing up level for play took: 0.003055
+[2015.10.25-12.34.48:568][217]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 1.341
+[2015.10.25-12.35.05:421][245]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.35.05:474][245]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096619BFB00
+[2015.10.25-12.35.32:324][449]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.35.32:528][449]LogSavePackage: Save=112.866386ms
+[2015.10.25-12.35.32:530][449]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/NewMap_Auto28DCB2D494F0C22A7BE2AD38C7971E239.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Autosaves/Game/Maps/NewMap_Auto2.umap'
+[2015.10.25-12.35.32:532][449]LogSavePackage: Total save time: 123.737853ms
+[2015.10.25-12.35.32:532][449]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Autosaves/Game/Maps/NewMap_Auto2.umap
+[2015.10.25-12.35.32:568][449]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.245
+[2015.10.25-12.35.32:568][449]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.245
+[2015.10.25-12.35.32:577][449]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/HeroCharacter] ([1] browsable assets)...
+[2015.10.25-12.35.32:602][449]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/HeroCharacter.HeroCharacter]
+[2015.10.25-12.35.32:602][449]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/HeroCharacter]
+[2015.10.25-12.35.32:687][449]LogSavePackage: Save=76.713043ms
+[2015.10.25-12.35.32:687][449]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/HeroCharacter_Auto28AB426E34CE9DE414E9A94B005CEFC67.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Autosaves/Game/Blueprints/HeroCharacter_Auto2.uasset'
+[2015.10.25-12.35.32:691][449]LogSavePackage: Total save time: 87.226063ms
+[2015.10.25-12.35.32:691][449]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Autosaves/Game/Blueprints/HeroCharacter_Auto2.uasset
+[2015.10.25-12.35.32:691][449]LogFileHelpers: Auto-saving content packages took 0.121
+[2015.10.25-12.38.31:077][729]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.38.33:492][864]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HeroCharacter" FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset" SILENT=true
+[2015.10.25-12.38.33:568][864]LogSavePackage: Save=72.676918ms
+[2015.10.25-12.38.33:568][864]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/HeroCharacterA62F63B94DE20685065E828F481F3802.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset'
+[2015.10.25-12.38.33:574][864]LogSavePackage: Total save time: 80.749933ms
+[2015.10.25-12.38.33:574][864]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset
+[2015.10.25-12.38.34:095][895]BlueprintLog: New page: Compile HeroCharacter
+[2015.10.25-12.38.34:163][895]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2015.10.25-12.38.34:220][895]BlueprintEditorCompileResults: Info [8156.60] Compile of HeroCharacter successful! [in 125 ms]
+[2015.10.25-12.38.45:283][275]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.25-12.38.45:284][275]PIE: New page: PIE session: NewMap (Oct 25, 2015, 4:38:45 PM)
+[2015.10.25-12.38.45:284][275]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2015.10.25-12.38.45:289][275]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004740s)
+[2015.10.25-12.38.45:290][275]LogAIModule: Creating AISystem for world NewMap
+[2015.10.25-12.38.45:290][275]LogPlayLevel: PIE: World Init took: (0.001162s)
+[2015.10.25-12.38.45:290][275]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.006130s)
+[2015.10.25-12.38.45:290][275]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.38.45:344][275]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.25-12.38.45:351][275]LogInit: FAudioDevice initialized.
+[2015.10.25-12.38.45:392][275]LogWorld: Game class is 'TwinStickMode_C'
+[2015.10.25-12.38.45:395][275]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2015.10.25-14.38.45
+[2015.10.25-12.38.45:395][275]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.38.45:396][275]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.38.45:396][275]LogWorld: Bringing up level for play took: 0.002855
+[2015.10.25-12.38.45:399][275]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.171
+[2015.10.25-12.39.09:983][912]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000965E18D9E0
+[2015.10.25-12.39.33:944][457]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.39.35:579][516]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.25-12.39.38:287][663]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HeroCharacter" FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset" SILENT=true
+[2015.10.25-12.39.38:366][663]LogSavePackage: Save=74.279129ms
+[2015.10.25-12.39.38:366][663]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/HeroCharacterC4005CF242BF8B6F1F2048B49A165B66.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset'
+[2015.10.25-12.39.38:369][663]LogSavePackage: Total save time: 79.221468ms
+[2015.10.25-12.39.38:369][663]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset
+[2015.10.25-12.39.38:747][684]BlueprintLog: New page: Compile HeroCharacter
+[2015.10.25-12.39.38:816][684]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2015.10.25-12.39.38:873][684]BlueprintEditorCompileResults: Info [8221.25] Compile of HeroCharacter successful! [in 125 ms]
+[2015.10.25-12.39.45:595][981]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.25-12.39.45:595][981]PIE: New page: PIE session: NewMap (Oct 25, 2015, 4:39:45 PM)
+[2015.10.25-12.39.45:596][981]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2015.10.25-12.39.45:600][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004532s)
+[2015.10.25-12.39.45:601][981]LogAIModule: Creating AISystem for world NewMap
+[2015.10.25-12.39.45:601][981]LogPlayLevel: PIE: World Init took: (0.001045s)
+[2015.10.25-12.39.45:601][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.005804s)
+[2015.10.25-12.39.45:601][981]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.39.45:658][981]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.25-12.39.45:667][981]LogInit: FAudioDevice initialized.
+[2015.10.25-12.39.45:703][981]LogWorld: Game class is 'TwinStickMode_C'
+[2015.10.25-12.39.45:707][981]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2015.10.25-14.39.45
+[2015.10.25-12.39.45:707][981]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.39.45:707][981]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.39.45:707][981]LogWorld: Bringing up level for play took: 0.002811
+[2015.10.25-12.39.45:710][981]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.483
+[2015.10.25-12.39.53:847][806]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096539865C0
+[2015.10.25-12.39.58:420][ 72]LogEditorTransaction: Undo Rename Component Variable
+[2015.10.25-12.39.59:240][114]LogEditorTransaction: Undo Attach Component
+[2015.10.25-12.40.02:622][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HeroCharacter" FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset" SILENT=true
+[2015.10.25-12.40.02:701][316]LogSavePackage: Save=75.592445ms
+[2015.10.25-12.40.02:701][316]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/HeroCharacterB156007940CA69BB717565BF60B9F8CD.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset'
+[2015.10.25-12.40.02:705][316]LogSavePackage: Total save time: 81.009936ms
+[2015.10.25-12.40.02:705][316]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset
+[2015.10.25-12.40.03:721][382]BlueprintLog: New page: Compile HeroCharacter
+[2015.10.25-12.40.03:789][382]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.40.03:847][382]BlueprintEditorCompileResults: Info [8246.23] Compile of HeroCharacter successful! [in 125 ms]
+[2015.10.25-12.40.09:083][616]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.25-12.40.09:084][616]PIE: New page: PIE session: NewMap (Oct 25, 2015, 4:40:09 PM)
+[2015.10.25-12.40.09:084][616]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2015.10.25-12.40.09:089][616]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004727s)
+[2015.10.25-12.40.09:089][616]LogAIModule: Creating AISystem for world NewMap
+[2015.10.25-12.40.09:090][616]LogPlayLevel: PIE: World Init took: (0.001012s)
+[2015.10.25-12.40.09:090][616]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.006027s)
+[2015.10.25-12.40.09:090][616]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.40.09:142][616]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.25-12.40.09:149][616]LogInit: FAudioDevice initialized.
+[2015.10.25-12.40.09:183][616]LogWorld: Game class is 'TwinStickMode_C'
+[2015.10.25-12.40.09:186][616]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2015.10.25-14.40.09
+[2015.10.25-12.40.09:186][616]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.40.09:187][616]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.40.09:187][616]LogWorld: Bringing up level for play took: 0.002650
+[2015.10.25-12.40.09:190][616]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.038
+[2015.10.25-12.40.12:307][948]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096595F8AE0
+[2015.10.25-12.40.40:018][540]LogEditorTransaction: Undo Modify Component(s)
+[2015.10.25-12.40.40:033][540]LogActorComponent: UnregisterComponent: (/Engine/Transient.CapsuleComponent_41) Not registered. Aborting.
+[2015.10.25-12.40.40:033][540]LogActorComponent: UnregisterComponent: (/Engine/Transient.Arrow) Not registered. Aborting.
+[2015.10.25-12.40.40:033][540]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.40.40:033][540]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMesh0) Not registered. Aborting.
+[2015.10.25-12.40.40:033][540]LogActorComponent: UnregisterComponent: (/Engine/Transient.SpringArmComponent_41) Not registered. Aborting.
+[2015.10.25-12.40.40:033][540]LogActorComponent: UnregisterComponent: (/Engine/Transient.CameraComponent_41) Not registered. Aborting.
+[2015.10.25-12.41.10:881][625]LogEditorTransaction: Undo Modify Component(s)
+[2015.10.25-12.41.10:898][625]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2015.10.25-12.41.45:174][917]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.25-12.41.50:731][229]LogEditorTransaction: Undo Modify Component(s)
+[2015.10.25-12.41.50:744][229]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2015.10.25-12.41.54:923][459]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.25-12.42.03:652][944]LogEditorTransaction: Undo Modify Component(s)
+[2015.10.25-12.42.03:664][944]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2015.10.25-12.42.05:070][ 28]LogEditorTransaction: Undo Modify Component(s)
+[2015.10.25-12.42.05:081][ 28]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2015.10.25-12.42.10:663][395]LogEditorTransaction: Undo Rename Component Variable
+[2015.10.25-12.42.21:096][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HeroCharacter" FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset" SILENT=true
+[2015.10.25-12.42.21:195][989]LogSavePackage: Save=87.260651ms
+[2015.10.25-12.42.21:195][989]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/HeroCharacter6FBBCDDE464F2134C508F0948BAF08A9.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset'
+[2015.10.25-12.42.21:199][989]LogSavePackage: Total save time: 96.697163ms
+[2015.10.25-12.42.21:199][989]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset
+[2015.10.25-12.42.21:543][  7]BlueprintLog: New page: Compile HeroCharacter
+[2015.10.25-12.42.21:622][  7]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2015.10.25-12.42.21:690][  7]BlueprintEditorCompileResults: Info [8384.07] Compile of HeroCharacter successful! [in 147 ms]
+[2015.10.25-12.42.27:127][253]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.25-12.42.27:149][253]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.42.27:273][253]LogSavePackage: Save=34.421127ms
+[2015.10.25-12.42.27:273][253]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/NewMap80A2B1594BFD0EBF5DC90A871D5DB833.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/NewMap.umap'
+[2015.10.25-12.42.27:279][253]LogSavePackage: Total save time: 81.469882ms
+[2015.10.25-12.42.27:279][253]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/NewMap.umap
+[2015.10.25-12.42.27:806][286]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.25-12.42.27:806][286]PIE: New page: PIE session: NewMap (Oct 25, 2015, 4:42:27 PM)
+[2015.10.25-12.42.27:806][286]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2015.10.25-12.42.27:811][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004456s)
+[2015.10.25-12.42.27:812][286]LogAIModule: Creating AISystem for world NewMap
+[2015.10.25-12.42.27:812][286]LogPlayLevel: PIE: World Init took: (0.001120s)
+[2015.10.25-12.42.27:812][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.005807s)
+[2015.10.25-12.42.27:856][286]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096359674C0
+[2015.10.25-12.42.27:859][286]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000965F59ED40
+[2015.10.25-12.42.27:860][286]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009643559440
+[2015.10.25-12.42.27:870][286]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.25-12.42.27:878][286]LogInit: FAudioDevice initialized.
+[2015.10.25-12.42.27:919][286]LogWorld: Game class is 'TwinStickMode_C'
+[2015.10.25-12.42.27:922][286]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2015.10.25-14.42.27
+[2015.10.25-12.42.27:922][286]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.42.27:922][286]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.42.27:923][286]LogWorld: Bringing up level for play took: 0.002868
+[2015.10.25-12.42.27:926][286]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.698
+[2015.10.25-12.42.46:968][312]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096591087C0
+[2015.10.25-12.43.29:202][657]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.10.25-12.43.29:205][657]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.43.29:210][657]LogPlayLevel: [PlayLevel] Compiling HeroCharacter before play...
+[2015.10.25-12.43.29:286][657]LogPlayLevel: PlayLevel: Blueprint regeneration took 83 ms (1 blueprints)
+[2015.10.25-12.43.29:335][657]PIE: New page: PIE session: NewMap (Oct 25, 2015, 4:43:29 PM)
+[2015.10.25-12.43.29:335][657]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2015.10.25-12.43.29:339][657]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004455s)
+[2015.10.25-12.43.29:340][657]LogAIModule: Creating AISystem for world NewMap
+[2015.10.25-12.43.29:340][657]LogPlayLevel: PIE: World Init took: (0.001070s)
+[2015.10.25-12.43.29:341][657]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.005752s)
+[2015.10.25-12.43.29:390][657]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.25-12.43.29:397][657]LogInit: FAudioDevice initialized.
+[2015.10.25-12.43.29:433][657]LogWorld: Game class is 'TwinStickMode_C'
+[2015.10.25-12.43.29:436][657]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2015.10.25-14.43.29
+[2015.10.25-12.43.29:436][657]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.43.29:436][657]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.43.29:437][657]LogWorld: Bringing up level for play took: 0.002714
+[2015.10.25-12.43.29:440][657]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.212
+[2015.10.25-12.43.44:281][174]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.43.44:354][175]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009648DD0720
+[2015.10.25-12.44.48:146][835]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.45.03:448][677]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.10.25-12.45.03:456][677]LogPlayLevel: [PlayLevel] Compiling HeroCharacter before play...
+[2015.10.25-12.45.03:538][677]LogPlayLevel: PlayLevel: Blueprint regeneration took 90 ms (1 blueprints)
+[2015.10.25-12.45.03:597][677]PIE: New page: PIE session: NewMap (Oct 25, 2015, 4:45:03 PM)
+[2015.10.25-12.45.03:598][677]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2015.10.25-12.45.03:602][677]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004684s)
+[2015.10.25-12.45.03:604][677]LogAIModule: Creating AISystem for world NewMap
+[2015.10.25-12.45.03:604][677]LogPlayLevel: PIE: World Init took: (0.001474s)
+[2015.10.25-12.45.03:604][677]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.006399s)
+[2015.10.25-12.45.03:655][677]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.25-12.45.03:663][677]LogInit: FAudioDevice initialized.
+[2015.10.25-12.45.03:704][677]LogWorld: Game class is 'TwinStickMode_C'
+[2015.10.25-12.45.03:707][677]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2015.10.25-14.45.03
+[2015.10.25-12.45.03:708][677]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.45.03:708][677]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.45.03:708][677]LogWorld: Bringing up level for play took: 0.003199
+[2015.10.25-12.45.03:711][677]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.484
+[2015.10.25-12.45.23:833][459]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.45.23:913][460]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000965E5F6A20
+[2015.10.25-12.45.27:860][654]LogEditorTransaction: Undo Detach Component
+[2015.10.25-12.45.28:187][671]LogEditorTransaction: Undo Modify Component(s)
+[2015.10.25-12.45.28:206][671]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.45.28:604][692]LogEditorTransaction: Undo Modify Component(s)
+[2015.10.25-12.45.28:618][692]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2015.10.25-12.45.30:318][800]LogEditorTransaction: Undo Modify Component(s)
+[2015.10.25-12.45.30:331][800]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2015.10.25-12.45.30:763][828]LogEditorTransaction: Undo Modify Component(s)
+[2015.10.25-12.45.30:775][828]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2015.10.25-12.45.31:139][851]LogEditorTransaction: Undo Modify Component(s)
+[2015.10.25-12.45.31:151][851]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2015.10.25-12.45.31:563][877]LogEditorTransaction: Undo Modify Component(s)
+[2015.10.25-12.45.31:574][877]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
+[2015.10.25-12.45.33:743][ 15]LogEditorTransaction: Undo Modify Component(s)
+[2015.10.25-12.45.33:756][ 15]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
+[2015.10.25-12.45.36:787][210]LogEditorTransaction: Undo Modify Component(s)
+[2015.10.25-12.45.38:017][288]LogEditorTransaction: Undo Modify Component(s)
+[2015.10.25-12.45.38:030][288]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_28) Not registered. Aborting.
+[2015.10.25-12.46.07:192][931]BlueprintLog: New page: Compile HeroCharacter
+[2015.10.25-12.46.07:265][931]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_29) Not registered. Aborting.
+[2015.10.25-12.46.07:328][931]BlueprintEditorCompileResults: Info [8609.71] Compile of HeroCharacter successful! [in 136 ms]
+[2015.10.25-12.46.09:399][ 40]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.25-12.46.09:399][ 40]PIE: New page: PIE session: NewMap (Oct 25, 2015, 4:46:09 PM)
+[2015.10.25-12.46.09:399][ 40]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2015.10.25-12.46.09:405][ 40]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005169s)
+[2015.10.25-12.46.09:405][ 40]LogAIModule: Creating AISystem for world NewMap
+[2015.10.25-12.46.09:406][ 40]LogPlayLevel: PIE: World Init took: (0.001847s)
+[2015.10.25-12.46.09:407][ 40]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.007344s)
+[2015.10.25-12.46.09:407][ 40]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.46.09:458][ 40]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.25-12.46.09:464][ 40]LogInit: FAudioDevice initialized.
+[2015.10.25-12.46.09:507][ 40]LogWorld: Game class is 'TwinStickMode_C'
+[2015.10.25-12.46.09:510][ 40]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2015.10.25-14.46.09
+[2015.10.25-12.46.09:511][ 40]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.46.09:511][ 40]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.46.09:511][ 40]LogWorld: Bringing up level for play took: 0.002714
+[2015.10.25-12.46.09:514][ 40]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.287
+[2015.10.25-12.47.14:538][549]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.25-12.48.14:067][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HeroCharacter" FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset" SILENT=true
+[2015.10.25-12.48.14:214][ 93]LogSavePackage: Save=84.815331ms
+[2015.10.25-12.48.14:214][ 93]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/HeroCharacterDF475C9B4A44599C97F04BAF2F068301.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset'
+[2015.10.25-12.48.14:218][ 93]LogSavePackage: Total save time: 146.959089ms
+[2015.10.25-12.48.14:218][ 93]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset
+[2015.10.25-12.48.20:482][600]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_30) Not registered. Aborting.
+[2015.10.25-12.48.21:599][708]Cmd: SELECT NONE
+[2015.10.25-12.48.22:189][771]Cmd: SELECT NONE
+[2015.10.25-12.48.23:229][874]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009635967EC0
+[2015.10.25-12.48.23:860][921]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.10.25-12.48.23:867][921]LogPlayLevel: [PlayLevel] Compiling HeroCharacter before play...
+[2015.10.25-12.48.23:941][921]LogPlayLevel: PlayLevel: Blueprint regeneration took 80 ms (1 blueprints)
+[2015.10.25-12.48.23:988][921]PIE: New page: PIE session: NewMap (Oct 25, 2015, 4:48:23 PM)
+[2015.10.25-12.48.23:988][921]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2015.10.25-12.48.23:993][921]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004793s)
+[2015.10.25-12.48.23:994][921]LogAIModule: Creating AISystem for world NewMap
+[2015.10.25-12.48.23:994][921]LogPlayLevel: PIE: World Init took: (0.001023s)
+[2015.10.25-12.48.23:994][921]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.006032s)
+[2015.10.25-12.48.24:044][921]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.25-12.48.24:051][921]LogInit: FAudioDevice initialized.
+[2015.10.25-12.48.24:090][921]LogWorld: Game class is 'TwinStickMode_C'
+[2015.10.25-12.48.24:093][921]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2015.10.25-14.48.24
+[2015.10.25-12.48.24:093][921]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.48.24:093][921]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.48.24:093][921]LogWorld: Bringing up level for play took: 0.002948
+[2015.10.25-12.48.24:096][921]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.869
+[2015.10.25-12.48.42:790][971]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_31) Not registered. Aborting.
+[2015.10.25-12.48.42:864][972]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000965E936E80
+[2015.10.25-12.49.10:270][547]LogEditorTransaction: Undo Modify Component(s)
+[2015.10.25-12.49.10:284][547]LogActorComponent: UnregisterComponent: (/Engine/Transient.CapsuleComponent_60) Not registered. Aborting.
+[2015.10.25-12.49.10:284][547]LogActorComponent: UnregisterComponent: (/Engine/Transient.ArrowComponent_32) Not registered. Aborting.
+[2015.10.25-12.49.10:284][547]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_32) Not registered. Aborting.
+[2015.10.25-12.49.10:284][547]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_32) Not registered. Aborting.
+[2015.10.25-12.49.10:284][547]LogActorComponent: UnregisterComponent: (/Engine/Transient.SpringArmComponent_60) Not registered. Aborting.
+[2015.10.25-12.49.10:284][547]LogActorComponent: UnregisterComponent: (/Engine/Transient.CameraComponent_60) Not registered. Aborting.
+[2015.10.25-12.49.27:316][538]LogEditorTransaction: Undo Modify Component(s)
+[2015.10.25-12.49.27:328][538]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_33) Not registered. Aborting.
+[2015.10.25-12.49.52:768][ 29]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.25-12.51.04:355][ 66]LogEditorTransaction: Undo Modify Component(s)
+[2015.10.25-12.51.04:368][ 66]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_34) Not registered. Aborting.
+[2015.10.25-12.51.14:772][629]LogEditorTransaction: Undo Modify Component(s)
+[2015.10.25-12.51.14:784][629]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_35) Not registered. Aborting.
+[2015.10.25-12.52.04:246][430]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.25-12.52.27:955][805]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.25-12.53.11:977][349]BlueprintLog: New page: Compile HeroCharacter
+[2015.10.25-12.53.12:110][349]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_36) Not registered. Aborting.
+[2015.10.25-12.53.12:243][349]BlueprintEditorCompileResults: Info [9034.62] Compile of HeroCharacter successful! [in 265 ms]
+[2015.10.25-12.53.13:354][401]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.25-12.53.13:354][401]PIE: New page: PIE session: NewMap (Oct 25, 2015, 4:53:13 PM)
+[2015.10.25-12.53.13:354][401]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2015.10.25-12.53.13:359][401]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005020s)
+[2015.10.25-12.53.13:361][401]LogAIModule: Creating AISystem for world NewMap
+[2015.10.25-12.53.13:361][401]LogPlayLevel: PIE: World Init took: (0.001772s)
+[2015.10.25-12.53.13:361][401]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.007049s)
+[2015.10.25-12.53.13:361][401]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_37) Not registered. Aborting.
+[2015.10.25-12.53.13:416][401]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.25-12.53.13:424][401]LogInit: FAudioDevice initialized.
+[2015.10.25-12.53.13:467][401]LogWorld: Game class is 'TwinStickMode_C'
+[2015.10.25-12.53.13:471][401]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2015.10.25-14.53.13
+[2015.10.25-12.53.13:471][401]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.53.13:471][401]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-12.53.13:471][401]LogWorld: Bringing up level for play took: 0.003168
+[2015.10.25-12.53.13:474][401]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.247
+[2015.10.25-12.53.24:518][553]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009653986E80
+[2015.10.25-12.56.06:251][138]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_38) Not registered. Aborting.
+[2015.10.25-12.56.06:304][138]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.053
+[2015.10.25-12.56.06:310][138]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/HeroCharacter] ([1] browsable assets)...
+[2015.10.25-12.56.06:335][138]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/HeroCharacter.HeroCharacter]
+[2015.10.25-12.56.06:335][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/HeroCharacter]
+[2015.10.25-12.56.06:475][138]LogSavePackage: Save=100.128899ms
+[2015.10.25-12.56.06:475][138]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/HeroCharacter_Auto37F5F21984185E886FD705F80E3F6A046.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Autosaves/Game/Blueprints/HeroCharacter_Auto3.uasset'
+[2015.10.25-12.56.06:498][138]LogSavePackage: Total save time: 160.824012ms
+[2015.10.25-12.56.06:498][138]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Autosaves/Game/Blueprints/HeroCharacter_Auto3.uasset
+[2015.10.25-12.56.06:498][138]LogFileHelpers: Auto-saving content packages took 0.195
+[2015.10.25-13.12.57:583][256]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.25-13.12.57:584][256]PIE: New page: PIE session: NewMap (Oct 25, 2015, 5:12:57 PM)
+[2015.10.25-13.12.57:584][256]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2015.10.25-13.12.57:653][256]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069274s)
+[2015.10.25-13.12.57:654][256]LogAIModule: Creating AISystem for world NewMap
+[2015.10.25-13.12.57:654][256]LogPlayLevel: PIE: World Init took: (0.001239s)
+[2015.10.25-13.12.57:654][256]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.070902s)
+[2015.10.25-13.12.57:654][256]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_39) Not registered. Aborting.
+[2015.10.25-13.12.57:708][256]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.25-13.12.57:716][256]LogInit: FAudioDevice initialized.
+[2015.10.25-13.12.57:753][256]LogWorld: Game class is 'TwinStickMode_C'
+[2015.10.25-13.12.57:756][256]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2015.10.25-15.12.57
+[2015.10.25-13.12.57:756][256]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-13.12.57:756][256]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-13.12.57:757][256]LogWorld: Bringing up level for play took: 0.002635
+[2015.10.25-13.12.57:760][256]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.532
+[2015.10.25-13.13.49:185][216]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000964346FB00
+[2015.10.25-13.14.30:209][716]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_40) Not registered. Aborting.
+[2015.10.25-13.14.30:257][716]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.049
+[2015.10.25-13.16.26:363][684]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.25-13.16.26:364][684]PIE: New page: PIE session: NewMap (Oct 25, 2015, 5:16:26 PM)
+[2015.10.25-13.16.26:364][684]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2015.10.25-13.16.26:369][684]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004876s)
+[2015.10.25-13.16.26:370][684]LogAIModule: Creating AISystem for world NewMap
+[2015.10.25-13.16.26:370][684]LogPlayLevel: PIE: World Init took: (0.001838s)
+[2015.10.25-13.16.26:371][684]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.007004s)
+[2015.10.25-13.16.26:431][684]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.25-13.16.26:442][684]LogInit: FAudioDevice initialized.
+[2015.10.25-13.16.26:482][684]LogWorld: Game class is 'TwinStickMode_C'
+[2015.10.25-13.16.26:484][684]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2015.10.25-15.16.26
+[2015.10.25-13.16.26:485][684]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-13.16.26:485][684]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.25-13.16.26:485][684]LogWorld: Bringing up level for play took: 0.002721
+[2015.10.25-13.16.26:490][684]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.738
+[2015.10.25-13.17.20:607][390]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009648E3FB00
+[2015.10.25-13.25.24:974][958]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_41) Not registered. Aborting.
+[2015.10.25-13.25.25:030][958]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.056
+[2015.10.25-22.22.20:704][270]LogHttp:Warning: Timeout processing Http request. 0000009645CA4E00
+[2015.10.26-06.40.01:402][199]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.26-06.40.10:533][199]LogSavePackage: Save=4704.972656ms
+[2015.10.26-06.40.10:533][199]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/NewMap32D324644814B51B678538BE566D0D8B.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/NewMap.umap'
+[2015.10.26-06.40.10:691][199]LogSavePackage: Total save time: 5822.720915ms
+[2015.10.26-06.40.10:691][199]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/NewMap.umap
+[2015.10.26-06.46.04:178][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.26-06.46.09:752][758]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000965B2B9080
+[2015.10.26-06.46.10:745][758]LogSavePackage: Save=83.267860ms
+[2015.10.26-06.46.10:745][758]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/NewMap99B350C14FB081C1B76396B0522BEC5D.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/NewMap.umap'
+[2015.10.26-06.46.10:746][758]LogSavePackage: Total save time: 97.345270ms
+[2015.10.26-06.46.10:746][758]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/NewMap.umap
+[2015.10.26-06.46.17:121][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HeroCharacter" FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset" SILENT=true
+[2015.10.26-06.46.38:014][870]LogSavePackage: Save=20750.375000ms
+[2015.10.26-06.46.38:014][870]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/HeroCharacter31189C2542845AD3F26143925F72A87A.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset'
+[2015.10.26-06.46.38:117][870]LogSavePackage: Total save time: 20993.038457ms
+[2015.10.26-06.46.38:117][870]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset
+[2015.10.26-06.46.43:125][870]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.10.26-06.47.37:354][871]Cmd: QUIT_EDITOR
+[2015.10.26-06.48.07:123][871]LogExit: Preparing to exit.
+[2015.10.26-06.49.31:176][871]LogExit: Editor shut down
+[2015.10.26-06.49.31:618][871]LogExit: Transaction tracking system shut down
+[2015.10.26-06.49.36:345][871]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000963D655260
+[2015.10.26-06.49.36:544][871]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096301C65C0
+[2015.10.26-06.49.36:544][871]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009642363F60
+[2015.10.26-06.49.37:249][871]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009649B832E0
+[2015.10.26-06.53.22:974][871]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000096539E7100
+[2015.10.26-06.53.22:975][871]LogExit: Object subsystem successfully closed.
+[2015.10.26-06.53.29:622][871]LogD3D11RHI: Shutdown
+[2015.10.26-06.53.29:639][871]LogD3D11RHI: CleanupD3DDevice
+[2015.10.26-06.53.41:425][871]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.10.26-06.53.50:886][871]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (200)
+[2015.10.26-06.53.50:949][871]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2015.10.26-06.53.50:950][871]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2015.10.26-06.53.50:984][871]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2015.10.26-06.53.51:105][871]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2015.10.26-06.53.51:119][871]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2015.10.26-06.53.51:165][871]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2015.10.26-06.53.52:954][871]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2015.10.26-06.53.52:954][871]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2015.10.26-06.53.53:051][871]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2015.10.26-06.53.53:078][871]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2015.10.26-06.53.53:135][871]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2015.10.26-06.53.53:464][871]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2015.10.26-06.53.53:465][871]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2015.10.26-06.53.53:465][871]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2015.10.26-06.53.53:465][871]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2015.10.26-06.53.53:477][871]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2015.10.26-06.53.53:477][871]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2015.10.26-06.53.53:491][871]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2015.10.26-06.53.53:510][871]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2015.10.26-06.53.53:528][871]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2015.10.26-06.53.53:536][871]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2015.10.26-06.53.53:754][871]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2015.10.26-06.53.53:806][871]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2015.10.26-06.53.53:898][871]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2015.10.26-06.53.53:918][871]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2015.10.26-06.53.53:964][871]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2015.10.26-06.53.53:964][871]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2015.10.26-06.53.54:274][871]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2015.10.26-06.53.54:321][871]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2015.10.26-06.53.54:321][871]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2015.10.26-06.53.54:321][871]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2015.10.26-06.53.54:511][871]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2015.10.26-06.53.54:622][871]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2015.10.26-06.53.54:694][871]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2015.10.26-06.53.54:694][871]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2015.10.26-06.53.54:728][871]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2015.10.26-06.53.54:791][871]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2015.10.26-06.53.54:791][871]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2015.10.26-06.53.54:836][871]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2015.10.26-06.53.54:854][871]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2015.10.26-06.53.54:868][871]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2015.10.26-06.53.54:868][871]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2015.10.26-06.53.54:901][871]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2015.10.26-06.53.54:901][871]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2015.10.26-06.53.54:998][871]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2015.10.26-06.53.55:056][871]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2015.10.26-06.53.55:129][871]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2015.10.26-06.53.55:153][871]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2015.10.26-06.53.55:188][871]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2015.10.26-06.53.55:230][871]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2015.10.26-06.53.55:243][871]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2015.10.26-06.53.55:275][871]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2015.10.26-06.53.55:299][871]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2015.10.26-06.53.55:816][871]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2015.10.26-06.53.55:945][871]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2015.10.26-06.53.55:997][871]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2015.10.26-06.53.56:236][871]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2015.10.26-06.53.56:236][871]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2015.10.26-06.53.56:588][871]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2015.10.26-06.53.56:593][871]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2015.10.26-06.53.56:724][871]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2015.10.26-06.53.56:845][871]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2015.10.26-06.53.56:975][871]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2015.10.26-06.53.57:021][871]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2015.10.26-06.53.57:051][871]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2015.10.26-06.53.57:068][871]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2015.10.26-06.53.57:121][871]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2015.10.26-06.53.57:133][871]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2015.10.26-06.53.57:216][871]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2015.10.26-06.53.57:591][871]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2015.10.26-06.53.57:610][871]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2015.10.26-06.53.57:645][871]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2015.10.26-06.53.57:645][871]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2015.10.26-06.53.57:674][871]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2015.10.26-06.53.57:696][871]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2015.10.26-06.53.57:756][871]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2015.10.26-06.53.57:863][871]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2015.10.26-06.53.58:126][871]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2015.10.26-06.53.58:170][871]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.10.26-06.53.58:183][871]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.10.26-06.53.58:183][871]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.10.26-06.53.58:184][871]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.10.26-06.53.58:184][871]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2015.10.26-06.53.58:260][871]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2015.10.26-06.53.58:260][871]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.10.26-06.53.59:067][871]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.10.26-06.53.59:067][871]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.10.26-06.53.59:067][871]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.10.26-06.53.59:067][871]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.10.26-06.53.59:179][871]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.10.26-06.53.59:264][871]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.10.26-06.53.59:264][871]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.10.26-06.53.59:264][871]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.10.26-06.53.59:304][871]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.10.26-06.53.59:331][871]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.10.26-06.53.59:375][871]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.10.26-06.53.59:452][871]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.10.26-06.53.59:452][871]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.10.26-06.53.59:561][871]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.10.26-06.53.59:613][871]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.10.26-06.53.59:694][871]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.10.26-06.53.59:717][871]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.10.26-06.53.59:717][871]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.10.26-06.53.59:729][871]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.10.26-06.53.59:737][871]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.10.26-06.53.59:766][871]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.10.26-06.53.59:780][871]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.10.26-06.53.59:806][871]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.10.26-06.53.59:819][871]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.10.26-06.54.01:150][871]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2015.10.26-06.54.01:267][871]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2015.10.26-06.54.05:346][871]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2015.10.26-06.54.05:922][871]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2015.10.26-06.54.05:975][871]LogModuleManager: Shutting down and abandoning module TwinStickShooter (86)
+[2015.10.26-06.54.05:975][871]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.10.26-06.54.06:095][871]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.10.26-06.54.06:095][871]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.10.26-06.54.06:111][871]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.10.26-06.54.06:924][871]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.10.26-06.54.06:926][871]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.10.26-06.54.07:019][871]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.10.26-06.54.07:019][871]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.10.26-06.54.07:019][871]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.10.26-06.54.07:229][871]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.10.26-06.54.07:255][871]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.10.26-06.54.07:300][871]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.10.26-06.54.07:393][871]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.10.26-06.54.07:609][871]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.10.26-06.54.07:656][871]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.10.26-06.54.07:709][871]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.10.26-06.54.07:774][871]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.10.26-06.54.07:835][871]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.10.26-06.54.07:878][871]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.10.26-06.54.07:878][871]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.10.26-06.54.08:450][871]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.10.26-06.54.08:450][871]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.10.26-06.54.08:481][871]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.10.26-06.54.08:481][871]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.10.26-06.54.08:481][871]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.10.26-06.54.08:504][871]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.10.26-06.54.08:505][871]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.10.26-06.54.08:566][871]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.10.26-06.54.08:606][871]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.10.26-06.54.08:646][871]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.10.26-06.54.10:444][871]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.10.26-06.54.10:799][871]LogDerivedDataCache: Shutdown
+[2015.10.26-06.54.10:799][871]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.10.26-06.54.10:839][871]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.10.26-06.54.10:868][871]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.10.26-06.54.10:904][871]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.10.26-06.54.10:921][871]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.10.26-06.54.10:921][871]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.10.26-06.54.10:941][871]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.10.26-06.54.10:942][871]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.10.26-06.54.10:961][871]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.10.26-06.54.10:974][871]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.10.26-06.54.10:978][871]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.10.26-06.54.10:981][871]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.10.26-06.54.10:982][871]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.10.26-06.54.10:996][871]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.10.26-06.54.11:011][871]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.10.26-06.54.11:014][871]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.10.26-06.54.11:017][871]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.10.26-06.54.11:017][871]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.10.26-06.54.11:059][871]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.10.26-06.54.11:081][871]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.10.26-06.54.11:088][871]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.10.26-06.54.11:095][871]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.10.26-06.54.11:095][871]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.10.26-06.54.11:099][871]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.10.26-06.54.11:106][871]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.10.26-06.54.11:111][871]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.10.26-06.54.11:118][871]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.10.26-06.54.11:194][871]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.10.26-06.54.11:208][871]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.10.26-06.54.11:210][871]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.10.26-06.54.11:214][871]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.10.26-06.54.11:215][871]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.10.26-06.54.11:271][871]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.10.26-06.54.11:316][871]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.10.26-06.54.11:414][871]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.10.26-06.54.11:414][871]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.10.26-06.54.13:833][871]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.10.26-06.54.13:906][871]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.10.26-06.54.13:911][871]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.10.26-06.54.13:973][871]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.10.26-06.54.13:973][871]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.10.26-06.54.13:984][871]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.10.26-06.54.16:995][871]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.10.26-06.54.17:015][871]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.10.26-06.54.17:015][871]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.10.26-06.54.17:015][871]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.10.26-06.54.17:015][871]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.10.26-06.54.17:033][871]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.10.26-06.54.17:052][871]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.10.26-06.54.17:081][871]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.10.26-06.54.17:111][871]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.10.26-06.54.17:154][871]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.10.26-06.54.17:660][871]LogExit: Exiting.
+[2015.10.26-06.54.19:225][871]Log file closed, 10/26/15 08:54:19

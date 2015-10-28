@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\TwinStickShooter.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{D4E9A168-9DA9-4E60-831D-3B12B870B5AF}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\TwinStickShooter.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\TwinStickShooterEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{C62E0025-C216-4D5C-930A-F9268EC658D3}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\TwinStickShooter">
+			<UniqueIdentifier>{9BF779E4-ADD7-47AD-8F10-5273B3FF0B04}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\TwinStickShooter\BaseCharacter.cpp">
+			<Filter>Source\TwinStickShooter</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TwinStickShooter\BaseCharacter.h">
+			<Filter>Source\TwinStickShooter</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\TwinStickShooter\TwinStickShooter.Build.cs">
+			<Filter>Source\TwinStickShooter</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\TwinStickShooter\TwinStickShooter.cpp">
+			<Filter>Source\TwinStickShooter</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TwinStickShooter\TwinStickShooter.h">
+			<Filter>Source\TwinStickShooter</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

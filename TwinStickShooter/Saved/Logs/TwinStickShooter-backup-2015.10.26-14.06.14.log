@@ -1,0 +1,1089 @@
+﻿[2015.10.26-11.56.05:621][  0]Log file open, 10/26/15 13:56:05
+[2015.10.26-11.56.05:621][  0]LogInit:Display: Running engine for game: TwinStickShooter
+[2015.10.26-11.56.05:621][  0]LogInit:Display: RandInit(1996106265) SRandInit(1996106266).
+[2015.10.26-11.56.05:621][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.10.26-11.56.05:621][  0]LogStats: Stats thread started at 0.068067
+[2015.10.26-11.56.05:621][  0]LogInit: Version: 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.10.26-11.56.05:621][  0]LogInit: API Version: 2672455
+[2015.10.26-11.56.05:621][  0]LogInit: Compiled (64-bit): Aug 28 2015 12:33:01
+[2015.10.26-11.56.05:621][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.26-11.56.05:621][  0]LogInit: Build Configuration: Development
+[2015.10.26-11.56.05:621][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.26-11.56.05:621][  0]LogInit: Command line: 
+[2015.10.26-11.56.05:621][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.26-11.56.05:621][  0]LogInit: Rocket: 1
+[2015.10.26-11.56.05:632][  0]LogInit: Using libcurl 7.41.0
+[2015.10.26-11.56.05:632][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.26-11.56.05:633][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.26-11.56.05:633][  0]LogInit:  - other features:
+[2015.10.26-11.56.05:633][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.26-11.56.05:633][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.26-11.56.05:633][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.26-11.56.05:633][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.26-11.56.05:633][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.26-11.56.05:633][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.26-11.56.05:633][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.26-11.56.05:633][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.26-11.56.05:633][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.26-11.56.05:633][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.26-11.56.05:643][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.26-11.56.05:654][  0]LogInit: Object subsystem initialized
+[2015.10.26-11.56.05:656][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.26-11.56.05:656][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.26-11.56.05:730][  0]LogInit: Computer: THEPROTO
+[2015.10.26-11.56.05:730][  0]LogInit: User: Nikolai
+[2015.10.26-11.56.05:730][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.10.26-11.56.05:730][  0]LogInit: High frequency timer resolution =2.630739 MHz
+[2015.10.26-11.56.05:730][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2015.10.26-11.56.05:730][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.26-11.56.05:730][  0]LogMemory: Process Physical Memory: 52.17 MB used, 52.17 MB peak
+[2015.10.26-11.56.05:730][  0]LogMemory: Process Virtual Memory: 55.09 MB used, 55.09 MB peak
+[2015.10.26-11.56.05:730][  0]LogMemory: Physical Memory: 2913.21 MB used, 4044.71 MB total
+[2015.10.26-11.56.05:730][  0]LogMemory: Virtual Memory: 345.05 MB used, 134217728.00 MB total
+[2015.10.26-11.56.05:774][  0]LogTextLocalizationManager: No translations for ('bg-BG') exist, falling back to 'en' for localization and internationalization data.
+[2015.10.26-11.56.06:773][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R7 200 Series (Feature Level 11_0)
+[2015.10.26-11.56.06:773][  0]LogD3D11RHI: Adapter has 2027MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 1 output[s]
+[2015.10.26-11.56.06:774][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.26-11.56.06:774][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.10.26-11.56.06:774][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.26-11.56.06:780][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.26-11.56.06:780][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.26-11.56.06:788][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.10.26-11.56.06:799][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Intermediate/Shaders/WorkingDirectory/3144/).
+[2015.10.26-11.56.06:800][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Intermediate/Shaders/tmp/C2E650064132BAA72E5CB5B0D553558B/'.
+[2015.10.26-11.56.06:800][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.26-11.56.08:620][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.26-11.56.08:628][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.26-11.56.08:635][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.26-11.56.08:643][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.26-11.56.08:650][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.26-11.56.08:655][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.26-11.56.08:660][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.26-11.56.08:665][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.26-11.56.08:670][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.26-11.56.08:675][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.26-11.56.08:679][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.26-11.56.08:685][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.26-11.56.08:686][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.26-11.56.08:705][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.26-11.56.08:709][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.26-11.56.08:714][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.26-11.56.08:719][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.26-11.56.08:719][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.26-11.56.08:834][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.26-11.56.08:917][  0]LogDerivedDataCache: Loaded boot cache 0.08s 41MB C:/Users/Nikolai/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.26-11.56.08:917][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Nikolai/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.26-11.56.08:917][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.26-11.56.08:917][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.26-11.56.08:917][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.26-11.56.08:917][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.26-11.56.09:107][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.26-11.56.09:120][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nikolai/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.26-11.56.09:398][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.26-11.56.09:403][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.26-11.56.09:630][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.26-11.56.09:630][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.26-11.56.09:999][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.26-11.56.11:070][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.26-11.56.11:219][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
+[2015.10.26-11.56.11:473][  0]SourceControl: Info Source control is disabled
+[2015.10.26-11.56.11:474][  0]SourceControl: Info Source control is disabled
+[2015.10.26-11.56.11:487][  0]SourceControl: Info Source control is disabled
+[2015.10.26-11.56.11:501][  0]SourceControl: Info Source control is disabled
+[2015.10.26-11.56.11:716][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.26-11.56.11:824][  0]LogObj: 28373 objects as part of root set at end of initial load.
+[2015.10.26-11.56.11:824][  0]LogUObjectAllocator: 6048600 out of 0 bytes used by permanent object pool.
+[2015.10.26-11.56.11:897][  0]LogEngine: Initializing Engine...
+[2015.10.26-11.56.11:900][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.10.26-11.56.11:901][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.10.26-11.56.12:077][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.26-11.56.12:085][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.26-11.56.12:095][  0]LogInit: FAudioDevice initialized.
+[2015.10.26-11.56.12:135][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/Nikolai/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.26-11.56.12:150][  0]LogInit: Texture streaming: Enabled
+[2015.10.26-11.56.12:157][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.26-11.56.12:157][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.10.26-11.56.12:157][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 53f6fc274a2158c2f1746fa617a06228|6e4a51694ea9490fbeb018a9c89f70b0|fd8891bc-30c8-439a-9b49-a1618c91fbf9
+[2015.10.26-11.56.12:157][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.26-11.56.12:248][  0]LogInit: Transaction tracking system initialized
+[2015.10.26-11.56.12:312][  0]BlueprintLog: New page: Editor Load
+[2015.10.26-11.56.12:433][  0]LocalizationService: Info Localization service is disabled
+[2015.10.26-11.56.12:549][  0]LogConsoleResponse:Display: 
+[2015.10.26-11.56.12:748][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/' took 0.02s
+[2015.10.26-11.56.12:748][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.26-11.56.12:832][  0]SourceControl: Info Source control is disabled
+[2015.10.26-11.56.12:832][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.26-11.56.12:833][  0]LightingResults: New page: Lighting Build
+[2015.10.26-11.56.12:838][  0]MapCheck: New page: Map Check
+[2015.10.26-11.56.12:838][  0]LightingResults: New page: Lighting Build
+[2015.10.26-11.56.12:862][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F780A5C4A0
+[2015.10.26-11.56.13:737][  0]LogAIModule: Creating AISystem for world NewMap
+[2015.10.26-11.56.13:743][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.26-11.56.13:743][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.26-11.56.13:840][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 96.555ms to complete.
+[2015.10.26-11.56.13:840][  0]LogFileHelpers: Loading map 'NewMap' took 1.009
+[2015.10.26-11.56.13:918][  0]LogCollectionManager: Loaded 0 collections in 0.003033 seconds
+[2015.10.26-11.56.13:963][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Collections/' took 0.01s
+[2015.10.26-11.56.13:963][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Developers/Nikolai/Collections/' took 0.01s
+[2015.10.26-11.56.13:963][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Collections/' took 0.01s
+[2015.10.26-11.56.13:963][  0]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 1868 classes and 335 folders.
+[2015.10.26-11.56.13:970][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.10.26-11.56.13:980][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2015.10.26-11.56.14:040][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2015.10.26-11.56.14:107][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2015.10.26-11.56.14:141][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.26-11.56.14:149][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.26-11.56.14:174][  0]LogLoad: Full Startup: 10.18 seconds (BP compile: 0.00 seconds)
+[2015.10.26-11.56.14:607][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.10.26-11.56.15:685][  0]LogRenderer: Reallocating scene render targets to support 772x612 (Frame:2).
+[2015.10.26-11.56.16:143][  2]LogAssetRegistry: Asset discovery search completed in 4.9345 seconds
+[2015.10.26-11.56.16:143][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.10.26-11.56.16:143][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000032 seconds (updated 0 objects)
+[2015.10.26-11.57.14:088][ 31]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.10.26-11.57.14:089][ 31]LogLinker:Warning: Asset '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.26-11.57.14:090][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:090][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPersonIdle.uasset.
+[2015.10.26-11.57.14:090][ 31]LoadErrors:Error: Error /Game/StarterContent/Mannequin/Animations/ThirdPersonIdle : Can't find file for asset. /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton
+[2015.10.26-11.57.14:090][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:091][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPersonIdle.uasset.
+[2015.10.26-11.57.14:091][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:091][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by ThirdPersonIdle
+[2015.10.26-11.57.14:092][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2015.10.26-11.57.14:093][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:093][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPersonJump_End.uasset.
+[2015.10.26-11.57.14:093][ 31]LoadErrors:Error: Error /Game/StarterContent/Mannequin/Animations/ThirdPersonJump_End : Can't find file for asset. /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton
+[2015.10.26-11.57.14:094][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:094][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPersonJump_End.uasset.
+[2015.10.26-11.57.14:095][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:095][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by ThirdPersonJump_End
+[2015.10.26-11.57.14:095][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2015.10.26-11.57.14:096][ 31]LogLinker:Warning: Asset '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.26-11.57.14:097][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:097][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPersonJump_Loop.uasset.
+[2015.10.26-11.57.14:097][ 31]LoadErrors:Error: Error /Game/StarterContent/Mannequin/Animations/ThirdPersonJump_Loop : Can't find file for asset. /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton
+[2015.10.26-11.57.14:098][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:098][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPersonJump_Loop.uasset.
+[2015.10.26-11.57.14:098][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:098][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by ThirdPersonJump_Loop
+[2015.10.26-11.57.14:099][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2015.10.26-11.57.14:099][ 31]LogLinker:Warning: Asset '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.26-11.57.14:100][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:100][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPersonJump_Start.uasset.
+[2015.10.26-11.57.14:100][ 31]LoadErrors:Error: Error /Game/StarterContent/Mannequin/Animations/ThirdPersonJump_Start : Can't find file for asset. /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton
+[2015.10.26-11.57.14:101][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:101][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPersonJump_Start.uasset.
+[2015.10.26-11.57.14:101][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:102][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by ThirdPersonJump_Start
+[2015.10.26-11.57.14:102][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2015.10.26-11.57.14:102][ 31]LogLinker:Warning: Asset '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.26-11.57.14:103][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:103][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPersonRun.uasset.
+[2015.10.26-11.57.14:103][ 31]LoadErrors:Error: Error /Game/StarterContent/Mannequin/Animations/ThirdPersonRun : Can't find file for asset. /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton
+[2015.10.26-11.57.14:104][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:104][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPersonRun.uasset.
+[2015.10.26-11.57.14:104][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:105][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by ThirdPersonRun
+[2015.10.26-11.57.14:105][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2015.10.26-11.57.14:106][ 31]LogLinker:Warning: Asset '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.26-11.57.14:106][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:106][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPersonWalk.uasset.
+[2015.10.26-11.57.14:106][ 31]LoadErrors:Error: Error /Game/StarterContent/Mannequin/Animations/ThirdPersonWalk : Can't find file for asset. /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton
+[2015.10.26-11.57.14:107][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:107][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPersonWalk.uasset.
+[2015.10.26-11.57.14:107][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:108][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by ThirdPersonWalk
+[2015.10.26-11.57.14:108][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2015.10.26-11.57.14:109][ 31]LogLinker:Warning: Asset '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.26-11.57.14:110][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_Jump'
+[2015.10.26-11.57.14:111][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_Jump' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2015.10.26-11.57.14:111][ 31]LoadErrors:Error: Error /Game/StarterContent/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/Mannequin/Animations/ThirdPerson_Jump
+[2015.10.26-11.57.14:111][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPersonJump_Loop'
+[2015.10.26-11.57.14:111][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPersonJump_Loop' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2015.10.26-11.57.14:111][ 31]LoadErrors:Error: Error /Game/StarterContent/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/Mannequin/Animations/ThirdPersonJump_Loop
+[2015.10.26-11.57.14:111][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPersonJump_Start'
+[2015.10.26-11.57.14:111][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPersonJump_Start' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2015.10.26-11.57.14:112][ 31]LoadErrors:Error: Error /Game/StarterContent/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/Mannequin/Animations/ThirdPersonJump_Start
+[2015.10.26-11.57.14:112][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_IdleRun_2D'
+[2015.10.26-11.57.14:112][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_IdleRun_2D' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2015.10.26-11.57.14:112][ 31]LoadErrors:Error: Error /Game/StarterContent/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/Mannequin/Animations/ThirdPerson_IdleRun_2D
+[2015.10.26-11.57.14:202][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_IdleRun_2D'
+[2015.10.26-11.57.14:202][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_IdleRun_2D' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2015.10.26-11.57.14:202][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_Jump'
+[2015.10.26-11.57.14:203][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_Jump' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2015.10.26-11.57.14:203][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPersonJump_Loop'
+[2015.10.26-11.57.14:203][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPersonJump_Loop' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2015.10.26-11.57.14:203][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPersonJump_Start'
+[2015.10.26-11.57.14:203][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPersonJump_Start' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2015.10.26-11.57.14:204][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:204][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2015.10.26-11.57.14:204][ 31]LoadErrors:Error: Error /Game/StarterContent/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton
+[2015.10.26-11.57.14:205][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:205][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2015.10.26-11.57.14:205][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:205][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by ThirdPerson_AnimBP_C
+[2015.10.26-11.57.14:206][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2015.10.26-11.57.14:207][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_Jump'
+[2015.10.26-11.57.14:207][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_Jump' while loading NULL.
+[2015.10.26-11.57.14:207][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPersonJump_Loop'
+[2015.10.26-11.57.14:207][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPersonJump_Loop' while loading NULL.
+[2015.10.26-11.57.14:207][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPersonJump_Start'
+[2015.10.26-11.57.14:208][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPersonJump_Start' while loading NULL.
+[2015.10.26-11.57.14:208][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_IdleRun_2D'
+[2015.10.26-11.57.14:208][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_IdleRun_2D' while loading NULL.
+[2015.10.26-11.57.14:208][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_IdleRun_2D'
+[2015.10.26-11.57.14:208][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_IdleRun_2D' while loading NULL.
+[2015.10.26-11.57.14:208][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_Jump'
+[2015.10.26-11.57.14:208][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_Jump' while loading NULL.
+[2015.10.26-11.57.14:208][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPersonJump_Loop'
+[2015.10.26-11.57.14:209][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPersonJump_Loop' while loading NULL.
+[2015.10.26-11.57.14:209][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPersonJump_Start'
+[2015.10.26-11.57.14:209][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPersonJump_Start' while loading NULL.
+[2015.10.26-11.57.14:209][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:209][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2015.10.26-11.57.14:209][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:209][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2015.10.26-11.57.14:209][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_Jump'
+[2015.10.26-11.57.14:210][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_Jump' while loading NULL.
+[2015.10.26-11.57.14:210][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPersonJump_Loop'
+[2015.10.26-11.57.14:210][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPersonJump_Loop' while loading NULL.
+[2015.10.26-11.57.14:210][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPersonJump_Start'
+[2015.10.26-11.57.14:210][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPersonJump_Start' while loading NULL.
+[2015.10.26-11.57.14:210][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_IdleRun_2D'
+[2015.10.26-11.57.14:210][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_IdleRun_2D' while loading NULL.
+[2015.10.26-11.57.14:211][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:211][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by ThirdPerson_AnimBP
+[2015.10.26-11.57.14:211][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2015.10.26-11.57.14:216][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_IdleRun_2D'
+[2015.10.26-11.57.14:217][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Animations/ThirdPerson_IdleRun_2D.ThirdPerson_IdleRun_2D Referenced by AnimGraphNode_BlendSpacePlayer_9
+[2015.10.26-11.57.14:217][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_IdleRun_2D' while loading NULL.
+[2015.10.26-11.57.14:218][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPersonJump_Start'
+[2015.10.26-11.57.14:218][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Animations/ThirdPersonJump_Start.ThirdPersonJump_Start Referenced by AnimGraphNode_SequencePlayer_34
+[2015.10.26-11.57.14:218][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPersonJump_Start' while loading NULL.
+[2015.10.26-11.57.14:220][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPersonJump_Loop'
+[2015.10.26-11.57.14:220][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Animations/ThirdPersonJump_Loop.ThirdPersonJump_Loop Referenced by AnimGraphNode_SequencePlayer_40
+[2015.10.26-11.57.14:220][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPersonJump_Loop' while loading NULL.
+[2015.10.26-11.57.14:221][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_Jump'
+[2015.10.26-11.57.14:222][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Animations/ThirdPerson_Jump.ThirdPerson_Jump Referenced by AnimGraphNode_SequencePlayer_46
+[2015.10.26-11.57.14:222][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_Jump' while loading NULL.
+[2015.10.26-11.57.14:250][ 31]LogBlueprint:Error: [compiler ThirdPerson_AnimBP] Error  Blendspace Player '(None)'  references an unknown blend space
+[2015.10.26-11.57.14:251][ 31]LogBlueprint:Error: [compiler ThirdPerson_AnimBP] Error  Play (None)  references an unknown sequence
+[2015.10.26-11.57.14:252][ 31]LogBlueprint:Error: [compiler ThirdPerson_AnimBP] Error  Play (None)  references an unknown sequence
+[2015.10.26-11.57.14:252][ 31]LogBlueprint:Error: [compiler ThirdPerson_AnimBP] Error  Play (None)  references an unknown sequence
+[2015.10.26-11.57.14:254][ 31]LogBlueprint:Error: [compiler ThirdPerson_AnimBP] Error ICE: Player node  Play (None)  was not processed prior to handling a transition getter  K2Node_TransitionRuleGetter  that used it
+[2015.10.26-11.57.14:256][ 31]LogBlueprint:Error: [compiler ThirdPerson_AnimBP] Error ICE: Player node  Play (None)  was not processed prior to handling a transition getter  K2Node_TransitionRuleGetter  that used it
+[2015.10.26-11.57.14:272][ 31]LogBlueprint:Warning: [compiler ThirdPerson_AnimBP] Warning [0070.28] Compile of ThirdPerson_AnimBP failed. 6 Fatal Issue(s) 0 Warning(s) [in 27 ms]
+[2015.10.26-11.57.14:272][ 31]LogBlueprint:Warning: [compiler ThirdPerson_AnimBP] Warning [0070.28] Compile of ThirdPerson_AnimBP failed. 6 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.10.26-11.57.14:272][ 31]LogBlueprint:Warning: [compiler ThirdPerson_AnimBP] Warning [0070.28] Compile of ThirdPerson_AnimBP failed. 6 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.10.26-11.57.14:327][ 31]LogLinker:Warning: Asset '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.26-11.57.14:328][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPersonIdle'
+[2015.10.26-11.57.14:328][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPersonIdle' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset.
+[2015.10.26-11.57.14:328][ 31]LoadErrors:Error: Error /Game/StarterContent/Mannequin/Animations/ThirdPerson_IdleRun_2D : Can't find file for asset. /Game/Mannequin/Animations/ThirdPersonIdle
+[2015.10.26-11.57.14:328][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPersonRun'
+[2015.10.26-11.57.14:328][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPersonRun' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset.
+[2015.10.26-11.57.14:329][ 31]LoadErrors:Error: Error /Game/StarterContent/Mannequin/Animations/ThirdPerson_IdleRun_2D : Can't find file for asset. /Game/Mannequin/Animations/ThirdPersonRun
+[2015.10.26-11.57.14:329][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPersonWalk'
+[2015.10.26-11.57.14:329][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPersonWalk' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset.
+[2015.10.26-11.57.14:329][ 31]LoadErrors:Error: Error /Game/StarterContent/Mannequin/Animations/ThirdPerson_IdleRun_2D : Can't find file for asset. /Game/Mannequin/Animations/ThirdPersonWalk
+[2015.10.26-11.57.14:329][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPersonIdle'
+[2015.10.26-11.57.14:329][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPersonIdle' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset.
+[2015.10.26-11.57.14:330][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPersonRun'
+[2015.10.26-11.57.14:330][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPersonRun' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset.
+[2015.10.26-11.57.14:330][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPersonWalk'
+[2015.10.26-11.57.14:330][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPersonWalk' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset.
+[2015.10.26-11.57.14:330][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:330][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset.
+[2015.10.26-11.57.14:331][ 31]LoadErrors:Error: Error /Game/StarterContent/Mannequin/Animations/ThirdPerson_IdleRun_2D : Can't find file for asset. /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton
+[2015.10.26-11.57.14:331][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:331][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset.
+[2015.10.26-11.57.14:331][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPersonIdle'
+[2015.10.26-11.57.14:332][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Animations/ThirdPersonIdle.ThirdPersonIdle Referenced by ThirdPerson_IdleRun_2D
+[2015.10.26-11.57.14:332][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPersonIdle' while loading NULL.
+[2015.10.26-11.57.14:332][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPersonWalk'
+[2015.10.26-11.57.14:332][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Animations/ThirdPersonWalk.ThirdPersonWalk Referenced by ThirdPerson_IdleRun_2D
+[2015.10.26-11.57.14:332][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPersonWalk' while loading NULL.
+[2015.10.26-11.57.14:332][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPersonRun'
+[2015.10.26-11.57.14:333][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Animations/ThirdPersonRun.ThirdPersonRun Referenced by ThirdPerson_IdleRun_2D
+[2015.10.26-11.57.14:333][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPersonRun' while loading NULL.
+[2015.10.26-11.57.14:333][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:333][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by ThirdPerson_IdleRun_2D
+[2015.10.26-11.57.14:333][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2015.10.26-11.57.14:334][ 31]LogLinker:Warning: Asset '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.26-11.57.14:335][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:335][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPerson_Jump.uasset.
+[2015.10.26-11.57.14:335][ 31]LoadErrors:Error: Error /Game/StarterContent/Mannequin/Animations/ThirdPerson_Jump : Can't find file for asset. /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton
+[2015.10.26-11.57.14:335][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:336][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Animations/ThirdPerson_Jump.uasset.
+[2015.10.26-11.57.14:336][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:336][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by ThirdPerson_Jump
+[2015.10.26-11.57.14:337][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2015.10.26-11.57.14:343][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4'
+[2015.10.26-11.57.14:343][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Character/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.57.14:343][ 31]LoadErrors:Error: Error /Game/StarterContent/Mannequin/Character/Materials/M_UE4Man_Body : Can't find file for asset. /Game/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4
+[2015.10.26-11.57.14:343][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige'
+[2015.10.26-11.57.14:343][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Character/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.57.14:343][ 31]LoadErrors:Error: Error /Game/StarterContent/Mannequin/Character/Materials/M_UE4Man_Body : Can't find file for asset. /Game/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige
+[2015.10.26-11.57.14:343][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO'
+[2015.10.26-11.57.14:344][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Character/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.57.14:344][ 31]LoadErrors:Error: Error /Game/StarterContent/Mannequin/Character/Materials/M_UE4Man_Body : Can't find file for asset. /Game/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO
+[2015.10.26-11.57.14:344][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4'
+[2015.10.26-11.57.14:344][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Character/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.57.14:344][ 31]LoadErrors:Error: Error /Game/StarterContent/Mannequin/Character/Materials/M_UE4Man_Body : Can't find file for asset. /Game/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4
+[2015.10.26-11.57.14:345][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4'
+[2015.10.26-11.57.14:345][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Character/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.57.14:345][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige'
+[2015.10.26-11.57.14:345][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Character/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.57.14:346][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO'
+[2015.10.26-11.57.14:346][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Character/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.57.14:346][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4'
+[2015.10.26-11.57.14:346][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Character/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.57.14:346][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Textures/UE4_Mannequin__normals'
+[2015.10.26-11.57.14:346][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Textures/UE4_Mannequin__normals' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Character/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.57.14:346][ 31]LoadErrors:Error: Error /Game/StarterContent/Mannequin/Character/Materials/M_UE4Man_Body : Can't find file for asset. /Game/Mannequin/Character/Textures/UE4_Mannequin__normals
+[2015.10.26-11.57.14:347][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA'
+[2015.10.26-11.57.14:347][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Character/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.57.14:347][ 31]LoadErrors:Error: Error /Game/StarterContent/Mannequin/Character/Materials/M_UE4Man_Body : Can't find file for asset. /Game/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA
+[2015.10.26-11.57.14:347][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Textures/UE4_Mannequin__normals'
+[2015.10.26-11.57.14:347][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Textures/UE4_Mannequin__normals' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Character/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.57.14:348][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA'
+[2015.10.26-11.57.14:348][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Character/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.57.14:349][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4'
+[2015.10.26-11.57.14:350][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.ML_GlossyBlack_Latex_UE4 Referenced by M_UE4Man_Body
+[2015.10.26-11.57.14:350][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4' while loading NULL.
+[2015.10.26-11.57.14:350][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4'
+[2015.10.26-11.57.14:350][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.ML_SoftMetal_UE4 Referenced by M_UE4Man_Body
+[2015.10.26-11.57.14:350][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4' while loading NULL.
+[2015.10.26-11.57.14:350][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige'
+[2015.10.26-11.57.14:351][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.ML_Plastic_Shiny_Beige Referenced by M_UE4Man_Body
+[2015.10.26-11.57.14:351][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige' while loading NULL.
+[2015.10.26-11.57.14:351][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO'
+[2015.10.26-11.57.14:351][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.ML_Plastic_Shiny_Beige_LOGO Referenced by M_UE4Man_Body
+[2015.10.26-11.57.14:351][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO' while loading NULL.
+[2015.10.26-11.57.14:352][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige'
+[2015.10.26-11.57.14:352][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.ML_Plastic_Shiny_Beige Referenced by MaterialExpressionMaterialFunctionCall_13
+[2015.10.26-11.57.14:352][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige' while loading NULL.
+[2015.10.26-11.57.14:352][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO'
+[2015.10.26-11.57.14:353][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.ML_Plastic_Shiny_Beige_LOGO Referenced by MaterialExpressionMaterialFunctionCall_3
+[2015.10.26-11.57.14:353][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO' while loading NULL.
+[2015.10.26-11.57.14:353][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4'
+[2015.10.26-11.57.14:353][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.ML_GlossyBlack_Latex_UE4 Referenced by MaterialExpressionMaterialFunctionCall_8
+[2015.10.26-11.57.14:353][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4' while loading NULL.
+[2015.10.26-11.57.14:354][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4'
+[2015.10.26-11.57.14:354][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.ML_SoftMetal_UE4 Referenced by MaterialExpressionMaterialFunctionCall_9
+[2015.10.26-11.57.14:354][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4' while loading NULL.
+[2015.10.26-11.57.14:354][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA'
+[2015.10.26-11.57.14:355][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.UE4_Mannequin_MAT_MASKA Referenced by MaterialExpressionTextureSample_4
+[2015.10.26-11.57.14:355][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA' while loading NULL.
+[2015.10.26-11.57.14:355][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Textures/UE4_Mannequin__normals'
+[2015.10.26-11.57.14:355][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Character/Textures/UE4_Mannequin__normals.UE4_Mannequin__normals Referenced by MaterialExpressionTextureSampleParameter2D_0
+[2015.10.26-11.57.14:355][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Textures/UE4_Mannequin__normals' while loading NULL.
+[2015.10.26-11.57.14:371][ 31]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2015.10.26-11.57.14:384][ 31]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Mannequin/Character/Materials/M_UE4Man_Body.M_UE4Man_Body for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.26-11.57.14:384][ 31]LogMaterial:Warning: 	Missing Material Function
+[2015.10.26-11.57.14:384][ 31]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node BreakMaterialAttributes) Cannot connect a non MaterialAttributes node to a MaterialAttributes pin.
+[2015.10.26-11.57.14:384][ 31]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.57.14:384][ 31]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.57.14:384][ 31]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.57.14:384][ 31]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+[2015.10.26-11.57.14:384][ 31]LogMaterial:Warning: 	Function MatLayerBlend_Simple: Missing Material Function
+[2015.10.26-11.57.14:384][ 31]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.57.14:384][ 31]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.57.14:384][ 31]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2015.10.26-11.57.14:384][ 31]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2015.10.26-11.57.14:386][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_Body'
+[2015.10.26-11.57.14:386][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_Body' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset.
+[2015.10.26-11.57.14:386][ 31]LoadErrors:Error: Error /Game/StarterContent/Mannequin/Character/Materials/M_UE4Man_ChestLogo : Can't find file for asset. /Game/Mannequin/Character/Materials/M_UE4Man_Body
+[2015.10.26-11.57.14:386][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_Body'
+[2015.10.26-11.57.14:386][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_Body' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset.
+[2015.10.26-11.57.14:387][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Textures/UE4Man_Logo_N'
+[2015.10.26-11.57.14:387][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Textures/UE4Man_Logo_N' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset.
+[2015.10.26-11.57.14:387][ 31]LoadErrors:Error: Error /Game/StarterContent/Mannequin/Character/Materials/M_UE4Man_ChestLogo : Can't find file for asset. /Game/Mannequin/Character/Textures/UE4Man_Logo_N
+[2015.10.26-11.57.14:387][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Textures/UE4Man_Logo_N'
+[2015.10.26-11.57.14:387][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Textures/UE4Man_Logo_N' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset.
+[2015.10.26-11.57.14:388][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_Body'
+[2015.10.26-11.57.14:388][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Character/Materials/M_UE4Man_Body.M_UE4Man_Body Referenced by M_UE4Man_ChestLogo
+[2015.10.26-11.57.14:388][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_Body' while loading NULL.
+[2015.10.26-11.57.14:388][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Textures/UE4Man_Logo_N'
+[2015.10.26-11.57.14:389][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Character/Textures/UE4Man_Logo_N.UE4Man_Logo_N Referenced by M_UE4Man_ChestLogo
+[2015.10.26-11.57.14:389][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Textures/UE4Man_Logo_N' while loading NULL.
+[2015.10.26-11.57.14:391][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D'
+[2015.10.26-11.57.14:391][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset.
+[2015.10.26-11.57.14:391][ 31]LoadErrors:Error: Error /Game/StarterContent/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4 : Can't find file for asset. /Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D
+[2015.10.26-11.57.14:391][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N'
+[2015.10.26-11.57.14:391][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset.
+[2015.10.26-11.57.14:391][ 31]LoadErrors:Error: Error /Game/StarterContent/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4 : Can't find file for asset. /Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N
+[2015.10.26-11.57.14:392][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D'
+[2015.10.26-11.57.14:392][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset.
+[2015.10.26-11.57.14:392][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N'
+[2015.10.26-11.57.14:392][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset.
+[2015.10.26-11.57.14:394][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D'
+[2015.10.26-11.57.14:394][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.T_ML_Rubber_Blue_01_D Referenced by MaterialExpressionTextureSample_0
+[2015.10.26-11.57.14:394][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D' while loading NULL.
+[2015.10.26-11.57.14:394][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N'
+[2015.10.26-11.57.14:394][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.T_ML_Rubber_Blue_01_N Referenced by MaterialExpressionTextureSample_1
+[2015.10.26-11.57.14:395][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N' while loading NULL.
+[2015.10.26-11.57.14:399][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Textures/UE4_LOGO_CARD'
+[2015.10.26-11.57.14:399][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Textures/UE4_LOGO_CARD' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset.
+[2015.10.26-11.57.14:399][ 31]LoadErrors:Error: Error /Game/StarterContent/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO : Can't find file for asset. /Game/Mannequin/Character/Textures/UE4_LOGO_CARD
+[2015.10.26-11.57.14:399][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Textures/UE4_LOGO_CARD'
+[2015.10.26-11.57.14:399][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Textures/UE4_LOGO_CARD' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset.
+[2015.10.26-11.57.14:400][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Textures/UE4_LOGO_CARD'
+[2015.10.26-11.57.14:401][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Character/Textures/UE4_LOGO_CARD.UE4_LOGO_CARD Referenced by MaterialExpressionTextureSample_2
+[2015.10.26-11.57.14:401][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Textures/UE4_LOGO_CARD' while loading NULL.
+[2015.10.26-11.57.14:402][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01'
+[2015.10.26-11.57.14:403][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset.
+[2015.10.26-11.57.14:403][ 31]LoadErrors:Error: Error /Game/StarterContent/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4 : Can't find file for asset. /Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01
+[2015.10.26-11.57.14:403][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N'
+[2015.10.26-11.57.14:403][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset.
+[2015.10.26-11.57.14:403][ 31]LoadErrors:Error: Error /Game/StarterContent/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4 : Can't find file for asset. /Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N
+[2015.10.26-11.57.14:404][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01'
+[2015.10.26-11.57.14:404][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset.
+[2015.10.26-11.57.14:404][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N'
+[2015.10.26-11.57.14:404][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset.
+[2015.10.26-11.57.14:406][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01'
+[2015.10.26-11.57.14:406][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01.T_ML_Aluminum01 Referenced by MaterialExpressionTextureSample_3
+[2015.10.26-11.57.14:406][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01' while loading NULL.
+[2015.10.26-11.57.14:406][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N'
+[2015.10.26-11.57.14:407][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.T_ML_Aluminum01_N Referenced by MaterialExpressionTextureSample_4
+[2015.10.26-11.57.14:407][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N' while loading NULL.
+[2015.10.26-11.57.14:417][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_Body'
+[2015.10.26-11.57.14:417][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_Body' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Character/Mesh/SK_Mannequin.uasset.
+[2015.10.26-11.57.14:418][ 31]LoadErrors:Error: Error /Game/StarterContent/Mannequin/Character/Mesh/SK_Mannequin : Can't find file for asset. /Game/Mannequin/Character/Materials/M_UE4Man_Body
+[2015.10.26-11.57.14:418][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo'
+[2015.10.26-11.57.14:418][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Character/Mesh/SK_Mannequin.uasset.
+[2015.10.26-11.57.14:418][ 31]LoadErrors:Error: Error /Game/StarterContent/Mannequin/Character/Mesh/SK_Mannequin : Can't find file for asset. /Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo
+[2015.10.26-11.57.14:418][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_Body'
+[2015.10.26-11.57.14:418][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_Body' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Character/Mesh/SK_Mannequin.uasset.
+[2015.10.26-11.57.14:419][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo'
+[2015.10.26-11.57.14:419][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Character/Mesh/SK_Mannequin.uasset.
+[2015.10.26-11.57.14:419][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:419][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Character/Mesh/SK_Mannequin.uasset.
+[2015.10.26-11.57.14:419][ 31]LoadErrors:Error: Error /Game/StarterContent/Mannequin/Character/Mesh/SK_Mannequin : Can't find file for asset. /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton
+[2015.10.26-11.57.14:420][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:420][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Mannequin/Character/Mesh/SK_Mannequin.uasset.
+[2015.10.26-11.57.14:420][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.57.14:421][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by SK_Mannequin
+[2015.10.26-11.57.14:421][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2015.10.26-11.57.14:421][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_Body'
+[2015.10.26-11.57.14:421][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Character/Materials/M_UE4Man_Body.M_UE4Man_Body Referenced by SK_Mannequin
+[2015.10.26-11.57.14:422][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_Body' while loading NULL.
+[2015.10.26-11.57.14:422][ 31]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo'
+[2015.10.26-11.57.14:422][ 31]LoadErrors: Info Failed to load /Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo.M_UE4Man_ChestLogo Referenced by SK_Mannequin
+[2015.10.26-11.57.14:422][ 31]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_ChestLogo' while loading NULL.
+[2015.10.26-11.57.45:998][ 60]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4'
+[2015.10.26-11.57.45:998][ 60]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.57.45:998][ 60]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4
+[2015.10.26-11.57.45:998][ 60]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige'
+[2015.10.26-11.57.45:998][ 60]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.57.45:999][ 60]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige
+[2015.10.26-11.57.45:999][ 60]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO'
+[2015.10.26-11.57.45:999][ 60]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.57.45:999][ 60]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO
+[2015.10.26-11.57.45:999][ 60]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4'
+[2015.10.26-11.57.45:999][ 60]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.57.45:999][ 60]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4
+[2015.10.26-11.57.46:000][ 60]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4'
+[2015.10.26-11.57.46:000][ 60]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.57.46:000][ 60]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige'
+[2015.10.26-11.57.46:001][ 60]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.57.46:001][ 60]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO'
+[2015.10.26-11.57.46:001][ 60]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.57.46:001][ 60]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4'
+[2015.10.26-11.57.46:001][ 60]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.57.46:002][ 60]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin__normals'
+[2015.10.26-11.57.46:002][ 60]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin__normals' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.57.46:002][ 60]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin__normals
+[2015.10.26-11.57.46:002][ 60]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA'
+[2015.10.26-11.57.46:002][ 60]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.57.46:002][ 60]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA
+[2015.10.26-11.57.46:003][ 60]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile'
+[2015.10.26-11.57.46:003][ 60]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.57.46:003][ 60]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile
+[2015.10.26-11.57.46:003][ 60]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin__normals'
+[2015.10.26-11.57.46:003][ 60]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin__normals' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.57.46:004][ 60]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA'
+[2015.10.26-11.57.46:004][ 60]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.57.46:004][ 60]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile'
+[2015.10.26-11.57.46:004][ 60]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.57.46:006][ 60]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body'
+[2015.10.26-11.57.46:007][ 60]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo.uasset.
+[2015.10.26-11.57.46:007][ 60]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body
+[2015.10.26-11.57.46:007][ 60]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body'
+[2015.10.26-11.57.46:007][ 60]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo.uasset.
+[2015.10.26-11.57.46:007][ 60]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4Man_Logo_N'
+[2015.10.26-11.57.46:007][ 60]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4Man_Logo_N' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo.uasset.
+[2015.10.26-11.57.46:008][ 60]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Textures/UE4Man_Logo_N
+[2015.10.26-11.57.46:008][ 60]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4Man_Logo_N'
+[2015.10.26-11.57.46:008][ 60]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4Man_Logo_N' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo.uasset.
+[2015.10.26-11.57.46:055][ 60]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4'
+[2015.10.26-11.57.46:055][ 60]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.ML_GlossyBlack_Latex_UE4 Referenced by M_UE4Man_Body
+[2015.10.26-11.57.46:056][ 60]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4' while loading NULL.
+[2015.10.26-11.57.46:056][ 60]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4'
+[2015.10.26-11.57.46:056][ 60]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4.ML_SoftMetal_UE4 Referenced by M_UE4Man_Body
+[2015.10.26-11.57.46:056][ 60]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4' while loading NULL.
+[2015.10.26-11.57.46:056][ 60]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige'
+[2015.10.26-11.57.46:057][ 60]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.ML_Plastic_Shiny_Beige Referenced by M_UE4Man_Body
+[2015.10.26-11.57.46:057][ 60]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige' while loading NULL.
+[2015.10.26-11.57.46:057][ 60]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO'
+[2015.10.26-11.57.46:057][ 60]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.ML_Plastic_Shiny_Beige_LOGO Referenced by M_UE4Man_Body
+[2015.10.26-11.57.46:057][ 60]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO' while loading NULL.
+[2015.10.26-11.57.46:058][ 60]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige'
+[2015.10.26-11.57.46:058][ 60]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.ML_Plastic_Shiny_Beige Referenced by MaterialExpressionMaterialFunctionCall_13
+[2015.10.26-11.57.46:058][ 60]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige' while loading NULL.
+[2015.10.26-11.57.46:059][ 60]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO'
+[2015.10.26-11.57.46:059][ 60]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.ML_Plastic_Shiny_Beige_LOGO Referenced by MaterialExpressionMaterialFunctionCall_3
+[2015.10.26-11.57.46:059][ 60]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO' while loading NULL.
+[2015.10.26-11.57.46:060][ 60]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4'
+[2015.10.26-11.57.46:060][ 60]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.ML_GlossyBlack_Latex_UE4 Referenced by MaterialExpressionMaterialFunctionCall_8
+[2015.10.26-11.57.46:060][ 60]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4' while loading NULL.
+[2015.10.26-11.57.46:060][ 60]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4'
+[2015.10.26-11.57.46:061][ 60]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4.ML_SoftMetal_UE4 Referenced by MaterialExpressionMaterialFunctionCall_9
+[2015.10.26-11.57.46:061][ 60]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4' while loading NULL.
+[2015.10.26-11.57.46:061][ 60]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA'
+[2015.10.26-11.57.46:061][ 60]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA.UE4_Mannequin_MAT_MASKA Referenced by MaterialExpressionTextureSample_4
+[2015.10.26-11.57.46:062][ 60]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA' while loading NULL.
+[2015.10.26-11.57.46:062][ 60]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin__normals'
+[2015.10.26-11.57.46:062][ 60]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin__normals.UE4_Mannequin__normals Referenced by MaterialExpressionTextureSampleParameter2D_0
+[2015.10.26-11.57.46:062][ 60]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin__normals' while loading NULL.
+[2015.10.26-11.57.46:063][ 60]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile'
+[2015.10.26-11.57.46:063][ 60]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile.UE4_Mannequin_occlusion_Mobile Referenced by MaterialExpressionTextureSampleParameter2D_1
+[2015.10.26-11.57.46:063][ 60]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile' while loading NULL.
+[2015.10.26-11.57.46:064][ 60]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body'
+[2015.10.26-11.57.46:064][ 60]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.M_UE4Man_Body Referenced by M_UE4Man_ChestLogo
+[2015.10.26-11.57.46:064][ 60]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body' while loading NULL.
+[2015.10.26-11.57.46:064][ 60]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4Man_Logo_N'
+[2015.10.26-11.57.46:065][ 60]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Textures/UE4Man_Logo_N.UE4Man_Logo_N Referenced by M_UE4Man_ChestLogo
+[2015.10.26-11.57.46:065][ 60]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4Man_Logo_N' while loading NULL.
+[2015.10.26-11.57.46:076][ 60]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2015.10.26-11.57.46:077][ 60]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.M_UE4Man_Body for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.26-11.57.46:077][ 60]LogMaterial:Warning: 	Missing Material Function
+[2015.10.26-11.57.46:077][ 60]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node BreakMaterialAttributes) Cannot connect a non MaterialAttributes node to a MaterialAttributes pin.
+[2015.10.26-11.57.46:077][ 60]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.57.46:077][ 60]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.57.46:077][ 60]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.57.46:077][ 60]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2015.10.26-11.57.46:077][ 60]LogMaterial:Warning: 	Function MatLayerBlend_Simple: Missing Material Function
+[2015.10.26-11.57.46:078][ 60]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.57.46:078][ 60]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.57.46:078][ 60]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.57.46:078][ 60]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2015.10.26-11.57.46:078][ 60]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2015.10.26-11.57.46:127][ 60]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.26-11.57.46:873][ 60]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0022 seconds. Added 107 classes and 0 folders.
+[2015.10.26-11.58.45:726][852]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.26-12.01.57:823][313]BlueprintLog: New page: Compile HeroCharacter
+[2015.10.26-12.01.58:067][313]BlueprintEditorCompileResults: Info [0354.08] Compile of HeroCharacter successful! [in 243 ms]
+[2015.10.26-12.02.25:236][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-12.02.25:236][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/Death_1.uasset.
+[2015.10.26-12.02.25:237][412]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/Death_1 : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton
+[2015.10.26-12.02.25:237][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-12.02.25:237][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/Death_1.uasset.
+[2015.10.26-12.02.25:238][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-12.02.25:238][412]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by Death_1
+[2015.10.26-12.02.25:238][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2015.10.26-12.02.25:241][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-12.02.25:241][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/Death_2.uasset.
+[2015.10.26-12.02.25:241][412]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/Death_2 : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton
+[2015.10.26-12.02.25:241][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-12.02.25:242][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/Death_2.uasset.
+[2015.10.26-12.02.25:242][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-12.02.25:243][412]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by Death_2
+[2015.10.26-12.02.25:243][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2015.10.26-12.02.25:245][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-12.02.25:246][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/Death_3.uasset.
+[2015.10.26-12.02.25:246][412]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/Death_3 : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton
+[2015.10.26-12.02.25:246][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-12.02.25:246][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/Death_3.uasset.
+[2015.10.26-12.02.25:247][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-12.02.25:247][412]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by Death_3
+[2015.10.26-12.02.25:248][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2015.10.26-12.02.25:250][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-12.02.25:250][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/Enemy_Idle.uasset.
+[2015.10.26-12.02.25:250][412]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/Enemy_Idle : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton
+[2015.10.26-12.02.25:251][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-12.02.25:251][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/Enemy_Idle.uasset.
+[2015.10.26-12.02.25:252][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-12.02.25:252][412]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by Enemy_Idle
+[2015.10.26-12.02.25:252][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2015.10.26-12.02.25:255][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-12.02.25:255][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/Enemy_Walk.uasset.
+[2015.10.26-12.02.25:255][412]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/Enemy_Walk : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton
+[2015.10.26-12.02.25:255][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-12.02.25:256][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/Enemy_Walk.uasset.
+[2015.10.26-12.02.25:256][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-12.02.25:257][412]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by Enemy_Walk
+[2015.10.26-12.02.25:257][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2015.10.26-12.02.25:259][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-12.02.25:259][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/Idle_Rifle_Hip.uasset.
+[2015.10.26-12.02.25:259][412]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/Idle_Rifle_Hip : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton
+[2015.10.26-12.02.25:260][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-12.02.25:260][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/Idle_Rifle_Hip.uasset.
+[2015.10.26-12.02.25:261][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-12.02.25:261][412]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by Idle_Rifle_Hip
+[2015.10.26-12.02.25:262][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2015.10.26-12.02.25:264][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-12.02.25:265][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/Jog_Bwd_Rifle.uasset.
+[2015.10.26-12.02.25:265][412]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/Jog_Bwd_Rifle : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton
+[2015.10.26-12.02.25:265][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-12.02.25:265][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/Jog_Bwd_Rifle.uasset.
+[2015.10.26-12.02.25:266][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-12.02.25:266][412]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by Jog_Bwd_Rifle
+[2015.10.26-12.02.25:267][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2015.10.26-12.02.25:269][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-12.02.25:269][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/Jog_Fwd_Rifle.uasset.
+[2015.10.26-12.02.25:269][412]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/Jog_Fwd_Rifle : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton
+[2015.10.26-12.02.25:270][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-12.02.25:270][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/Jog_Fwd_Rifle.uasset.
+[2015.10.26-12.02.25:270][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-12.02.25:271][412]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by Jog_Fwd_Rifle
+[2015.10.26-12.02.25:271][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2015.10.26-12.02.25:273][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-12.02.25:274][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/Jog_Lt_Rifle.uasset.
+[2015.10.26-12.02.25:274][412]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/Jog_Lt_Rifle : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton
+[2015.10.26-12.02.25:274][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-12.02.25:274][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/Jog_Lt_Rifle.uasset.
+[2015.10.26-12.02.25:275][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-12.02.25:275][412]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by Jog_Lt_Rifle
+[2015.10.26-12.02.25:276][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2015.10.26-12.02.25:278][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-12.02.25:278][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/Jog_Rt_Rifle.uasset.
+[2015.10.26-12.02.25:278][412]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/Jog_Rt_Rifle : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton
+[2015.10.26-12.02.25:279][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-12.02.25:279][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/Jog_Rt_Rifle.uasset.
+[2015.10.26-12.02.25:280][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-12.02.25:280][412]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by Jog_Rt_Rifle
+[2015.10.26-12.02.25:280][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2015.10.26-12.02.25:316][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D'
+[2015.10.26-12.02.25:316][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset.
+[2015.10.26-12.02.25:316][412]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4 : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D
+[2015.10.26-12.02.25:316][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N'
+[2015.10.26-12.02.25:316][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset.
+[2015.10.26-12.02.25:317][412]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4 : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N
+[2015.10.26-12.02.25:317][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D'
+[2015.10.26-12.02.25:317][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset.
+[2015.10.26-12.02.25:317][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N'
+[2015.10.26-12.02.25:317][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset.
+[2015.10.26-12.02.25:319][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D'
+[2015.10.26-12.02.25:319][412]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.T_ML_Rubber_Blue_01_D Referenced by MaterialExpressionTextureSample_3
+[2015.10.26-12.02.25:320][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D' while loading NULL.
+[2015.10.26-12.02.25:320][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N'
+[2015.10.26-12.02.25:320][412]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.T_ML_Rubber_Blue_01_N Referenced by MaterialExpressionTextureSample_4
+[2015.10.26-12.02.25:320][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N' while loading NULL.
+[2015.10.26-12.02.25:354][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_LOGO_CARD'
+[2015.10.26-12.02.25:354][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_LOGO_CARD' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset.
+[2015.10.26-12.02.25:355][412]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Textures/UE4_LOGO_CARD
+[2015.10.26-12.02.25:355][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_LOGO_CARD'
+[2015.10.26-12.02.25:355][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_LOGO_CARD' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset.
+[2015.10.26-12.02.25:356][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_LOGO_CARD'
+[2015.10.26-12.02.25:357][412]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Textures/UE4_LOGO_CARD.UE4_LOGO_CARD Referenced by MaterialExpressionTextureSample_4
+[2015.10.26-12.02.25:357][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_LOGO_CARD' while loading NULL.
+[2015.10.26-12.02.25:374][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01'
+[2015.10.26-12.02.25:374][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset.
+[2015.10.26-12.02.25:375][412]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4 : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01
+[2015.10.26-12.02.25:375][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01_N'
+[2015.10.26-12.02.25:375][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01_N' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset.
+[2015.10.26-12.02.25:375][412]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4 : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01_N
+[2015.10.26-12.02.25:376][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01'
+[2015.10.26-12.02.25:376][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset.
+[2015.10.26-12.02.25:376][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01_N'
+[2015.10.26-12.02.25:376][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01_N' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset.
+[2015.10.26-12.02.25:378][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01'
+[2015.10.26-12.02.25:378][412]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01.T_ML_Aluminum01 Referenced by MaterialExpressionTextureSample_11
+[2015.10.26-12.02.25:378][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01' while loading NULL.
+[2015.10.26-12.02.25:379][412]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01_N'
+[2015.10.26-12.02.25:379][412]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01_N.T_ML_Aluminum01_N Referenced by MaterialExpressionTextureSample_12
+[2015.10.26-12.02.25:379][412]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01_N' while loading NULL.
+[2015.10.26-12.02.25:434][412]LogTexture:Display: Building textures: T_ML_Aluminum01 (DXT1)
+[2015.10.26-12.02.25:977][412]LogTexture:Display: Building textures: T_ML_Aluminum01_N (BC5)
+[2015.10.26-12.02.26:102][412]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_D (DXT1)
+[2015.10.26-12.02.26:592][412]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_N (BC5)
+[2015.10.26-12.02.26:855][412]LogTexture:Display: Building textures: UE4Man_Logo_N (BC5)
+[2015.10.26-12.02.27:079][412]LogTexture:Display: Building textures: UE4_Mannequin_MAT_MASKA (AutoDXT)
+[2015.10.26-12.02.27:491][412]LogTexture:Display: Building textures: UE4_Mannequin_occlusion_Mobile (DXT1)
+[2015.10.26-12.02.28:202][412]LogTexture:Display: Building textures: UE4_Mannequin__normals (BC5)
+[2015.10.26-12.02.30:452][412]LogSavePackage: Save=17.664238ms
+[2015.10.26-12.02.30:452][412]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/M_UE4Man_ChestLogoFC6549C6490EEB1609765F82F66C7406.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo.uasset'
+[2015.10.26-12.02.30:455][412]LogSavePackage: Total save time: 20.766407ms
+[2015.10.26-12.02.30:455][412]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo.uasset
+[2015.10.26-12.02.30:793][412]LogSavePackage: Save=83.061073ms
+[2015.10.26-12.02.30:793][412]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/M_UE4Man_BodyD0FC99EC4F094A94EDA607A72BE823C1.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset'
+[2015.10.26-12.02.30:796][412]LogSavePackage: Total save time: 86.720500ms
+[2015.10.26-12.02.30:796][412]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset
+[2015.10.26-12.02.30:915][412]LogSavePackage: Save=74.185616ms
+[2015.10.26-12.02.30:915][412]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/SK_Mannequin5EE8A9DC4E0BEFF0D072C48B163E26C9.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset'
+[2015.10.26-12.02.30:917][412]LogSavePackage: Total save time: 77.037670ms
+[2015.10.26-12.02.30:917][412]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset
+[2015.10.26-12.02.30:937][412]LogSavePackage: Save=5.235411ms
+[2015.10.26-12.02.30:937][412]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/SK_Mannequin_SkeletonD4B33A8F476A3D424EDF4B991CA5729A.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_Skeleton.uasset'
+[2015.10.26-12.02.30:939][412]LogSavePackage: Total save time: 8.205682ms
+[2015.10.26-12.02.30:940][412]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_Skeleton.uasset
+[2015.10.26-12.02.30:979][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationAssets/Death_1" FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/Death_1.uasset" SILENT=true
+[2015.10.26-12.02.31:025][412]LogSavePackage: Save=44.260567ms
+[2015.10.26-12.02.31:025][412]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Death_19612BDFB464B15D856489BAF6373B9DE.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/Death_1.uasset'
+[2015.10.26-12.02.31:028][412]LogSavePackage: Total save time: 47.106918ms
+[2015.10.26-12.02.31:028][412]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/Death_1.uasset
+[2015.10.26-12.02.31:044][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationAssets/Death_2" FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/Death_2.uasset" SILENT=true
+[2015.10.26-12.02.31:083][412]LogSavePackage: Save=28.303074ms
+[2015.10.26-12.02.31:083][412]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Death_2499DFBB34BEB24198EE203B2403CCC98.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/Death_2.uasset'
+[2015.10.26-12.02.31:098][412]LogSavePackage: Total save time: 43.680124ms
+[2015.10.26-12.02.31:098][412]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/Death_2.uasset
+[2015.10.26-12.02.31:114][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationAssets/Death_3" FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/Death_3.uasset" SILENT=true
+[2015.10.26-12.02.31:131][412]LogSavePackage: Save=11.312031ms
+[2015.10.26-12.02.31:131][412]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Death_3CFC420FC4F2F694CC68BF78308FA9675.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/Death_3.uasset'
+[2015.10.26-12.02.31:134][412]LogSavePackage: Total save time: 15.032280ms
+[2015.10.26-12.02.31:134][412]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/Death_3.uasset
+[2015.10.26-12.02.31:154][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationAssets/Enemy_Idle" FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/Enemy_Idle.uasset" SILENT=true
+[2015.10.26-12.02.31:168][412]LogSavePackage: Save=11.367908ms
+[2015.10.26-12.02.31:168][412]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Enemy_IdleB9C32A19419AE3087B30FAA4BFE28ED9.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/Enemy_Idle.uasset'
+[2015.10.26-12.02.31:171][412]LogSavePackage: Total save time: 14.934584ms
+[2015.10.26-12.02.31:171][412]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/Enemy_Idle.uasset
+[2015.10.26-12.02.31:192][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationAssets/Enemy_Walk" FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/Enemy_Walk.uasset" SILENT=true
+[2015.10.26-12.02.31:223][412]LogSavePackage: Save=28.576000ms
+[2015.10.26-12.02.31:223][412]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Enemy_Walk0D6149444E0094DB245E0FBA8FCC7976.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/Enemy_Walk.uasset'
+[2015.10.26-12.02.31:226][412]LogSavePackage: Total save time: 31.541325ms
+[2015.10.26-12.02.31:226][412]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/Enemy_Walk.uasset
+[2015.10.26-12.02.31:297][412]LogSavePackage: Save=12.751170ms
+[2015.10.26-12.02.31:297][412]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Idle_Rifle_HipA2EEECA240057BFED13E6A82D3EC6C7E.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/Idle_Rifle_Hip.uasset'
+[2015.10.26-12.02.31:299][412]LogSavePackage: Total save time: 15.727900ms
+[2015.10.26-12.02.31:300][412]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/Idle_Rifle_Hip.uasset
+[2015.10.26-12.02.31:334][412]LogSavePackage: Save=12.063910ms
+[2015.10.26-12.02.31:334][412]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Jog_Bwd_Rifle384E6074414DF9ED3C5BEB87F38AC27C.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/Jog_Bwd_Rifle.uasset'
+[2015.10.26-12.02.31:336][412]LogSavePackage: Total save time: 14.882889ms
+[2015.10.26-12.02.31:336][412]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/Jog_Bwd_Rifle.uasset
+[2015.10.26-12.02.31:370][412]LogSavePackage: Save=10.655181ms
+[2015.10.26-12.02.31:370][412]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Jog_Fwd_RifleD76910A64983F26AAAD76BBA364AABE8.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/Jog_Fwd_Rifle.uasset'
+[2015.10.26-12.02.31:374][412]LogSavePackage: Total save time: 14.716778ms
+[2015.10.26-12.02.31:374][412]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/Jog_Fwd_Rifle.uasset
+[2015.10.26-12.02.31:389][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationAssets/Jog_Lt_Rifle" FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/Jog_Lt_Rifle.uasset" SILENT=true
+[2015.10.26-12.02.31:418][412]LogSavePackage: Save=19.320807ms
+[2015.10.26-12.02.31:419][412]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Jog_Lt_Rifle8A77890340A3D3F4FAB279A786EB4C8B.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/Jog_Lt_Rifle.uasset'
+[2015.10.26-12.02.31:425][412]LogSavePackage: Total save time: 25.911350ms
+[2015.10.26-12.02.31:425][412]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/Jog_Lt_Rifle.uasset
+[2015.10.26-12.02.31:442][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationAssets/Jog_Rt_Rifle" FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/Jog_Rt_Rifle.uasset" SILENT=true
+[2015.10.26-12.02.31:459][412]LogSavePackage: Save=14.452213ms
+[2015.10.26-12.02.31:459][412]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Jog_Rt_RifleDC7CF75E4D03F67E6BCDD5BDBBA855D2.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/Jog_Rt_Rifle.uasset'
+[2015.10.26-12.02.31:466][412]LogSavePackage: Total save time: 21.815162ms
+[2015.10.26-12.02.31:466][412]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/Jog_Rt_Rifle.uasset
+[2015.10.26-12.02.31:519][412]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2015.10.26-12.02.31:520][412]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.26-12.02.31:520][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-12.02.31:520][412]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-12.02.31:520][412]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-12.02.31:604][412]LogSavePackage: Save=20.736759ms
+[2015.10.26-12.02.31:604][412]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/ML_GlossyBlack_Latex_UE4B025401A4F2A978D81EA019D905F0935.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset'
+[2015.10.26-12.02.31:613][412]LogSavePackage: Total save time: 29.992335ms
+[2015.10.26-12.02.31:613][412]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset
+[2015.10.26-12.02.31:630][412]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2015.10.26-12.02.31:851][412]LogSavePackage: Save=60.247330ms
+[2015.10.26-12.02.31:851][412]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/ML_Plastic_Shiny_Beige46B2032A4240D10215AB35B10AB08C3F.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset'
+[2015.10.26-12.02.31:858][412]LogSavePackage: Total save time: 68.364821ms
+[2015.10.26-12.02.31:859][412]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset
+[2015.10.26-12.02.31:933][412]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2015.10.26-12.02.32:059][412]LogSavePackage: Save=80.179749ms
+[2015.10.26-12.02.32:059][412]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/ML_Plastic_Shiny_Beige_LOGO51CAE8634B1D4D6F8E0A208FEEE36F11.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset'
+[2015.10.26-12.02.32:073][412]LogSavePackage: Total save time: 94.827726ms
+[2015.10.26-12.02.32:073][412]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset
+[2015.10.26-12.02.32:124][412]LogMaterial: Missing cached shader map for material Material_3, compiling. 
+[2015.10.26-12.02.32:125][412]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_3 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.26-12.02.32:125][412]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-12.02.32:125][412]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-12.02.32:125][412]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-12.02.32:194][412]LogSavePackage: Save=20.975096ms
+[2015.10.26-12.02.32:194][412]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/ML_SoftMetal_UE42D090717408465FFBFF2FF8DBF8C9E79.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset'
+[2015.10.26-12.02.32:199][412]LogSavePackage: Total save time: 28.000116ms
+[2015.10.26-12.02.32:199][412]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset
+[2015.10.26-12.02.32:300][412]LogSavePackage: Save=75.628181ms
+[2015.10.26-12.02.32:300][412]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/T_ML_Aluminum01D7452EC142DAE1D07885BF83BC25FBB2.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01.uasset'
+[2015.10.26-12.02.32:322][412]LogSavePackage: Total save time: 98.249201ms
+[2015.10.26-12.02.32:322][412]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01.uasset
+[2015.10.26-12.02.32:382][412]LogSavePackage: Save=27.672071ms
+[2015.10.26-12.02.32:383][412]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/T_ML_Aluminum01_N31C214EA490DF65F9B31399C40E78B9C.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset'
+[2015.10.26-12.02.32:386][412]LogSavePackage: Total save time: 31.718463ms
+[2015.10.26-12.02.32:386][412]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset
+[2015.10.26-12.02.32:443][412]LogSavePackage: Save=31.584661ms
+[2015.10.26-12.02.32:443][412]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/T_ML_Rubber_Blue_01_DEC23DAA54E2C8067E98DD0A77AC35C56.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset'
+[2015.10.26-12.02.32:449][412]LogSavePackage: Total save time: 38.175967ms
+[2015.10.26-12.02.32:449][412]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset
+[2015.10.26-12.02.32:503][412]LogSavePackage: Save=27.123558ms
+[2015.10.26-12.02.32:503][412]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/T_ML_Rubber_Blue_01_NEA20F5F54A1A8C0276093E8259C66D19.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset'
+[2015.10.26-12.02.32:507][412]LogSavePackage: Total save time: 31.316679ms
+[2015.10.26-12.02.32:507][412]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset
+[2015.10.26-12.02.32:594][412]LogSavePackage: Save=32.874031ms
+[2015.10.26-12.02.32:595][412]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/SK_Mannequin_PhysicsAsset21E207FA4BDA3B0C46DFFB8C7B703DDE.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset.uasset'
+[2015.10.26-12.02.32:626][412]LogSavePackage: Total save time: 65.235280ms
+[2015.10.26-12.02.32:626][412]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset.uasset
+[2015.10.26-12.02.32:675][412]LogSavePackage: Save=6.035566ms
+[2015.10.26-12.02.32:675][412]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/UE4_Mannequin_SkeletonE49E2B0E4255568F174DE687D0EFE949.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2015.10.26-12.02.32:679][412]LogSavePackage: Total save time: 10.635037ms
+[2015.10.26-12.02.32:679][412]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2015.10.26-12.02.32:738][412]LogSavePackage: Save=18.768490ms
+[2015.10.26-12.02.32:738][412]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/UE4Man_Logo_N9C800C304FF2CA0A34DA8495C0CC66CF.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Textures/UE4Man_Logo_N.uasset'
+[2015.10.26-12.02.32:741][412]LogSavePackage: Total save time: 22.753302ms
+[2015.10.26-12.02.32:741][412]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Textures/UE4Man_Logo_N.uasset
+[2015.10.26-12.02.32:802][412]LogSavePackage: Save=37.421043ms
+[2015.10.26-12.02.32:802][412]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/UE4_LOGO_CARDA963E3EE4D6E8356C0F36EBB2EA61B96.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Textures/UE4_LOGO_CARD.uasset'
+[2015.10.26-12.02.32:820][412]LogSavePackage: Total save time: 55.776723ms
+[2015.10.26-12.02.32:820][412]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Textures/UE4_LOGO_CARD.uasset
+[2015.10.26-12.02.32:873][412]LogSavePackage: Save=26.991276ms
+[2015.10.26-12.02.32:873][412]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/UE4_Mannequin_MAT_MASKAEBA66E304300FAA94F642D8924573733.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA.uasset'
+[2015.10.26-12.02.32:879][412]LogSavePackage: Total save time: 33.016581ms
+[2015.10.26-12.02.32:879][412]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA.uasset
+[2015.10.26-12.02.32:949][412]LogSavePackage: Save=42.728680ms
+[2015.10.26-12.02.32:949][412]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/UE4_Mannequin_occlusion_Mobile7A46CBBA45EE9A631D9A248E61DEFB6F.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile.uasset'
+[2015.10.26-12.02.32:952][412]LogSavePackage: Total save time: 46.276730ms
+[2015.10.26-12.02.32:952][412]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile.uasset
+[2015.10.26-12.02.33:267][412]LogSavePackage: Save=289.292480ms
+[2015.10.26-12.02.33:267][412]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/UE4_Mannequin__normals8CC8511A4D00418ABD4F11803EE4F28E.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin__normals.uasset'
+[2015.10.26-12.02.33:272][412]LogSavePackage: Total save time: 294.450723ms
+[2015.10.26-12.02.33:272][412]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin__normals.uasset
+[2015.10.26-12.02.33:361][412]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.26-12.02.36:200][412]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F7F24CD760
+[2015.10.26-12.02.38:121][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/EnemyCharacter" FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/EnemyCharacter.uasset" SILENT=true
+[2015.10.26-12.02.38:173][412]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh' in Blueprint '/Game/Blueprints/EnemyCharacter.EnemyCharacter' which is setup as pure
+[2015.10.26-12.02.38:176][412]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh' in Blueprint '/Game/Blueprints/EnemyCharacter.EnemyCharacter' which is setup as pure
+[2015.10.26-12.02.38:254][412]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh' in Blueprint '/Game/Blueprints/EnemyCharacter.EnemyCharacter' which is setup as pure
+[2015.10.26-12.02.38:271][412]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh' in Blueprint '/Game/Blueprints/EnemyCharacter.EnemyCharacter' which is setup as pure
+[2015.10.26-12.02.38:304][412]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh' in Blueprint '/Game/Blueprints/EnemyCharacter.EnemyCharacter' which is setup as pure
+[2015.10.26-12.02.38:308][412]LogSavePackage: Save=138.336029ms
+[2015.10.26-12.02.38:308][412]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/EnemyCharacter31F8AC2E4A1889AEE128EF96BB96F566.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/EnemyCharacter.uasset'
+[2015.10.26-12.02.38:309][412]LogSavePackage: Total save time: 147.079963ms
+[2015.10.26-12.02.38:309][412]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/EnemyCharacter.uasset
+[2015.10.26-12.02.38:317][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/EnemyCharacter" FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/EnemyCharacter.uasset" SILENT=true
+[2015.10.26-12.02.38:324][412]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh' in Blueprint '/Game/Blueprints/EnemyCharacter.EnemyCharacter' which is setup as pure
+[2015.10.26-12.02.38:327][412]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh' in Blueprint '/Game/Blueprints/EnemyCharacter.EnemyCharacter' which is setup as pure
+[2015.10.26-12.02.38:330][412]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh' in Blueprint '/Game/Blueprints/EnemyCharacter.EnemyCharacter' which is setup as pure
+[2015.10.26-12.02.38:349][412]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh' in Blueprint '/Game/Blueprints/EnemyCharacter.EnemyCharacter' which is setup as pure
+[2015.10.26-12.02.38:362][412]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh' in Blueprint '/Game/Blueprints/EnemyCharacter.EnemyCharacter' which is setup as pure
+[2015.10.26-12.02.38:366][412]LogSavePackage: Save=44.691624ms
+[2015.10.26-12.02.38:366][412]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/EnemyCharacter43A6794D44DAAD6A46040FB85E6D3DB9.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/EnemyCharacter.uasset'
+[2015.10.26-12.02.38:367][412]LogSavePackage: Total save time: 48.450645ms
+[2015.10.26-12.02.38:367][412]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/EnemyCharacter.uasset
+[2015.10.26-12.02.38:403][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HeroCharacter" FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset" SILENT=true
+[2015.10.26-12.02.38:485][412]LogSavePackage: Save=70.863739ms
+[2015.10.26-12.02.38:485][412]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/HeroCharacter7EEDA7164807A02DEDC85DAD9E61FB0F.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset'
+[2015.10.26-12.02.38:500][412]LogSavePackage: Total save time: 94.462052ms
+[2015.10.26-12.02.38:500][412]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset
+[2015.10.26-12.04.59:643][ 10]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.26-12.04.59:643][ 10]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.10.26-12.05.00:630][ 51]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.10.26-12.05.00:860][ 59]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.10.26-12.05.01:129][ 79]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.10.26-12.05.01:342][ 87]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.10.26-12.05.01:479][ 96]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.10.26-12.05.27:407][769]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.10.26-12.05.37:028][769]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.10.26-12.05.37:374][770]Cmd: QUIT_EDITOR
+[2015.10.26-12.05.37:769][770]LogExit: Preparing to exit.
+[2015.10.26-12.05.38:367][770]LogExit: Editor shut down
+[2015.10.26-12.05.38:368][770]LogExit: Transaction tracking system shut down
+[2015.10.26-12.05.38:375][770]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F780990E00
+[2015.10.26-12.05.38:376][770]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F7F253DF80
+[2015.10.26-12.05.38:376][770]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F78713E7A0
+[2015.10.26-12.05.38:377][770]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F785C77CE0
+[2015.10.26-12.05.38:377][770]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F785D567A0
+[2015.10.26-12.05.38:377][770]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F785D57F60
+[2015.10.26-12.05.38:380][770]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F78FBFF880
+[2015.10.26-12.05.38:382][770]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F7907DEA20
+[2015.10.26-12.05.38:636][770]LogExit: Object subsystem successfully closed.
+[2015.10.26-12.05.38:656][770]LogD3D11RHI: Shutdown
+[2015.10.26-12.05.38:656][770]LogD3D11RHI: CleanupD3DDevice
+[2015.10.26-12.05.38:746][770]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.10.26-12.05.38:774][770]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2015.10.26-12.05.38:774][770]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2015.10.26-12.05.38:774][770]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2015.10.26-12.05.38:774][770]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2015.10.26-12.05.38:774][770]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2015.10.26-12.05.38:774][770]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2015.10.26-12.05.38:776][770]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2015.10.26-12.05.38:776][770]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2015.10.26-12.05.38:777][770]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2015.10.26-12.05.38:777][770]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2015.10.26-12.05.38:777][770]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2015.10.26-12.05.38:777][770]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2015.10.26-12.05.38:777][770]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2015.10.26-12.05.38:777][770]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2015.10.26-12.05.38:777][770]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2015.10.26-12.05.38:777][770]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2015.10.26-12.05.38:777][770]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2015.10.26-12.05.38:777][770]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2015.10.26-12.05.38:777][770]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2015.10.26-12.05.38:777][770]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2015.10.26-12.05.38:777][770]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2015.10.26-12.05.38:777][770]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2015.10.26-12.05.38:777][770]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2015.10.26-12.05.38:777][770]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2015.10.26-12.05.38:777][770]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2015.10.26-12.05.38:778][770]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2015.10.26-12.05.38:778][770]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2015.10.26-12.05.39:416][770]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2015.10.26-12.05.39:416][770]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2015.10.26-12.05.39:416][770]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2015.10.26-12.05.39:416][770]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2015.10.26-12.05.39:416][770]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2015.10.26-12.05.39:416][770]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2015.10.26-12.05.39:416][770]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2015.10.26-12.05.39:416][770]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2015.10.26-12.05.39:416][770]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2015.10.26-12.05.39:416][770]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2015.10.26-12.05.39:416][770]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2015.10.26-12.05.39:416][770]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2015.10.26-12.05.39:416][770]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2015.10.26-12.05.39:416][770]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2015.10.26-12.05.39:416][770]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2015.10.26-12.05.39:416][770]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2015.10.26-12.05.39:416][770]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2015.10.26-12.05.39:416][770]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2015.10.26-12.05.39:416][770]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2015.10.26-12.05.39:416][770]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2015.10.26-12.05.39:416][770]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2015.10.26-12.05.39:416][770]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2015.10.26-12.05.39:416][770]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2015.10.26-12.05.39:417][770]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2015.10.26-12.05.39:417][770]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2015.10.26-12.05.39:417][770]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2015.10.26-12.05.39:417][770]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2015.10.26-12.05.39:417][770]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2015.10.26-12.05.39:417][770]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2015.10.26-12.05.39:417][770]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2015.10.26-12.05.39:417][770]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2015.10.26-12.05.39:417][770]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2015.10.26-12.05.39:417][770]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2015.10.26-12.05.39:417][770]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2015.10.26-12.05.39:417][770]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2015.10.26-12.05.39:417][770]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2015.10.26-12.05.39:417][770]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2015.10.26-12.05.39:417][770]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2015.10.26-12.05.39:417][770]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2015.10.26-12.05.39:417][770]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2015.10.26-12.05.39:417][770]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2015.10.26-12.05.39:417][770]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2015.10.26-12.05.39:417][770]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2015.10.26-12.05.39:417][770]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2015.10.26-12.05.39:417][770]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2015.10.26-12.05.39:417][770]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2015.10.26-12.05.39:417][770]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2015.10.26-12.05.39:417][770]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2015.10.26-12.05.39:417][770]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2015.10.26-12.05.39:417][770]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2015.10.26-12.05.39:587][770]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2015.10.26-12.05.39:587][770]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.10.26-12.05.39:587][770]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.10.26-12.05.39:587][770]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.10.26-12.05.39:587][770]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.10.26-12.05.39:587][770]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2015.10.26-12.05.39:587][770]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2015.10.26-12.05.39:587][770]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.10.26-12.05.39:598][770]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.10.26-12.05.39:598][770]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.10.26-12.05.39:598][770]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.10.26-12.05.39:598][770]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.10.26-12.05.39:598][770]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.10.26-12.05.39:598][770]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.10.26-12.05.39:598][770]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.10.26-12.05.39:598][770]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.10.26-12.05.39:598][770]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.10.26-12.05.39:598][770]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.10.26-12.05.39:598][770]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.10.26-12.05.39:598][770]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.10.26-12.05.39:598][770]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.10.26-12.05.39:598][770]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.10.26-12.05.39:598][770]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.10.26-12.05.39:598][770]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.10.26-12.05.39:598][770]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.10.26-12.05.39:598][770]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.10.26-12.05.39:598][770]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.10.26-12.05.39:598][770]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.10.26-12.05.39:598][770]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.10.26-12.05.39:598][770]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.10.26-12.05.39:599][770]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.10.26-12.05.39:599][770]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.10.26-12.05.39:600][770]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2015.10.26-12.05.39:601][770]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2015.10.26-12.05.39:666][770]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2015.10.26-12.05.39:667][770]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2015.10.26-12.05.39:667][770]LogModuleManager: Shutting down and abandoning module TwinStickShooter (86)
+[2015.10.26-12.05.39:667][770]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.10.26-12.05.39:768][770]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.10.26-12.05.39:768][770]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.10.26-12.05.39:768][770]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.10.26-12.05.39:771][770]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.10.26-12.05.39:771][770]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.10.26-12.05.39:771][770]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.10.26-12.05.39:771][770]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.10.26-12.05.39:771][770]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.10.26-12.05.39:771][770]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.10.26-12.05.39:772][770]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.10.26-12.05.39:772][770]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.10.26-12.05.39:772][770]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.10.26-12.05.39:772][770]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.10.26-12.05.39:772][770]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.10.26-12.05.39:772][770]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.10.26-12.05.39:772][770]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.10.26-12.05.39:772][770]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.10.26-12.05.39:772][770]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.10.26-12.05.39:772][770]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.10.26-12.05.39:775][770]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.10.26-12.05.39:775][770]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.10.26-12.05.39:775][770]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.10.26-12.05.39:775][770]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.10.26-12.05.39:775][770]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.10.26-12.05.39:775][770]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.10.26-12.05.39:775][770]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.10.26-12.05.39:775][770]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.10.26-12.05.39:775][770]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.10.26-12.05.39:775][770]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.10.26-12.05.39:776][770]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.10.26-12.05.39:825][770]LogDerivedDataCache: Shutdown
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.10.26-12.05.39:825][770]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.10.26-12.05.41:829][770]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.10.26-12.05.41:829][770]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.10.26-12.05.41:829][770]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.10.26-12.05.41:829][770]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.10.26-12.05.41:829][770]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.10.26-12.05.41:829][770]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.10.26-12.05.41:832][770]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.10.26-12.05.41:832][770]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.10.26-12.05.41:832][770]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.10.26-12.05.41:832][770]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.10.26-12.05.41:832][770]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.10.26-12.05.41:832][770]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.10.26-12.05.41:832][770]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.10.26-12.05.41:832][770]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.10.26-12.05.41:832][770]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.10.26-12.05.41:832][770]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.10.26-12.05.41:833][770]LogExit: Exiting.
+[2015.10.26-12.05.41:834][770]Log file closed, 10/26/15 14:05:41

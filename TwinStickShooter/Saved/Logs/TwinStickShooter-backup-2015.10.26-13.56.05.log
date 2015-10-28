@@ -1,0 +1,1207 @@
+﻿[2015.10.26-11.19.16:086][  0]Log file open, 10/26/15 13:19:16
+[2015.10.26-11.19.16:086][  0]LogInit:Display: Running engine for game: TwinStickShooter
+[2015.10.26-11.19.16:086][  0]LogInit:Display: RandInit(475157674) SRandInit(475157674).
+[2015.10.26-11.19.16:086][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.10.26-11.19.16:086][  0]LogStats: Stats thread started at 0.080200
+[2015.10.26-11.19.16:086][  0]LogInit: Version: 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.10.26-11.19.16:086][  0]LogInit: API Version: 2672455
+[2015.10.26-11.19.16:086][  0]LogInit: Compiled (64-bit): Aug 28 2015 12:33:01
+[2015.10.26-11.19.16:086][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.26-11.19.16:086][  0]LogInit: Build Configuration: Development
+[2015.10.26-11.19.16:086][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.26-11.19.16:086][  0]LogInit: Command line: 
+[2015.10.26-11.19.16:086][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.26-11.19.16:086][  0]LogInit: Rocket: 1
+[2015.10.26-11.19.16:209][  0]LogInit: Using libcurl 7.41.0
+[2015.10.26-11.19.16:209][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.26-11.19.16:209][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.26-11.19.16:209][  0]LogInit:  - other features:
+[2015.10.26-11.19.16:209][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.26-11.19.16:209][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.26-11.19.16:209][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.26-11.19.16:209][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.26-11.19.16:209][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.26-11.19.16:209][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.26-11.19.16:209][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.26-11.19.16:209][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.26-11.19.16:209][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.26-11.19.16:209][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.26-11.19.16:255][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.26-11.19.16:265][  0]LogInit: Object subsystem initialized
+[2015.10.26-11.19.16:267][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.26-11.19.16:267][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.26-11.19.16:294][  0]LogInit: Computer: THEPROTO
+[2015.10.26-11.19.16:294][  0]LogInit: User: Nikolai
+[2015.10.26-11.19.16:294][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.10.26-11.19.16:294][  0]LogInit: High frequency timer resolution =2.630739 MHz
+[2015.10.26-11.19.16:294][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2015.10.26-11.19.16:294][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.26-11.19.16:294][  0]LogMemory: Process Physical Memory: 52.14 MB used, 52.14 MB peak
+[2015.10.26-11.19.16:294][  0]LogMemory: Process Virtual Memory: 57.03 MB used, 57.03 MB peak
+[2015.10.26-11.19.16:294][  0]LogMemory: Physical Memory: 2929.79 MB used, 4044.71 MB total
+[2015.10.26-11.19.16:294][  0]LogMemory: Virtual Memory: 346.99 MB used, 134217728.00 MB total
+[2015.10.26-11.19.16:336][  0]LogTextLocalizationManager: No translations for ('bg-BG') exist, falling back to 'en' for localization and internationalization data.
+[2015.10.26-11.19.17:911][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R7 200 Series (Feature Level 11_0)
+[2015.10.26-11.19.17:911][  0]LogD3D11RHI: Adapter has 2027MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 1 output[s]
+[2015.10.26-11.19.17:913][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.26-11.19.17:913][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.10.26-11.19.17:916][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.26-11.19.17:922][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.26-11.19.17:922][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.26-11.19.17:930][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.10.26-11.19.17:940][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Intermediate/Shaders/WorkingDirectory/3460/).
+[2015.10.26-11.19.17:974][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Intermediate/Shaders/tmp/465FB7164EA6FCBF2AA0709EC420D91C/'.
+[2015.10.26-11.19.17:974][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.26-11.19.21:013][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.26-11.19.21:025][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.26-11.19.21:041][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.26-11.19.21:050][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.26-11.19.21:072][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.26-11.19.21:078][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.26-11.19.21:083][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.26-11.19.21:099][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.26-11.19.21:109][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.26-11.19.21:163][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.26-11.19.21:211][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.26-11.19.21:250][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.26-11.19.21:251][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.26-11.19.21:284][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.26-11.19.21:293][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.26-11.19.21:300][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.26-11.19.21:310][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.26-11.19.21:310][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.26-11.19.21:524][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.26-11.19.21:626][  0]LogDerivedDataCache: Loaded boot cache 0.10s 41MB C:/Users/Nikolai/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.26-11.19.21:626][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Nikolai/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.26-11.19.21:626][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.26-11.19.21:626][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.26-11.19.21:626][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.26-11.19.21:626][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.26-11.19.21:860][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.26-11.19.21:872][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nikolai/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.26-11.19.22:289][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.26-11.19.22:293][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.26-11.19.22:651][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.26-11.19.22:651][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.26-11.19.23:291][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.26-11.19.57:237][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.26-11.19.57:427][  0]LogAssetRegistry: FAssetRegistry took 0.0114 seconds to start up
+[2015.10.26-11.19.57:743][  0]SourceControl: Info Source control is disabled
+[2015.10.26-11.19.57:744][  0]SourceControl: Info Source control is disabled
+[2015.10.26-11.19.57:759][  0]SourceControl: Info Source control is disabled
+[2015.10.26-11.19.57:774][  0]SourceControl: Info Source control is disabled
+[2015.10.26-11.19.58:885][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.26-11.19.58:990][  0]LogObj: 28373 objects as part of root set at end of initial load.
+[2015.10.26-11.19.58:990][  0]LogUObjectAllocator: 6048600 out of 0 bytes used by permanent object pool.
+[2015.10.26-11.19.59:138][  0]LogEngine: Initializing Engine...
+[2015.10.26-11.19.59:142][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.10.26-11.19.59:143][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.10.26-11.19.59:389][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.26-11.19.59:396][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.26-11.19.59:405][  0]LogInit: FAudioDevice initialized.
+[2015.10.26-11.19.59:442][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/Nikolai/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.26-11.19.59:459][  0]LogInit: Texture streaming: Enabled
+[2015.10.26-11.19.59:467][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.26-11.19.59:467][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.10.26-11.19.59:467][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 53f6fc274a2158c2f1746fa617a06228|6e4a51694ea9490fbeb018a9c89f70b0|fd8891bc-30c8-439a-9b49-a1618c91fbf9
+[2015.10.26-11.19.59:467][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.26-11.19.59:633][  0]LogInit: Transaction tracking system initialized
+[2015.10.26-11.19.59:680][  0]BlueprintLog: New page: Editor Load
+[2015.10.26-11.19.59:887][  0]LocalizationService: Info Localization service is disabled
+[2015.10.26-11.20.00:510][  0]LogConsoleResponse:Display: 
+[2015.10.26-11.20.01:753][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/' took 0.24s
+[2015.10.26-11.20.01:753][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.26-11.20.03:540][  0]SourceControl: Info Source control is disabled
+[2015.10.26-11.20.03:540][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.26-11.20.03:700][  0]LightingResults: New page: Lighting Build
+[2015.10.26-11.20.03:704][  0]MapCheck: New page: Map Check
+[2015.10.26-11.20.03:704][  0]LightingResults: New page: Lighting Build
+[2015.10.26-11.20.03:730][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004D75A49E40
+[2015.10.26-11.20.08:957][  0]LogAIModule: Creating AISystem for world NewMap
+[2015.10.26-11.20.09:007][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.26-11.20.09:008][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.26-11.20.09:076][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 68.247ms to complete.
+[2015.10.26-11.20.09:076][  0]LogFileHelpers: Loading map 'NewMap' took 5.536
+[2015.10.26-11.20.09:811][  0]LogCollectionManager: Loaded 0 collections in 0.025043 seconds
+[2015.10.26-11.20.10:167][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Collections/' took 0.01s
+[2015.10.26-11.20.10:167][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Developers/Nikolai/Collections/' took 0.01s
+[2015.10.26-11.20.10:167][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Collections/' took 0.01s
+[2015.10.26-11.20.10:167][  0]LogContentBrowser: Native class hierarchy populated in 0.1337 seconds. Added 1868 classes and 335 folders.
+[2015.10.26-11.20.10:560][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2015.10.26-11.20.10:968][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2015.10.26-11.20.13:995][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2015.10.26-11.20.14:791][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2015.10.26-11.20.15:477][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.26-11.20.15:843][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.26-11.20.15:875][  0]LogLoad: Full Startup: 62.65 seconds (BP compile: 0.01 seconds)
+[2015.10.26-11.20.17:285][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.10.26-11.20.17:982][  0]LogRenderer: Reallocating scene render targets to support 772x612 (Frame:2).
+[2015.10.26-11.20.19:749][  3]LogAssetRegistry: Asset discovery search completed in 22.3341 seconds
+[2015.10.26-11.20.19:749][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.10.26-11.20.19:749][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000031 seconds (updated 0 objects)
+[2015.10.26-11.21.45:593][970]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2015.10.26-11.21.45:653][970]Recompiling TwinStickShooter...
+[2015.10.26-11.21.45:654][970]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe TwinStickShooter -ModuleWithSuffix TwinStickShooter 1962 Win64 Development -editorrecompile -canskiplink "C:/Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/TwinStickShooter.uproject" -rocket  -rocket]
+[2015.10.26-11.21.45:655][970]Warning: Starting HotReload took  0.1s.
+[2015.10.26-11.21.46:472][ 12]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.26-11.21.46:558][ 12]PIE: New page: PIE session: NewMap (Oct 26, 2015, 3:21:46 PM)
+[2015.10.26-11.21.46:559][ 12]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2015.10.26-11.21.46:607][ 12]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035701s)
+[2015.10.26-11.21.46:607][ 12]LogAIModule: Creating AISystem for world NewMap
+[2015.10.26-11.21.46:607][ 12]LogPlayLevel: PIE: World Init took: (0.001294s)
+[2015.10.26-11.21.46:609][ 12]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.049123s)
+[2015.10.26-11.21.46:659][ 12]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.26-11.21.46:667][ 12]LogInit: FAudioDevice initialized.
+[2015.10.26-11.21.47:122][ 12]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body'
+[2015.10.26-11.21.47:122][ 12]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset.
+[2015.10.26-11.21.47:122][ 12]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body
+[2015.10.26-11.21.47:122][ 12]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo'
+[2015.10.26-11.21.47:122][ 12]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset.
+[2015.10.26-11.21.47:122][ 12]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo
+[2015.10.26-11.21.47:123][ 12]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body'
+[2015.10.26-11.21.47:123][ 12]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset.
+[2015.10.26-11.21.47:123][ 12]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo'
+[2015.10.26-11.21.47:123][ 12]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset.
+[2015.10.26-11.21.47:123][ 12]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset'
+[2015.10.26-11.21.47:123][ 12]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset.
+[2015.10.26-11.21.47:123][ 12]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset
+[2015.10.26-11.21.47:123][ 12]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.21.47:124][ 12]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset.
+[2015.10.26-11.21.47:124][ 12]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton
+[2015.10.26-11.21.47:124][ 12]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset'
+[2015.10.26-11.21.47:124][ 12]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset.
+[2015.10.26-11.21.47:124][ 12]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.21.47:124][ 12]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset.
+[2015.10.26-11.21.47:238][ 12]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton'
+[2015.10.26-11.21.47:238][ 12]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by SK_Mannequin
+[2015.10.26-11.21.47:239][ 12]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2015.10.26-11.21.47:239][ 12]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset'
+[2015.10.26-11.21.47:239][ 12]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset.SK_Mannequin_PhysicsAsset Referenced by SK_Mannequin
+[2015.10.26-11.21.47:239][ 12]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset' while loading NULL.
+[2015.10.26-11.21.47:240][ 12]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body'
+[2015.10.26-11.21.47:240][ 12]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.M_UE4Man_Body Referenced by SK_Mannequin
+[2015.10.26-11.21.47:240][ 12]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body' while loading NULL.
+[2015.10.26-11.21.47:241][ 12]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo'
+[2015.10.26-11.21.47:241][ 12]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo.M_UE4Man_ChestLogo Referenced by SK_Mannequin
+[2015.10.26-11.21.47:241][ 12]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo' while loading NULL.
+[2015.10.26-11.21.47:697][ 12]LogWorld: Game class is 'TwinStickMode_C'
+[2015.10.26-11.21.47:796][ 12]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2015.10.26-13.21.47
+[2015.10.26-11.21.47:796][ 12]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-11.21.47:796][ 12]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-11.21.47:797][ 12]LogWorld: Bringing up level for play took: 0.003367
+[2015.10.26-11.21.48:315][ 12]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 1.12
+[2015.10.26-11.22.00:497][924]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.26-11.22.00:530][924]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004D6B141440
+[2015.10.26-11.22.05:396][295]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2015.10.26-11.22.14:430][818]Cmd: SELECT NONE
+[2015.10.26-11.23.49:921][271]CompilerResultsLog: New page: Compilation - Oct 26, 2015, 3:23:49 PM
+[2015.10.26-11.23.49:929][271]CompilerResultsLog: Info Creating makefile for hot reloading TwinStickShooter (modules to compile have changed)
+[2015.10.26-11.23.49:929][271]CompilerResultsLog: Info Compiling game modules for hot reload
+[2015.10.26-11.23.49:929][271]CompilerResultsLog: Info Target is up to date.
+[2015.10.26-11.23.49:929][271]LogMainFrame: MainFrame: Module compiling took 124.336 seconds
+[2015.10.26-11.25.18:829][893]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.26-11.25.21:484][893]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0252 seconds. Added 107 classes and 0 folders.
+[2015.10.26-11.25.47:735][677]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:106][692]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:147][693]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:169][694]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:195][695]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:218][696]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:242][697]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:262][698]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:315][699]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:340][700]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:354][701]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:370][702]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:405][703]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:423][704]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:467][705]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:489][706]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:507][707]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:534][708]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:552][709]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:581][710]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:601][711]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:650][712]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:672][713]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:692][714]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:706][715]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:742][716]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:764][717]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:805][718]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:827][719]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:847][720]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:868][721]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:891][722]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:912][723]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:932][724]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.48:989][725]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:010][726]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:030][727]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:051][728]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:072][729]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:092][730]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:133][731]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:159][732]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:182][733]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:205][734]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:232][735]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:254][736]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:275][737]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:326][738]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:351][739]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:375][740]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:427][741]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:442][742]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:577][743]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:615][743]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:618][743]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.26-11.25.49:680][744]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:696][745]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:712][746]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:729][747]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:748][748]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:769][749]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:799][750]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:825][751]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:846][752]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:862][753]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:878][754]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:893][755]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:922][756]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:955][757]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:973][758]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.49:988][759]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.50:004][760]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.25.50:026][761]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.46:536][351]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.46:550][352]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.46:563][353]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.46:579][354]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.46:597][355]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.46:613][356]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.46:656][357]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.46:673][358]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.46:690][359]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.46:707][360]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.46:724][361]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.46:741][362]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.46:757][363]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.46:805][364]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.46:824][365]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.46:863][366]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.46:879][367]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.46:924][368]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.46:943][369]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.46:958][370]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.47:004][371]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.47:023][372]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.47:045][373]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.47:066][374]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.47:086][375]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.47:107][376]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.47:125][377]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.47:190][378]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.47:205][379]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.47:218][380]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.47:235][381]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.47:269][382]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.47:285][383]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-11.26.53:577][384]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2015.10.26-11.27.14:693][  9]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4'
+[2015.10.26-11.27.14:693][  9]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.27.14:693][  9]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4
+[2015.10.26-11.27.14:693][  9]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige'
+[2015.10.26-11.27.14:694][  9]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.27.14:694][  9]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige
+[2015.10.26-11.27.14:694][  9]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO'
+[2015.10.26-11.27.14:694][  9]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.27.14:694][  9]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO
+[2015.10.26-11.27.14:694][  9]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4'
+[2015.10.26-11.27.14:695][  9]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.27.14:695][  9]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4
+[2015.10.26-11.27.14:696][  9]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4'
+[2015.10.26-11.27.14:696][  9]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.27.14:696][  9]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige'
+[2015.10.26-11.27.14:696][  9]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.27.14:697][  9]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO'
+[2015.10.26-11.27.14:697][  9]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.27.14:697][  9]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4'
+[2015.10.26-11.27.14:699][  9]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.27.14:699][  9]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin__normals'
+[2015.10.26-11.27.14:699][  9]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin__normals' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.27.14:700][  9]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin__normals
+[2015.10.26-11.27.14:700][  9]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA'
+[2015.10.26-11.27.14:700][  9]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.27.14:700][  9]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA
+[2015.10.26-11.27.14:700][  9]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile'
+[2015.10.26-11.27.14:700][  9]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.27.14:700][  9]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile
+[2015.10.26-11.27.14:701][  9]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin__normals'
+[2015.10.26-11.27.14:701][  9]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin__normals' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.27.14:701][  9]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA'
+[2015.10.26-11.27.14:701][  9]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.27.14:701][  9]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile'
+[2015.10.26-11.27.14:704][  9]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset.
+[2015.10.26-11.27.14:706][  9]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4'
+[2015.10.26-11.27.14:706][  9]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.ML_GlossyBlack_Latex_UE4 Referenced by M_UE4Man_Body
+[2015.10.26-11.27.14:707][  9]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4' while loading NULL.
+[2015.10.26-11.27.14:707][  9]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4'
+[2015.10.26-11.27.14:707][  9]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4.ML_SoftMetal_UE4 Referenced by M_UE4Man_Body
+[2015.10.26-11.27.14:707][  9]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4' while loading NULL.
+[2015.10.26-11.27.14:707][  9]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige'
+[2015.10.26-11.27.14:707][  9]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.ML_Plastic_Shiny_Beige Referenced by M_UE4Man_Body
+[2015.10.26-11.27.14:708][  9]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige' while loading NULL.
+[2015.10.26-11.27.14:708][  9]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO'
+[2015.10.26-11.27.14:708][  9]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.ML_Plastic_Shiny_Beige_LOGO Referenced by M_UE4Man_Body
+[2015.10.26-11.27.14:708][  9]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO' while loading NULL.
+[2015.10.26-11.27.14:712][  9]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige'
+[2015.10.26-11.27.14:712][  9]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.ML_Plastic_Shiny_Beige Referenced by MaterialExpressionMaterialFunctionCall_13
+[2015.10.26-11.27.14:712][  9]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige' while loading NULL.
+[2015.10.26-11.27.14:713][  9]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO'
+[2015.10.26-11.27.14:713][  9]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.ML_Plastic_Shiny_Beige_LOGO Referenced by MaterialExpressionMaterialFunctionCall_3
+[2015.10.26-11.27.14:713][  9]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO' while loading NULL.
+[2015.10.26-11.27.14:713][  9]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4'
+[2015.10.26-11.27.14:714][  9]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.ML_GlossyBlack_Latex_UE4 Referenced by MaterialExpressionMaterialFunctionCall_8
+[2015.10.26-11.27.14:714][  9]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4' while loading NULL.
+[2015.10.26-11.27.14:714][  9]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4'
+[2015.10.26-11.27.14:714][  9]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4.ML_SoftMetal_UE4 Referenced by MaterialExpressionMaterialFunctionCall_9
+[2015.10.26-11.27.14:714][  9]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4' while loading NULL.
+[2015.10.26-11.27.14:715][  9]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA'
+[2015.10.26-11.27.14:715][  9]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA.UE4_Mannequin_MAT_MASKA Referenced by MaterialExpressionTextureSample_4
+[2015.10.26-11.27.14:715][  9]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA' while loading NULL.
+[2015.10.26-11.27.14:715][  9]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin__normals'
+[2015.10.26-11.27.14:715][  9]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin__normals.UE4_Mannequin__normals Referenced by MaterialExpressionTextureSampleParameter2D_0
+[2015.10.26-11.27.14:715][  9]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin__normals' while loading NULL.
+[2015.10.26-11.27.14:716][  9]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile'
+[2015.10.26-11.27.14:716][  9]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile.UE4_Mannequin_occlusion_Mobile Referenced by MaterialExpressionTextureSampleParameter2D_1
+[2015.10.26-11.27.14:716][  9]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile' while loading NULL.
+[2015.10.26-11.27.14:789][  9]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2015.10.26-11.27.14:822][  9]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.M_UE4Man_Body for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.26-11.27.14:822][  9]LogMaterial:Warning: 	Missing Material Function
+[2015.10.26-11.27.14:822][  9]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node BreakMaterialAttributes) Cannot connect a non MaterialAttributes node to a MaterialAttributes pin.
+[2015.10.26-11.27.14:822][  9]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.27.14:822][  9]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.27.14:822][  9]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.27.14:822][  9]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2015.10.26-11.27.14:822][  9]LogMaterial:Warning: 	Function MatLayerBlend_Simple: Missing Material Function
+[2015.10.26-11.27.14:822][  9]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.27.14:822][  9]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.27.14:822][  9]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.27.14:822][  9]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2015.10.26-11.27.14:822][  9]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2015.10.26-11.27.22:421][344]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2015.10.26-11.27.22:424][344]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_UE4Man_Body for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.26-11.27.22:424][344]LogMaterial:Warning: 	Missing Material Function
+[2015.10.26-11.27.22:424][344]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node BreakMaterialAttributes) Cannot connect a non MaterialAttributes node to a MaterialAttributes pin.
+[2015.10.26-11.27.22:424][344]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.27.22:424][344]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.27.22:424][344]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.27.22:424][344]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2015.10.26-11.27.22:424][344]LogMaterial:Warning: 	Function MatLayerBlend_Simple: Missing Material Function
+[2015.10.26-11.27.22:424][344]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.27.22:424][344]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.27.22:424][344]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.27.22:424][344]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2015.10.26-11.27.22:424][344]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2015.10.26-11.27.22:851][344]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2015.10.26-11.27.22:853][344]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_UE4Man_Body for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.26-11.27.22:853][344]LogMaterial:Warning: 	Missing Material Function
+[2015.10.26-11.27.22:853][344]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node BreakMaterialAttributes) Cannot connect a non MaterialAttributes node to a MaterialAttributes pin.
+[2015.10.26-11.27.22:853][344]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.27.22:853][344]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.27.22:853][344]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.27.22:853][344]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2015.10.26-11.27.22:853][344]LogMaterial:Warning: 	Function MatLayerBlend_Simple: Missing Material Function
+[2015.10.26-11.27.22:853][344]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.27.22:853][344]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.27.22:853][344]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.27.22:853][344]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2015.10.26-11.27.22:853][344]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2015.10.26-11.27.22:875][344]LogMaterial: 0.022301 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-11.27.22:962][344]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.10.26-11.27.23:031][344]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2015.10.26-11.27.23:247][344]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2015.10.26-11.27.23:249][344]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2015.10.26-11.27.23:314][344]MaterialEditorStats:Error: Error [SM5] Missing Material Function
+[2015.10.26-11.27.23:314][344]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_NormalBlend: (Node BreakMaterialAttributes) Cannot connect a non MaterialAttributes node to a MaterialAttributes pin.
+[2015.10.26-11.27.23:314][344]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.27.23:314][344]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.27.23:314][344]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.27.23:314][344]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2015.10.26-11.27.23:314][344]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_Simple: Missing Material Function
+[2015.10.26-11.27.23:315][344]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_Simple: (Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.27.23:315][344]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.27.23:315][344]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.27.23:315][344]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2015.10.26-11.27.23:315][344]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2015.10.26-11.29.27:116][490]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body'
+[2015.10.26-11.29.27:117][490]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo.uasset.
+[2015.10.26-11.29.27:117][490]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body
+[2015.10.26-11.29.27:117][490]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body'
+[2015.10.26-11.29.27:117][490]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo.uasset.
+[2015.10.26-11.29.27:117][490]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4Man_Logo_N'
+[2015.10.26-11.29.27:117][490]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4Man_Logo_N' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo.uasset.
+[2015.10.26-11.29.27:118][490]LoadErrors:Error: Error /Game/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo : Can't find file for asset. /Game/AnimationAssets/UE4_Mannequin/Textures/UE4Man_Logo_N
+[2015.10.26-11.29.27:118][490]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4Man_Logo_N'
+[2015.10.26-11.29.27:118][490]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4Man_Logo_N' while loading ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo.uasset.
+[2015.10.26-11.29.27:119][490]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body'
+[2015.10.26-11.29.27:119][490]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.M_UE4Man_Body Referenced by M_UE4Man_ChestLogo
+[2015.10.26-11.29.27:119][490]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body' while loading NULL.
+[2015.10.26-11.29.27:119][490]LogLinker:Warning: Can't find file '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4Man_Logo_N'
+[2015.10.26-11.29.27:120][490]LoadErrors: Info Failed to load /Game/AnimationAssets/UE4_Mannequin/Textures/UE4Man_Logo_N.UE4Man_Logo_N Referenced by M_UE4Man_ChestLogo
+[2015.10.26-11.29.27:120][490]LogLinker:Warning: Can't find file for asset '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4Man_Logo_N' while loading NULL.
+[2015.10.26-11.31.14:333][901]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.10.26-11.31.30:948][541]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.10.26-11.32.26:478][ 97]BlueprintLog: New page: Compile EnemyCharacter
+[2015.10.26-11.32.26:730][ 97]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.10.26-11.32.26:829][ 97]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004D06D22200
+[2015.10.26-11.32.26:840][ 97]BlueprintEditorCompileResults: Info [0793.61] Compile of EnemyCharacter successful! [in 362 ms]
+[2015.10.26-11.32.43:736][206]BlueprintLog: New page: Compile EnemyCharacter
+[2015.10.26-11.32.43:905][206]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.26-11.32.43:958][206]BlueprintEditorCompileResults: Info [0810.73] Compile of EnemyCharacter successful! [in 222 ms]
+[2015.10.26-11.32.44:953][284]BlueprintLog: New page: Compile EnemyCharacter
+[2015.10.26-11.32.45:009][284]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.26-11.32.45:060][284]BlueprintEditorCompileResults: Info [0811.83] Compile of EnemyCharacter successful! [in 106 ms]
+[2015.10.26-11.32.45:764][341]BlueprintLog: New page: Compile EnemyCharacter
+[2015.10.26-11.32.45:824][341]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.26-11.32.45:875][341]BlueprintEditorCompileResults: Info [0812.65] Compile of EnemyCharacter successful! [in 111 ms]
+[2015.10.26-11.33.09:166][609]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2015.10.26-11.33.18:412][212]BlueprintLog: New page: Compile EnemyCharacter
+[2015.10.26-11.33.18:572][212]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.26-11.33.18:618][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004D0D34B2E0
+[2015.10.26-11.33.18:620][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004D0D348720
+[2015.10.26-11.33.18:622][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004D04DD51C0
+[2015.10.26-11.33.18:631][212]BlueprintEditorCompileResults: Info [0845.40] Compile of EnemyCharacter successful! [in 218 ms]
+[2015.10.26-11.33.28:333][976]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.26-11.33.28:333][976]PIE: New page: PIE session: NewMap (Oct 26, 2015, 3:33:28 PM)
+[2015.10.26-11.33.28:333][976]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2015.10.26-11.33.28:338][976]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004586s)
+[2015.10.26-11.33.28:339][976]LogAIModule: Creating AISystem for world NewMap
+[2015.10.26-11.33.28:339][976]LogPlayLevel: PIE: World Init took: (0.001120s)
+[2015.10.26-11.33.28:339][976]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.005931s)
+[2015.10.26-11.33.28:339][976]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.26-11.33.28:390][976]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.26-11.33.28:398][976]LogInit: FAudioDevice initialized.
+[2015.10.26-11.33.28:437][976]LogWorld: Game class is 'TwinStickMode_C'
+[2015.10.26-11.33.28:440][976]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2015.10.26-13.33.28
+[2015.10.26-11.33.28:440][976]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-11.33.28:441][976]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-11.33.28:441][976]LogWorld: Bringing up level for play took: 0.003090
+[2015.10.26-11.33.28:465][976]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.731
+[2015.10.26-11.33.41:293][999]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004D04DD7F60
+[2015.10.26-11.33.49:725][608]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2015.10.26-11.33.57:529][987]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2015.10.26-11.33.57:531][987]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_UE4Man_Body for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.26-11.33.57:531][987]LogMaterial:Warning: 	Missing Material Function
+[2015.10.26-11.33.57:531][987]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node BreakMaterialAttributes) Cannot connect a non MaterialAttributes node to a MaterialAttributes pin.
+[2015.10.26-11.33.57:531][987]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.33.57:531][987]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.33.57:531][987]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.33.57:531][987]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2015.10.26-11.33.57:531][987]LogMaterial:Warning: 	Function MatLayerBlend_Simple: Missing Material Function
+[2015.10.26-11.33.57:531][987]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.33.57:531][987]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.33.57:531][987]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.33.57:531][987]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2015.10.26-11.33.57:531][987]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2015.10.26-11.33.57:703][987]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2015.10.26-11.33.57:705][987]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_UE4Man_Body for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.26-11.33.57:705][987]LogMaterial:Warning: 	Missing Material Function
+[2015.10.26-11.33.57:705][987]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node BreakMaterialAttributes) Cannot connect a non MaterialAttributes node to a MaterialAttributes pin.
+[2015.10.26-11.33.57:705][987]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.33.57:705][987]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.33.57:705][987]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.33.57:705][987]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2015.10.26-11.33.57:705][987]LogMaterial:Warning: 	Function MatLayerBlend_Simple: Missing Material Function
+[2015.10.26-11.33.57:705][987]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.33.57:705][987]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.33.57:705][987]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.33.57:705][987]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2015.10.26-11.33.57:705][987]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2015.10.26-11.33.57:705][987]LogMaterial: 0.000087 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-11.33.57:764][987]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.10.26-11.33.57:803][987]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2015.10.26-11.33.57:837][987]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2015.10.26-11.33.57:838][987]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2015.10.26-11.33.57:841][987]MaterialEditorStats:Error: Error [SM5] Missing Material Function
+[2015.10.26-11.33.57:841][987]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_NormalBlend: (Node BreakMaterialAttributes) Cannot connect a non MaterialAttributes node to a MaterialAttributes pin.
+[2015.10.26-11.33.57:841][987]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.33.57:841][987]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.33.57:841][987]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.33.57:841][987]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2015.10.26-11.33.57:841][987]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_Simple: Missing Material Function
+[2015.10.26-11.33.57:841][987]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_Simple: (Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.33.57:841][987]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.33.57:842][987]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.33.57:842][987]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2015.10.26-11.33.57:842][987]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2015.10.26-11.34.40:624][701]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2015.10.26-11.34.40:625][701]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_UE4Man_Body for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.26-11.34.40:625][701]LogMaterial:Warning: 	(Node StaticSwitchParameter) Missing A input
+[2015.10.26-11.34.40:625][701]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.34.40:625][701]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.34.40:625][701]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.34.40:625][701]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2015.10.26-11.34.40:626][701]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-11.34.40:652][701]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2015.10.26-11.34.40:656][701]MaterialEditorStats:Error: Error [SM5] (Node StaticSwitchParameter) Missing A input
+[2015.10.26-11.34.40:656][701]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.34.40:656][701]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.34.40:656][701]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.34.40:656][701]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2015.10.26-11.34.44:449][953]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2015.10.26-11.34.44:450][953]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_UE4Man_Body for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.26-11.34.44:450][953]LogMaterial:Warning: 	(Node StaticSwitchParameter) Missing A input
+[2015.10.26-11.34.44:450][953]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.34.44:450][953]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.34.44:450][953]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.34.44:450][953]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2015.10.26-11.34.44:450][953]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-11.34.44:524][953]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2015.10.26-11.34.48:366][199]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2015.10.26-11.34.48:368][199]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_UE4Man_Body for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.26-11.34.48:368][199]LogMaterial:Warning: 	(Node StaticSwitchParameter) Missing A input
+[2015.10.26-11.34.48:368][199]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.34.48:368][199]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.34.48:368][199]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.34.48:368][199]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2015.10.26-11.34.48:368][199]LogMaterial: 0.000159 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-11.34.48:458][199]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2015.10.26-11.34.50:564][320]LogMaterialEditor: Applying material M_UE4Man_Body
+[2015.10.26-11.35.01:100][462]Cmd: TRANSACTION UNDO
+[2015.10.26-11.35.01:118][462]LogEditorTransaction: Undo Create Pin Link
+[2015.10.26-11.35.01:162][462]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2015.10.26-11.35.01:163][462]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_UE4Man_Body for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.26-11.35.01:163][462]LogMaterial:Warning: 	(Node StaticSwitchParameter) Missing A input
+[2015.10.26-11.35.01:163][462]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.35.01:163][462]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.35.01:163][462]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.35.01:163][462]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2015.10.26-11.35.01:249][462]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2015.10.26-11.35.01:250][462]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_UE4Man_Body for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.26-11.35.01:250][462]LogMaterial:Warning: 	(Node StaticSwitchParameter) Missing A input
+[2015.10.26-11.35.01:250][462]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.35.01:250][462]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.35.01:250][462]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.35.01:250][462]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2015.10.26-11.35.01:250][462]LogMaterial: 0.000044 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-11.35.01:310][462]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2015.10.26-11.35.01:571][472]Cmd: TRANSACTION UNDO
+[2015.10.26-11.35.01:571][472]LogEditorTransaction: Undo Move Node
+[2015.10.26-11.35.01:619][472]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2015.10.26-11.35.01:620][472]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_UE4Man_Body for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.26-11.35.01:620][472]LogMaterial:Warning: 	(Node StaticSwitchParameter) Missing A input
+[2015.10.26-11.35.01:620][472]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.35.01:620][472]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.35.01:620][472]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.35.01:620][472]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2015.10.26-11.35.01:620][472]LogMaterial: 0.000044 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-11.35.02:135][498]Cmd: TRANSACTION UNDO
+[2015.10.26-11.35.02:135][498]LogEditorTransaction: Undo Create Pin Link
+[2015.10.26-11.35.02:169][498]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2015.10.26-11.35.02:170][498]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_UE4Man_Body for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.26-11.35.02:170][498]LogMaterial:Warning: 	(Node StaticSwitchParameter) Missing A input
+[2015.10.26-11.35.02:170][498]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.35.02:170][498]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.35.02:170][498]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.35.02:170][498]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2015.10.26-11.35.02:204][498]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2015.10.26-11.35.02:205][498]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_UE4Man_Body for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.26-11.35.02:205][498]LogMaterial:Warning: 	(Node StaticSwitchParameter) Missing A input
+[2015.10.26-11.35.02:205][498]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.35.02:205][498]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.35.02:205][498]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.35.02:205][498]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2015.10.26-11.35.02:205][498]LogMaterial: 0.000046 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-11.35.02:268][498]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2015.10.26-11.35.02:509][510]Cmd: TRANSACTION UNDO
+[2015.10.26-11.35.02:509][510]LogEditorTransaction: Undo Create Pin Link
+[2015.10.26-11.35.02:527][510]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2015.10.26-11.35.02:529][510]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_UE4Man_Body for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.26-11.35.02:529][510]LogMaterial:Warning: 	Missing Material Function
+[2015.10.26-11.35.02:529][510]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node BreakMaterialAttributes) Cannot connect a non MaterialAttributes node to a MaterialAttributes pin.
+[2015.10.26-11.35.02:529][510]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.35.02:529][510]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.35.02:529][510]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.35.02:529][510]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2015.10.26-11.35.02:529][510]LogMaterial:Warning: 	Function MatLayerBlend_Simple: Missing Material Function
+[2015.10.26-11.35.02:529][510]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.35.02:529][510]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.35.02:529][510]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.35.02:529][510]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2015.10.26-11.35.02:529][510]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2015.10.26-11.35.02:536][510]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2015.10.26-11.35.02:537][510]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_UE4Man_Body for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.26-11.35.02:538][510]LogMaterial:Warning: 	Missing Material Function
+[2015.10.26-11.35.02:538][510]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node BreakMaterialAttributes) Cannot connect a non MaterialAttributes node to a MaterialAttributes pin.
+[2015.10.26-11.35.02:538][510]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.35.02:538][510]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.35.02:538][510]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.35.02:538][510]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2015.10.26-11.35.02:538][510]LogMaterial:Warning: 	Function MatLayerBlend_Simple: Missing Material Function
+[2015.10.26-11.35.02:538][510]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.35.02:538][510]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.35.02:538][510]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.35.02:538][510]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2015.10.26-11.35.02:538][510]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2015.10.26-11.35.02:538][510]LogMaterial: 0.000043 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-11.35.02:579][510]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2015.10.26-11.35.02:585][510]MaterialEditorStats:Error: Error [SM5] Missing Material Function
+[2015.10.26-11.35.02:585][510]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_NormalBlend: (Node BreakMaterialAttributes) Cannot connect a non MaterialAttributes node to a MaterialAttributes pin.
+[2015.10.26-11.35.02:585][510]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.35.02:585][510]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.35.02:585][510]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.35.02:585][510]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2015.10.26-11.35.02:585][510]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_Simple: Missing Material Function
+[2015.10.26-11.35.02:585][510]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_Simple: (Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.35.02:585][510]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.35.02:585][510]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.35.02:585][510]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2015.10.26-11.35.02:585][510]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2015.10.26-11.35.22:384][648]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2015.10.26-11.35.22:386][648]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_UE4Man_Body for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.26-11.35.22:386][648]LogMaterial:Warning: 	Missing Material Function
+[2015.10.26-11.35.22:386][648]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node BreakMaterialAttributes) Cannot connect a non MaterialAttributes node to a MaterialAttributes pin.
+[2015.10.26-11.35.22:386][648]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.35.22:386][648]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.35.22:386][648]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.35.22:386][648]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2015.10.26-11.35.22:386][648]LogMaterial:Warning: 	Function MatLayerBlend_Simple: Missing Material Function
+[2015.10.26-11.35.22:386][648]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.35.22:386][648]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.35.22:386][648]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.35.22:386][648]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2015.10.26-11.35.22:386][648]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2015.10.26-11.35.22:386][648]LogMaterial: 0.000058 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-11.35.26:157][878]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2015.10.26-11.35.26:158][878]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_UE4Man_Body for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.26-11.35.26:158][878]LogMaterial:Warning: 	Missing Material Function
+[2015.10.26-11.35.26:158][878]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node BreakMaterialAttributes) Cannot connect a non MaterialAttributes node to a MaterialAttributes pin.
+[2015.10.26-11.35.26:158][878]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.35.26:159][878]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.35.26:159][878]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.35.26:159][878]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2015.10.26-11.35.26:159][878]LogMaterial:Warning: 	Function MatLayerBlend_Simple: Missing Material Function
+[2015.10.26-11.35.26:159][878]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.35.26:159][878]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.35.26:159][878]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.35.26:159][878]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2015.10.26-11.35.26:159][878]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2015.10.26-11.35.26:159][878]LogMaterial: 0.000040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-11.35.28:492][ 16]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.10.26-11.35.28:509][ 16]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2015.10.26-11.35.28:537][ 16]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2015.10.26-11.35.28:560][ 16]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2015.10.26-11.35.33:078][258]LogMaterialEditor: Applying material M_UE4Man_Body
+[2015.10.26-11.36.13:212][334]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.26-11.36.13:212][334]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.10.26-11.36.13:269][334]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004D153F1A80
+[2015.10.26-11.36.13:279][334]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004D0A7C89A0
+[2015.10.26-11.36.13:281][334]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004D0A7C8360
+[2015.10.26-11.36.13:284][334]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.073
+[2015.10.26-11.36.13:337][334]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin] ([1] browsable assets)...
+[2015.10.26-11.36.13:392][334]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin]
+[2015.10.26-11.36.13:392][334]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin]
+[2015.10.26-11.36.13:854][334]LogSavePackage: Save=147.854645ms
+[2015.10.26-11.36.13:854][334]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/SK_Mannequin_Auto17B2D29824F4C7992E7296298AE88EE09.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Autosaves/Game/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_Auto1.uasset'
+[2015.10.26-11.36.13:921][334]LogSavePackage: Total save time: 497.854404ms
+[2015.10.26-11.36.13:921][334]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Autosaves/Game/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_Auto1.uasset
+[2015.10.26-11.36.13:936][334]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/EnemyCharacter] ([1] browsable assets)...
+[2015.10.26-11.36.13:960][334]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/EnemyCharacter.EnemyCharacter]
+[2015.10.26-11.36.13:960][334]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/EnemyCharacter]
+[2015.10.26-11.36.13:965][334]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh' in Blueprint '/Game/Blueprints/EnemyCharacter.EnemyCharacter' which is setup as pure
+[2015.10.26-11.36.13:973][334]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh' in Blueprint '/Game/Blueprints/EnemyCharacter.EnemyCharacter' which is setup as pure
+[2015.10.26-11.36.13:977][334]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh' in Blueprint '/Game/Blueprints/EnemyCharacter.EnemyCharacter' which is setup as pure
+[2015.10.26-11.36.13:995][334]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh' in Blueprint '/Game/Blueprints/EnemyCharacter.EnemyCharacter' which is setup as pure
+[2015.10.26-11.36.14:011][334]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh' in Blueprint '/Game/Blueprints/EnemyCharacter.EnemyCharacter' which is setup as pure
+[2015.10.26-11.36.14:017][334]LogSavePackage: Save=54.254719ms
+[2015.10.26-11.36.14:017][334]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/EnemyCharacter_Auto10CE9199A4094B03767DE1FBA0CF20C78.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Autosaves/Game/Blueprints/EnemyCharacter_Auto1.uasset'
+[2015.10.26-11.36.14:054][334]LogSavePackage: Total save time: 92.363782ms
+[2015.10.26-11.36.14:054][334]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Autosaves/Game/Blueprints/EnemyCharacter_Auto1.uasset
+[2015.10.26-11.36.14:060][334]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_Skeleton] ([1] browsable assets)...
+[2015.10.26-11.36.14:060][334]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_Skeleton]
+[2015.10.26-11.36.14:068][334]LogSavePackage: Save=5.571438ms
+[2015.10.26-11.36.14:068][334]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/SK_Mannequin_Skeleton_Auto1B7A260794C79FC873745368AA32C211E.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Autosaves/Game/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_Skeleton_Auto1.uasset'
+[2015.10.26-11.36.14:070][334]LogSavePackage: Total save time: 7.409323ms
+[2015.10.26-11.36.14:070][334]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Autosaves/Game/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_Skeleton_Auto1.uasset
+[2015.10.26-11.36.14:070][334]LogFileHelpers: Auto-saving content packages took 0.783
+[2015.10.26-11.37.44:241][ 90]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.26-11.37.44:867][110]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.10.26-11.37.45:115][117]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.10.26-11.37.47:271][195]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.10.26-11.37.50:743][326]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.10.26-11.37.50:743][326]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Tech_Hex_Tile.M_Tech_Hex_Tile needed to have new flag set bUsedWithSkeletalMesh !
+[2015.10.26-11.37.50:763][326]LogMaterial: Missing cached shader map for material M_Tech_Hex_Tile, compiling. 
+[2015.10.26-11.37.50:904][326]LogMaterial: 0.000186 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-11.41.46:716][851]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.10.26-11.41.51:483][ 62]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.10.26-11.41.51:485][ 62]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.26-11.41.51:485][ 62]LogMaterial:Warning: 	Missing Material Function
+[2015.10.26-11.41.51:485][ 62]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node BreakMaterialAttributes) Cannot connect a non MaterialAttributes node to a MaterialAttributes pin.
+[2015.10.26-11.41.51:485][ 62]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.41.51:485][ 62]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.41.51:485][ 62]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.41.51:485][ 62]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2015.10.26-11.41.51:485][ 62]LogMaterial:Warning: 	Function MatLayerBlend_Simple: Missing Material Function
+[2015.10.26-11.41.51:485][ 62]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.41.51:485][ 62]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.41.51:485][ 62]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.41.51:485][ 62]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2015.10.26-11.41.51:485][ 62]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2015.10.26-11.41.51:618][ 62]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.10.26-11.41.51:620][ 62]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.26-11.41.51:620][ 62]LogMaterial:Warning: 	Missing Material Function
+[2015.10.26-11.41.51:620][ 62]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node BreakMaterialAttributes) Cannot connect a non MaterialAttributes node to a MaterialAttributes pin.
+[2015.10.26-11.41.51:620][ 62]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.41.51:620][ 62]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.41.51:620][ 62]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.41.51:620][ 62]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2015.10.26-11.41.51:620][ 62]LogMaterial:Warning: 	Function MatLayerBlend_Simple: Missing Material Function
+[2015.10.26-11.41.51:620][ 62]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.41.51:620][ 62]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.41.51:620][ 62]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.41.51:620][ 62]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2015.10.26-11.41.51:620][ 62]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2015.10.26-11.41.51:621][ 62]LogMaterial: 0.000058 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-11.41.51:684][ 62]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.10.26-11.41.51:686][ 62]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2015.10.26-11.41.51:733][ 62]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2015.10.26-11.41.51:785][ 62]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2015.10.26-11.41.51:787][ 62]MaterialEditorStats:Error: Error [SM5] Missing Material Function
+[2015.10.26-11.41.51:787][ 62]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_NormalBlend: (Node BreakMaterialAttributes) Cannot connect a non MaterialAttributes node to a MaterialAttributes pin.
+[2015.10.26-11.41.51:787][ 62]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.41.51:787][ 62]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.41.51:787][ 62]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.41.51:787][ 62]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2015.10.26-11.41.51:788][ 62]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_Simple: Missing Material Function
+[2015.10.26-11.41.51:788][ 62]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_Simple: (Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.41.51:788][ 62]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.41.51:788][ 62]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.41.51:788][ 62]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2015.10.26-11.41.51:788][ 62]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2015.10.26-11.42.52:325][177]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.10.26-11.42.56:263][344]BlueprintLog: New page: Compile EnemyCharacter
+[2015.10.26-11.42.56:493][344]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.10.26-11.42.56:562][344]BlueprintEditorCompileResults: Info [1423.33] Compile of EnemyCharacter successful! [in 299 ms]
+[2015.10.26-11.43.26:898][766]BlueprintLog: New page: Compile EnemyCharacter
+[2015.10.26-11.43.27:003][766]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.26-11.43.27:084][766]BlueprintEditorCompileResults: Info [1453.86] Compile of EnemyCharacter successful! [in 185 ms]
+[2015.10.26-11.43.38:529][395]BlueprintLog: New page: Compile EnemyCharacter
+[2015.10.26-11.43.38:590][395]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.26-11.43.38:644][395]BlueprintEditorCompileResults: Info [1465.42] Compile of EnemyCharacter successful! [in 115 ms]
+[2015.10.26-11.44.57:858][903]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.26-11.45.00:659][ 13]BlueprintLog: New page: Compile EnemyCharacter
+[2015.10.26-11.45.00:847][ 13]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.10.26-11.45.00:904][ 13]BlueprintEditorCompileResults: Info [1547.68] Compile of EnemyCharacter successful! [in 244 ms]
+[2015.10.26-11.45.03:357][170]BlueprintLog: New page: Compile EnemyCharacter
+[2015.10.26-11.45.03:427][170]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.26-11.45.03:484][170]BlueprintEditorCompileResults: Info [1550.26] Compile of EnemyCharacter successful! [in 127 ms]
+[2015.10.26-11.45.05:159][276]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.26-11.45.05:159][276]PIE: New page: PIE session: NewMap (Oct 26, 2015, 3:45:05 PM)
+[2015.10.26-11.45.05:159][276]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2015.10.26-11.45.05:164][276]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004621s)
+[2015.10.26-11.45.05:165][276]LogAIModule: Creating AISystem for world NewMap
+[2015.10.26-11.45.05:165][276]LogPlayLevel: PIE: World Init took: (0.001212s)
+[2015.10.26-11.45.05:165][276]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.006059s)
+[2015.10.26-11.45.05:165][276]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.26-11.45.05:221][276]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.26-11.45.05:229][276]LogInit: FAudioDevice initialized.
+[2015.10.26-11.45.05:274][276]LogWorld: Game class is 'TwinStickMode_C'
+[2015.10.26-11.45.05:277][276]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2015.10.26-13.45.05
+[2015.10.26-11.45.05:277][276]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-11.45.05:277][276]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-11.45.05:278][276]LogWorld: Bringing up level for play took: 0.003104
+[2015.10.26-11.45.05:281][276]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.085
+[2015.10.26-11.45.06:654][367]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004D0811D580
+[2015.10.26-11.45.25:176][456]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2015.10.26-11.45.25:186][456]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-11.45.27:480][573]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.10.26-11.45.27:482][573]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.26-11.45.27:482][573]LogMaterial:Warning: 	Missing Material Function
+[2015.10.26-11.45.27:482][573]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node BreakMaterialAttributes) Cannot connect a non MaterialAttributes node to a MaterialAttributes pin.
+[2015.10.26-11.45.27:482][573]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.45.27:482][573]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.45.27:482][573]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.45.27:482][573]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2015.10.26-11.45.27:482][573]LogMaterial:Warning: 	Function MatLayerBlend_Simple: Missing Material Function
+[2015.10.26-11.45.27:482][573]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.45.27:482][573]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.45.27:482][573]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.45.27:482][573]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2015.10.26-11.45.27:482][573]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2015.10.26-11.45.27:482][573]LogMaterial: 0.000040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-11.45.45:285][625]LogMaterial: 0.000791 seconds spent updating 1 materials, 1 interfaces, 2 instances, 0 with static permutations.
+[2015.10.26-11.45.45:502][625]LogRenderer: Reallocating scene render targets to support 988x612 (Frame:60105).
+[2015.10.26-11.46.24:993][218]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004D1EC887C0
+[2015.10.26-11.46.24:996][218]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.052
+[2015.10.26-11.46.25:005][218]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/EnemyCharacter] ([1] browsable assets)...
+[2015.10.26-11.46.25:030][218]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/EnemyCharacter.EnemyCharacter]
+[2015.10.26-11.46.25:030][218]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/EnemyCharacter]
+[2015.10.26-11.46.25:036][218]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh' in Blueprint '/Game/Blueprints/EnemyCharacter.EnemyCharacter' which is setup as pure
+[2015.10.26-11.46.25:043][218]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh' in Blueprint '/Game/Blueprints/EnemyCharacter.EnemyCharacter' which is setup as pure
+[2015.10.26-11.46.25:047][218]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh' in Blueprint '/Game/Blueprints/EnemyCharacter.EnemyCharacter' which is setup as pure
+[2015.10.26-11.46.25:066][218]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh' in Blueprint '/Game/Blueprints/EnemyCharacter.EnemyCharacter' which is setup as pure
+[2015.10.26-11.46.25:083][218]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh' in Blueprint '/Game/Blueprints/EnemyCharacter.EnemyCharacter' which is setup as pure
+[2015.10.26-11.46.25:174][218]LogSavePackage: Save=140.663513ms
+[2015.10.26-11.46.25:174][218]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/EnemyCharacter_Auto2F528706C4394E138282F669DA19E3A37.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Autosaves/Game/Blueprints/EnemyCharacter_Auto2.uasset'
+[2015.10.26-11.46.25:175][218]LogSavePackage: Total save time: 142.186284ms
+[2015.10.26-11.46.25:175][218]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Autosaves/Game/Blueprints/EnemyCharacter_Auto2.uasset
+[2015.10.26-11.46.25:181][218]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Materials/M_Tech_Hex_Tile] ([1] browsable assets)...
+[2015.10.26-11.46.25:202][218]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Materials/M_Tech_Hex_Tile.M_Tech_Hex_Tile]
+[2015.10.26-11.46.25:202][218]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/M_Tech_Hex_Tile]
+[2015.10.26-11.46.25:295][218]LogSavePackage: Save=54.382816ms
+[2015.10.26-11.46.25:295][218]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/M_Tech_Hex_Tile_Auto29BD1BA0E491E1C4996ECC29CC3540310.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Autosaves/Game/StarterContent/Materials/M_Tech_Hex_Tile_Auto2.uasset'
+[2015.10.26-11.46.25:298][218]LogSavePackage: Total save time: 92.087433ms
+[2015.10.26-11.46.25:298][218]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Autosaves/Game/StarterContent/Materials/M_Tech_Hex_Tile_Auto2.uasset
+[2015.10.26-11.46.25:298][218]LogFileHelpers: Auto-saving content packages took 0.299
+[2015.10.26-11.47.53:526][ 58]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.26-11.47.53:526][ 58]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.M_Tech_Hex_Tile_Pulse needed to have new flag set bUsedWithSkeletalMesh !
+[2015.10.26-11.47.53:542][ 58]LogMaterial: Missing cached shader map for material M_Tech_Hex_Tile_Pulse, compiling. 
+[2015.10.26-11.47.53:595][ 58]LogMaterial: 0.000173 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-11.48.01:912][440]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2015.10.26-11.48.04:635][514]LogMaterial: Missing cached shader map for material M_Tech_Hex_Tile, compiling. 
+[2015.10.26-11.48.04:802][514]LogMaterial: Missing cached shader map for material M_Tech_Hex_Tile, compiling. 
+[2015.10.26-11.48.04:821][514]LogMaterial: 0.000081 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-11.48.04:858][514]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_25, compiling. 
+[2015.10.26-11.48.04:872][514]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionBumpOffset_3, compiling. 
+[2015.10.26-11.48.04:919][514]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_26, compiling. 
+[2015.10.26-11.48.04:940][514]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_27, compiling. 
+[2015.10.26-11.48.04:979][514]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_28, compiling. 
+[2015.10.26-11.48.04:983][514]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_7, compiling. 
+[2015.10.26-11.48.04:987][514]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_26, compiling. 
+[2015.10.26-11.48.40:295][249]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2015.10.26-11.48.41:433][282]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2015.10.26-11.48.41:434][282]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_UE4Man_Body for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.26-11.48.41:434][282]LogMaterial:Warning: 	Missing Material Function
+[2015.10.26-11.48.41:434][282]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node BreakMaterialAttributes) Cannot connect a non MaterialAttributes node to a MaterialAttributes pin.
+[2015.10.26-11.48.41:435][282]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.48.41:435][282]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.48.41:435][282]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.48.41:435][282]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2015.10.26-11.48.41:435][282]LogMaterial:Warning: 	Function MatLayerBlend_Simple: Missing Material Function
+[2015.10.26-11.48.41:435][282]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.48.41:435][282]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.48.41:435][282]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.48.41:435][282]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2015.10.26-11.48.41:435][282]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2015.10.26-11.48.41:797][282]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2015.10.26-11.48.41:799][282]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_UE4Man_Body for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.26-11.48.41:799][282]LogMaterial:Warning: 	Missing Material Function
+[2015.10.26-11.48.41:799][282]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node BreakMaterialAttributes) Cannot connect a non MaterialAttributes node to a MaterialAttributes pin.
+[2015.10.26-11.48.41:799][282]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.48.41:799][282]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.48.41:799][282]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.48.41:799][282]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2015.10.26-11.48.41:799][282]LogMaterial:Warning: 	Function MatLayerBlend_Simple: Missing Material Function
+[2015.10.26-11.48.41:799][282]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.48.41:799][282]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.48.41:799][282]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.48.41:799][282]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2015.10.26-11.48.41:799][282]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2015.10.26-11.48.41:799][282]LogMaterial: 0.000040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-11.48.41:856][282]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.10.26-11.48.41:887][282]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2015.10.26-11.48.41:920][282]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2015.10.26-11.48.41:943][282]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2015.10.26-11.48.41:951][282]MaterialEditorStats:Error: Error [SM5] Missing Material Function
+[2015.10.26-11.48.41:951][282]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_NormalBlend: (Node BreakMaterialAttributes) Cannot connect a non MaterialAttributes node to a MaterialAttributes pin.
+[2015.10.26-11.48.41:951][282]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.48.41:951][282]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.48.41:951][282]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.48.41:951][282]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2015.10.26-11.48.41:951][282]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_Simple: Missing Material Function
+[2015.10.26-11.48.41:951][282]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_Simple: (Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.48.41:951][282]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.48.41:951][282]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.48.41:951][282]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2015.10.26-11.48.41:951][282]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2015.10.26-11.48.54:965][938]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.10.26-11.48.54:994][938]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2015.10.26-11.48.54:995][938]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2015.10.26-11.49.34:437][833]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.10.26-11.49.34:438][833]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.26-11.49.34:438][833]LogMaterial:Warning: 	Missing Material Function
+[2015.10.26-11.49.34:438][833]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node BreakMaterialAttributes) Cannot connect a non MaterialAttributes node to a MaterialAttributes pin.
+[2015.10.26-11.49.34:438][833]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.49.34:438][833]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.49.34:438][833]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.49.34:438][833]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2015.10.26-11.49.34:438][833]LogMaterial:Warning: 	Function MatLayerBlend_Simple: Missing Material Function
+[2015.10.26-11.49.34:438][833]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.49.34:438][833]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.49.34:438][833]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.49.34:438][833]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2015.10.26-11.49.34:439][833]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2015.10.26-11.49.34:593][833]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.10.26-11.49.34:595][833]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.26-11.49.34:595][833]LogMaterial:Warning: 	Missing Material Function
+[2015.10.26-11.49.34:595][833]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node BreakMaterialAttributes) Cannot connect a non MaterialAttributes node to a MaterialAttributes pin.
+[2015.10.26-11.49.34:595][833]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.49.34:595][833]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.49.34:595][833]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.49.34:595][833]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2015.10.26-11.49.34:595][833]LogMaterial:Warning: 	Function MatLayerBlend_Simple: Missing Material Function
+[2015.10.26-11.49.34:595][833]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.49.34:595][833]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.49.34:595][833]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.49.34:595][833]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2015.10.26-11.49.34:595][833]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2015.10.26-11.49.34:595][833]LogMaterial: 0.000193 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-11.49.34:623][833]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.10.26-11.49.34:624][833]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2015.10.26-11.49.34:640][833]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2015.10.26-11.49.34:642][833]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2015.10.26-11.49.34:643][833]MaterialEditorStats:Error: Error [SM5] Missing Material Function
+[2015.10.26-11.49.34:643][833]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_NormalBlend: (Node BreakMaterialAttributes) Cannot connect a non MaterialAttributes node to a MaterialAttributes pin.
+[2015.10.26-11.49.34:643][833]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.10.26-11.49.34:643][833]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2015.10.26-11.49.34:643][833]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.49.34:643][833]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2015.10.26-11.49.34:643][833]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_Simple: Missing Material Function
+[2015.10.26-11.49.34:643][833]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_Simple: (Node TextureSample) TextureSample> Missing input texture
+[2015.10.26-11.49.34:643][833]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.49.34:643][833]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2015.10.26-11.49.34:643][833]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2015.10.26-11.49.34:643][833]MaterialEditorStats:Error: Error [SM5] Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2015.10.26-11.50.38:515][673]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2015.10.26-11.50.38:515][673]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2015.10.26-11.50.38:565][673]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004D08037240
+[2015.10.26-11.50.38:567][673]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004D083D1BC0
+[2015.10.26-11.50.38:570][673]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004D083913A0
+[2015.10.26-11.50.38:602][673]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004D201EE160
+[2015.10.26-11.50.59:827][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/EnemyCharacter" FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/EnemyCharacter.uasset" SILENT=true
+[2015.10.26-11.50.59:869][673]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh' in Blueprint '/Game/Blueprints/EnemyCharacter.EnemyCharacter' which is setup as pure
+[2015.10.26-11.50.59:877][673]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh' in Blueprint '/Game/Blueprints/EnemyCharacter.EnemyCharacter' which is setup as pure
+[2015.10.26-11.50.59:881][673]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh' in Blueprint '/Game/Blueprints/EnemyCharacter.EnemyCharacter' which is setup as pure
+[2015.10.26-11.50.59:899][673]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh' in Blueprint '/Game/Blueprints/EnemyCharacter.EnemyCharacter' which is setup as pure
+[2015.10.26-11.50.59:916][673]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh' in Blueprint '/Game/Blueprints/EnemyCharacter.EnemyCharacter' which is setup as pure
+[2015.10.26-11.50.59:926][673]LogSavePackage: Save=60.268238ms
+[2015.10.26-11.50.59:926][673]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/EnemyCharacterB1F8567C46C3035803AF07AFE91B3A16.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/EnemyCharacter.uasset'
+[2015.10.26-11.50.59:938][673]LogSavePackage: Total save time: 74.136201ms
+[2015.10.26-11.50.59:938][673]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Blueprints/EnemyCharacter.uasset
+[2015.10.26-11.51.00:059][673]LogSavePackage: Save=72.538551ms
+[2015.10.26-11.51.00:059][673]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/SK_Mannequin8A2528BA4D8C9D88B287A3A0BAC727DC.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset'
+[2015.10.26-11.51.00:086][673]LogSavePackage: Total save time: 126.449641ms
+[2015.10.26-11.51.00:086][673]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset
+[2015.10.26-11.51.00:109][673]LogSavePackage: Save=5.562696ms
+[2015.10.26-11.51.00:109][673]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/SK_Mannequin_Skeleton021C3DEC4ABE963BE6C7C0B049E926CF.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_Skeleton.uasset'
+[2015.10.26-11.51.00:115][673]LogSavePackage: Total save time: 11.975341ms
+[2015.10.26-11.51.00:115][673]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_Skeleton.uasset
+[2015.10.26-11.51.00:348][673]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.10.26-11.51.01:188][674]Cmd: QUIT_EDITOR
+[2015.10.26-11.51.02:915][674]LogExit: Preparing to exit.
+[2015.10.26-11.51.14:567][674]LogExit: Editor shut down
+[2015.10.26-11.51.14:636][674]LogExit: Transaction tracking system shut down
+[2015.10.26-11.51.14:967][674]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004D6BC37560
+[2015.10.26-11.51.14:968][674]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004D6BFA9BC0
+[2015.10.26-11.51.14:969][674]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004D7F1E2FC0
+[2015.10.26-11.51.14:971][674]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004D6B1404A0
+[2015.10.26-11.51.14:972][674]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004D0106E700
+[2015.10.26-11.51.14:983][674]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004D0B8B0A40
+[2015.10.26-11.51.15:048][674]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004D0B11F9C0
+[2015.10.26-11.51.36:375][674]LogExit: Object subsystem successfully closed.
+[2015.10.26-11.51.38:371][674]LogD3D11RHI: Shutdown
+[2015.10.26-11.51.38:374][674]LogD3D11RHI: CleanupD3DDevice
+[2015.10.26-11.51.38:967][674]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.10.26-11.51.43:364][674]LogModuleManager: Shutting down and abandoning module MaterialEditor (200)
+[2015.10.26-11.51.43:364][674]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2015.10.26-11.51.43:364][674]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2015.10.26-11.51.43:364][674]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2015.10.26-11.51.43:421][674]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2015.10.26-11.51.43:421][674]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2015.10.26-11.51.43:421][674]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2015.10.26-11.51.43:505][674]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2015.10.26-11.51.43:505][674]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2015.10.26-11.51.43:559][674]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2015.10.26-11.51.43:600][674]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2015.10.26-11.51.43:618][674]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2015.10.26-11.51.43:784][674]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2015.10.26-11.51.43:784][674]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2015.10.26-11.51.43:785][674]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2015.10.26-11.51.43:785][674]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2015.10.26-11.51.43:785][674]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2015.10.26-11.51.43:785][674]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2015.10.26-11.51.43:816][674]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2015.10.26-11.51.43:816][674]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2015.10.26-11.51.43:816][674]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2015.10.26-11.51.43:816][674]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2015.10.26-11.51.43:877][674]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2015.10.26-11.51.43:877][674]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2015.10.26-11.51.44:004][674]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2015.10.26-11.51.44:004][674]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2015.10.26-11.51.44:045][674]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2015.10.26-11.51.44:045][674]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2015.10.26-11.51.45:021][674]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2015.10.26-11.51.45:021][674]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2015.10.26-11.51.45:021][674]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2015.10.26-11.51.45:021][674]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2015.10.26-11.51.45:040][674]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2015.10.26-11.51.45:040][674]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2015.10.26-11.51.45:065][674]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2015.10.26-11.51.45:097][674]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2015.10.26-11.51.45:145][674]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2015.10.26-11.51.45:227][674]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2015.10.26-11.51.45:227][674]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2015.10.26-11.51.45:227][674]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2015.10.26-11.51.45:268][674]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2015.10.26-11.51.45:268][674]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2015.10.26-11.51.45:268][674]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2015.10.26-11.51.45:295][674]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2015.10.26-11.51.45:295][674]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2015.10.26-11.51.45:308][674]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2015.10.26-11.51.45:308][674]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2015.10.26-11.51.45:376][674]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2015.10.26-11.51.45:376][674]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2015.10.26-11.51.45:475][674]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2015.10.26-11.51.45:569][674]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2015.10.26-11.51.45:577][674]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2015.10.26-11.51.45:609][674]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2015.10.26-11.51.45:609][674]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2015.10.26-11.51.45:744][674]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2015.10.26-11.51.45:829][674]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2015.10.26-11.51.45:879][674]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2015.10.26-11.51.45:936][674]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2015.10.26-11.51.45:936][674]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2015.10.26-11.51.45:985][674]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2015.10.26-11.51.45:986][674]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2015.10.26-11.51.46:033][674]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2015.10.26-11.51.46:052][674]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2015.10.26-11.51.46:052][674]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2015.10.26-11.51.46:053][674]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2015.10.26-11.51.46:053][674]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2015.10.26-11.51.46:083][674]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2015.10.26-11.51.46:084][674]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2015.10.26-11.51.46:127][674]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2015.10.26-11.51.46:149][674]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2015.10.26-11.51.46:149][674]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2015.10.26-11.51.46:185][674]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2015.10.26-11.51.46:262][674]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2015.10.26-11.51.46:262][674]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2015.10.26-11.51.46:262][674]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2015.10.26-11.51.46:323][674]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2015.10.26-11.51.46:323][674]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2015.10.26-11.51.46:323][674]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2015.10.26-11.51.46:373][674]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2015.10.26-11.51.46:385][674]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.10.26-11.51.46:385][674]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.10.26-11.51.46:385][674]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.10.26-11.51.46:385][674]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.10.26-11.51.46:385][674]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2015.10.26-11.51.46:385][674]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2015.10.26-11.51.46:385][674]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.10.26-11.51.46:546][674]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.10.26-11.51.46:564][674]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.10.26-11.51.46:564][674]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.10.26-11.51.46:564][674]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.10.26-11.51.46:644][674]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.10.26-11.51.46:723][674]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.10.26-11.51.46:724][674]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.10.26-11.51.46:794][674]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.10.26-11.51.46:827][674]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.10.26-11.51.46:827][674]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.10.26-11.51.46:881][674]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.10.26-11.51.46:881][674]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.10.26-11.51.46:881][674]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.10.26-11.51.46:944][674]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.10.26-11.51.46:997][674]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.10.26-11.51.47:029][674]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.10.26-11.51.47:069][674]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.10.26-11.51.47:069][674]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.10.26-11.51.47:083][674]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.10.26-11.51.47:118][674]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.10.26-11.51.47:164][674]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.10.26-11.51.47:232][674]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.10.26-11.51.47:334][674]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.10.26-11.51.47:335][674]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.10.26-11.51.47:388][674]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2015.10.26-11.51.47:392][674]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2015.10.26-11.51.47:492][674]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2015.10.26-11.51.47:493][674]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2015.10.26-11.51.48:364][674]LogModuleManager: Shutting down and abandoning module TwinStickShooter (86)
+[2015.10.26-11.51.48:364][674]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.10.26-11.51.48:465][674]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.10.26-11.51.48:465][674]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.10.26-11.51.48:585][674]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.10.26-11.51.48:638][674]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.10.26-11.51.48:639][674]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.10.26-11.51.48:686][674]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.10.26-11.51.48:686][674]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.10.26-11.51.48:686][674]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.10.26-11.51.48:686][674]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.10.26-11.51.48:797][674]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.10.26-11.51.48:797][674]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.10.26-11.51.48:836][674]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.10.26-11.51.48:836][674]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.10.26-11.51.48:836][674]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.10.26-11.51.48:874][674]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.10.26-11.51.48:897][674]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.10.26-11.51.48:935][674]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.10.26-11.51.48:947][674]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.10.26-11.51.48:947][674]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.10.26-11.51.48:951][674]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.10.26-11.51.48:951][674]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.10.26-11.51.48:951][674]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.10.26-11.51.48:951][674]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.10.26-11.51.48:951][674]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.10.26-11.51.48:951][674]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.10.26-11.51.48:951][674]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.10.26-11.51.48:951][674]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.10.26-11.51.48:982][674]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.10.26-11.51.49:037][674]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.10.26-11.51.49:038][674]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.10.26-11.51.49:093][674]LogDerivedDataCache: Shutdown
+[2015.10.26-11.51.49:093][674]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.10.26-11.51.49:113][674]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.10.26-11.51.49:143][674]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.10.26-11.51.49:188][674]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.10.26-11.51.49:188][674]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.10.26-11.51.49:188][674]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.10.26-11.51.49:188][674]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.10.26-11.51.49:234][674]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.10.26-11.51.49:234][674]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.10.26-11.51.49:234][674]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.10.26-11.51.49:235][674]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.10.26-11.51.49:252][674]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.10.26-11.51.49:308][674]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.10.26-11.51.49:316][674]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.10.26-11.51.49:352][674]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.10.26-11.51.49:373][674]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.10.26-11.51.49:396][674]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.10.26-11.51.49:396][674]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.10.26-11.51.49:425][674]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.10.26-11.51.49:425][674]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.10.26-11.51.49:455][674]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.10.26-11.51.49:477][674]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.10.26-11.51.49:494][674]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.10.26-11.51.49:516][674]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.10.26-11.51.49:522][674]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.10.26-11.51.49:537][674]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.10.26-11.51.49:540][674]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.10.26-11.51.49:540][674]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.10.26-11.51.49:552][674]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.10.26-11.51.49:560][674]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.10.26-11.51.49:564][674]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.10.26-11.51.49:577][674]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.10.26-11.51.49:577][674]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.10.26-11.51.49:577][674]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.10.26-11.51.49:604][674]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.10.26-11.51.49:604][674]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.10.26-11.51.51:609][674]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.10.26-11.51.51:714][674]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.10.26-11.51.51:714][674]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.10.26-11.51.51:780][674]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.10.26-11.51.51:780][674]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.10.26-11.51.51:780][674]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.10.26-11.51.51:988][674]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.10.26-11.51.52:015][674]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.10.26-11.51.52:015][674]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.10.26-11.51.52:015][674]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.10.26-11.51.52:015][674]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.10.26-11.51.52:015][674]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.10.26-11.51.52:015][674]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.10.26-11.51.52:063][674]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.10.26-11.51.52:063][674]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.10.26-11.51.52:073][674]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.10.26-11.51.52:158][674]LogExit: Exiting.
+[2015.10.26-11.51.54:691][674]Log file closed, 10/26/15 13:51:54

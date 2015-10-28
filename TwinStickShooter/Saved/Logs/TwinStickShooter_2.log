@@ -1,0 +1,475 @@
+﻿[2015.10.18-16.04.09:400][  0]Log file open, 10/18/15 19:04:09
+[2015.10.18-16.04.09:400][  0]LogInit:Display: Running engine for game: TwinStickShooter
+[2015.10.18-16.04.09:400][  0]LogInit:Display: RandInit(472413104) SRandInit(472413104).
+[2015.10.18-16.04.09:400][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.10.18-16.04.09:400][  0]LogStats: Stats thread started at 0.118114
+[2015.10.18-16.04.09:400][  0]LogInit: Version: 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.10.18-16.04.09:400][  0]LogInit: API Version: 2672455
+[2015.10.18-16.04.09:400][  0]LogInit: Compiled (64-bit): Aug 28 2015 12:33:01
+[2015.10.18-16.04.09:400][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.18-16.04.09:400][  0]LogInit: Build Configuration: Development
+[2015.10.18-16.04.09:400][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.18-16.04.09:400][  0]LogInit: Command line: 
+[2015.10.18-16.04.09:400][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.18-16.04.09:400][  0]LogInit: Rocket: 1
+[2015.10.18-16.04.09:414][  0]LogInit: Using libcurl 7.41.0
+[2015.10.18-16.04.09:414][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.18-16.04.09:414][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.18-16.04.09:414][  0]LogInit:  - other features:
+[2015.10.18-16.04.09:414][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.18-16.04.09:414][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.18-16.04.09:414][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.18-16.04.09:414][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.18-16.04.09:414][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.18-16.04.09:414][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.18-16.04.09:414][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.18-16.04.09:414][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.18-16.04.09:414][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.18-16.04.09:414][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.18-16.04.09:424][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.18-16.04.09:448][  0]LogInit: Object subsystem initialized
+[2015.10.18-16.04.09:450][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.18-16.04.09:450][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.18-16.04.09:546][  0]LogInit: Computer: THEPROTO
+[2015.10.18-16.04.09:546][  0]LogInit: User: Nikolai
+[2015.10.18-16.04.09:546][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.10.18-16.04.09:546][  0]LogInit: High frequency timer resolution =2.630738 MHz
+[2015.10.18-16.04.09:546][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2015.10.18-16.04.09:546][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.18-16.04.09:546][  0]LogMemory: Process Physical Memory: 52.11 MB used, 52.11 MB peak
+[2015.10.18-16.04.09:546][  0]LogMemory: Process Virtual Memory: 56.99 MB used, 56.99 MB peak
+[2015.10.18-16.04.09:547][  0]LogMemory: Physical Memory: 3064.53 MB used, 4044.71 MB total
+[2015.10.18-16.04.09:547][  0]LogMemory: Virtual Memory: 352.41 MB used, 134217728.00 MB total
+[2015.10.18-16.04.09:667][  0]LogTextLocalizationManager: No translations for ('bg-BG') exist, falling back to 'en' for localization and internationalization data.
+[2015.10.18-16.04.11:447][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R7 200 Series (Feature Level 11_0)
+[2015.10.18-16.04.11:447][  0]LogD3D11RHI: Adapter has 2027MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 1 output[s]
+[2015.10.18-16.04.11:451][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.18-16.04.11:451][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.10.18-16.04.11:451][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.18-16.04.11:458][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.18-16.04.11:458][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.18-16.04.11:468][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.10.18-16.04.11:479][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Intermediate/Shaders/WorkingDirectory/4552/).
+[2015.10.18-16.04.11:479][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Intermediate/Shaders/tmp/62638EA948B5ACB059FC8EA81CE973CD/'.
+[2015.10.18-16.04.11:479][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.18-16.04.19:706][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.18-16.04.19:752][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.18-16.04.19:801][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.18-16.04.19:844][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.18-16.04.19:910][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.18-16.04.19:941][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.18-16.04.19:970][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.18-16.04.20:059][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.18-16.04.20:152][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.18-16.04.20:205][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.18-16.04.20:253][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.18-16.04.20:305][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.18-16.04.20:359][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.18-16.04.20:601][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.18-16.04.20:621][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.18-16.04.20:632][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.18-16.04.20:679][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.18-16.04.20:679][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.18-16.04.21:324][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.18-16.04.22:135][  0]LogDerivedDataCache: Loaded boot cache 0.81s 42MB C:/Users/Nikolai/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.18-16.04.22:135][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Nikolai/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.18-16.04.22:135][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.18-16.04.22:135][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.18-16.04.22:135][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.18-16.04.22:135][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.18-16.04.22:417][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.18-16.04.22:430][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nikolai/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.18-16.04.33:865][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.18-16.04.33:871][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.18-16.04.34:141][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.18-16.04.34:141][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.18-16.04.34:723][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.18-16.04.56:246][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.18-16.04.56:984][  0]LogAssetRegistry: FAssetRegistry took 0.0114 seconds to start up
+[2015.10.18-16.04.57:661][  0]SourceControl: Info Source control is disabled
+[2015.10.18-16.04.57:669][  0]SourceControl: Info Source control is disabled
+[2015.10.18-16.04.57:737][  0]SourceControl: Info Source control is disabled
+[2015.10.18-16.04.57:809][  0]SourceControl: Info Source control is disabled
+[2015.10.18-16.04.58:968][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.18-16.04.59:293][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.10.18-16.04.59:293][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.10.18-16.04.59:512][  0]LogEngine: Initializing Engine...
+[2015.10.18-16.04.59:516][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.10.18-16.04.59:630][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.10.18-16.04.59:944][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.18-16.04.59:969][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.18-16.05.00:001][  0]LogInit: FAudioDevice initialized.
+[2015.10.18-16.05.00:103][  0]LogDerivedDataCache: Saved boot cache 0.10s 41MB C:/Users/Nikolai/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.18-16.05.00:130][  0]LogInit: Texture streaming: Enabled
+[2015.10.18-16.05.00:163][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.18-16.05.00:163][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.10.18-16.05.00:163][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 53f6fc274a2158c2f1746fa617a06228|6e4a51694ea9490fbeb018a9c89f70b0|fd8891bc-30c8-439a-9b49-a1618c91fbf9
+[2015.10.18-16.05.00:163][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.18-16.05.00:498][  0]LogInit: Transaction tracking system initialized
+[2015.10.18-16.05.00:850][  0]BlueprintLog: New page: Editor Load
+[2015.10.18-16.05.03:579][  0]LocalizationService: Info Localization service is disabled
+[2015.10.18-16.05.04:400][  0]LogConsoleResponse:Display: 
+[2015.10.18-16.05.04:914][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.18-16.05.05:833][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/' took 0.04s
+[2015.10.18-16.05.05:833][  0]SourceControl: Info Source control is disabled
+[2015.10.18-16.05.05:833][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.18-16.05.05:899][  0]LightingResults: New page: Lighting Build
+[2015.10.18-16.05.05:904][  0]MapCheck: New page: Map Check
+[2015.10.18-16.05.05:904][  0]LightingResults: New page: Lighting Build
+[2015.10.18-16.05.06:921][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005B46FD2160
+[2015.10.18-16.05.07:814][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.10.18-16.05.07:830][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.18-16.05.07:830][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.18-16.05.08:077][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 246.691ms to complete.
+[2015.10.18-16.05.08:077][  0]LogFileHelpers: Loading map 'Minimal_Default' took 2.245
+[2015.10.18-16.05.08:413][  0]LogCollectionManager: Loaded 0 collections in 0.002735 seconds
+[2015.10.18-16.05.08:468][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Collections/' took 0.01s
+[2015.10.18-16.05.08:468][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Developers/Nikolai/Collections/' took 0.01s
+[2015.10.18-16.05.08:468][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Collections/' took 0.02s
+[2015.10.18-16.05.08:468][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 1867 classes and 333 folders.
+[2015.10.18-16.05.08:481][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.10.18-16.05.08:512][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.10.18-16.05.10:252][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.10.18-16.05.10:418][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.10.18-16.05.10:487][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.18-16.05.10:521][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.18-16.05.10:546][  0]LogLoad: Full Startup: 63.46 seconds (BP compile: 0.21 seconds)
+[2015.10.18-16.05.10:832][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.10.18-16.05.11:015][  0]LogRenderer: Reallocating scene render targets to support 716x612 (Frame:2).
+[2015.10.18-16.05.12:761][  5]LogAssetRegistry: Asset discovery search completed in 15.7889 seconds
+[2015.10.18-16.05.12:761][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2015.10.18-16.05.12:761][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000043 seconds (updated 0 objects)
+[2015.10.18-16.05.17:700][287]LogRenderer: Reallocating scene render targets to support 736x612 (Frame:259).
+[2015.10.18-16.05.19:691][413]LogRenderer: Reallocating scene render targets to support 772x612 (Frame:361).
+[2015.10.18-16.05.20:698][480]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2015.10.18-16.13.03:413][172]Cmd: TRANSACTION UNDO
+[2015.10.18-16.13.03:428][172]LogEditorTransaction: Undo Edit Dead Zone
+[2015.10.18-16.13.06:523][395]Cmd: TRANSACTION UNDO
+[2015.10.18-16.13.06:524][395]LogEditorTransaction: Undo Edit Scale
+[2015.10.18-16.15.11:236][538]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.041
+[2015.10.18-16.42.21:337][461]LightingResults: New page: Lighting Build
+[2015.10.18-16.42.21:669][461]MapCheck: New page: Map Check
+[2015.10.18-16.42.21:669][461]LightingResults: New page: Lighting Build
+[2015.10.18-16.42.22:055][461]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005B3B156D40
+[2015.10.18-16.42.22:635][461]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.18-16.42.22:709][461]LoadErrors: New page: New Map
+[2015.10.18-16.43.04:823][977]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.10.18-16.43.37:130][296]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.10.18-16.43.45:250][769]LogUnrealMath: Expression Error : Unrecognized Operator
+[2015.10.18-16.52.10:850][574]LogSavePackage: Save=259.857880ms
+[2015.10.18-16.52.10:850][574]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Untitled_1_Auto1FBD2A2174B4988194EB3B5B3EA14CB18.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2015.10.18-16.52.10:898][574]LogSavePackage: Total save time: 329.387039ms
+[2015.10.18-16.52.10:898][574]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Autosaves/Temp/Untitled_1_Auto1.umap
+[2015.10.18-16.52.10:928][574]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.590
+[2015.10.18-16.52.10:928][574]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.590
+[2015.10.18-17.37.43:138][609]LogEditorViewport: Clicking Background
+[2015.10.18-17.37.44:327][646]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush2)
+[2015.10.18-17.38.12:990][347]Cmd: TRANSACTION UNDO
+[2015.10.18-17.38.12:990][347]LogEditorTransaction: Undo Move Actors
+[2015.10.18-17.38.35:897][795]LogEditorViewport: Clicking Background
+[2015.10.18-17.38.37:416][898]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (Box Brush2)
+[2015.10.18-17.38.38:517][952]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (Box Brush3)
+[2015.10.18-17.39.23:602][997]LogSavePackage: Save=147.484085ms
+[2015.10.18-17.39.23:602][997]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Untitled_1_Auto29468DC8346FE120E56E818B47DFBE4CC.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Autosaves/Temp/Untitled_1_Auto2.umap'
+[2015.10.18-17.39.23:607][997]LogSavePackage: Total save time: 153.379392ms
+[2015.10.18-17.39.23:607][997]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Autosaves/Temp/Untitled_1_Auto2.umap
+[2015.10.18-17.39.23:612][997]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.255
+[2015.10.18-17.39.23:613][997]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.255
+[2015.10.18-17.44.25:891][326]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush)
+[2015.10.18-17.49.24:799][713]LogSavePackage: Save=215.356674ms
+[2015.10.18-17.49.24:799][713]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Untitled_1_Auto379DB94F947CA3186C9E23B84DE7B3186.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Autosaves/Temp/Untitled_1_Auto3.umap'
+[2015.10.18-17.49.24:826][713]LogSavePackage: Total save time: 243.513800ms
+[2015.10.18-17.49.24:827][713]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Autosaves/Temp/Untitled_1_Auto3.umap
+[2015.10.18-17.49.24:862][713]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.367
+[2015.10.18-17.49.24:862][713]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.367
+[2015.10.18-17.55.16:690][128]Cmd: POLY SELECT MATCHING TEXTURE
+[2015.10.18-17.56.47:958][678]Cmd: POLY TEXMULT UU=0.707107 VV=0.707107 UV=-0.707107 VU=0.707107
+[2015.10.18-17.57.51:457][168]Cmd: TRANSACTION UNDO
+[2015.10.18-17.57.51:457][168]LogEditorTransaction: Undo Move Actors
+[2015.10.18-17.57.52:242][204]Cmd: TRANSACTION UNDO
+[2015.10.18-17.57.52:242][204]LogEditorTransaction: Undo Move Actors
+[2015.10.18-17.57.52:761][226]Cmd: TRANSACTION UNDO
+[2015.10.18-17.57.52:761][226]LogEditorTransaction: Undo Create Actors
+[2015.10.18-17.58.02:056][539]Cmd: TRANSACTION UNDO
+[2015.10.18-17.58.02:056][539]LogEditorTransaction: Undo Move Actors
+[2015.10.18-17.58.02:679][564]Cmd: TRANSACTION UNDO
+[2015.10.18-17.58.02:679][564]LogEditorTransaction: Undo Move Actors
+[2015.10.18-17.58.21:467][174]Cmd: TRANSACTION UNDO
+[2015.10.18-17.58.21:467][174]LogEditorTransaction: Undo Move Actors
+[2015.10.18-17.59.26:033][424]LogSavePackage: Save=195.488495ms
+[2015.10.18-17.59.26:033][424]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Untitled_1_Auto43A8D028E4A39B3546C2C3D9834CDE041.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Autosaves/Temp/Untitled_1_Auto4.umap'
+[2015.10.18-17.59.26:035][424]LogSavePackage: Total save time: 203.844700ms
+[2015.10.18-17.59.26:035][424]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Autosaves/Temp/Untitled_1_Auto4.umap
+[2015.10.18-17.59.26:040][424]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.258
+[2015.10.18-17.59.26:040][424]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.258
+[2015.10.18-18.04.26:643][764]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2015.10.18-18.04.50:370][334]MapCheck: New page: Map Check
+[2015.10.18-18.04.50:458][334]Cmd: MAP REBUILD ALLVISIBLE
+[2015.10.18-18.04.50:459][334]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.18-18.04.50:535][334]LogEditorServer: Cleared 5 NULL BSP materials after rebuild.
+[2015.10.18-18.04.50:580][334]MapCheck:Warning: Warning WorldSettings Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.10.18-18.04.50:580][334]LogStats:          STAT_HLOD_BuildClusters - 45.372 ms
+[2015.10.18-18.04.50:683][334]LightingResults: New page: Lighting Build - Oct 19, 2015, 12:04:50 AM
+[2015.10.18-18.05.40:012][334]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.10.18-18.05.40:047][334]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.10.18-18.05.40:047][334]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.10.18-18.05.40:047][334]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.10.18-18.05.40:047][334]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.10.18-18.05.40:047][334]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.10.18-18.05.42:623][334]LogEditorBuildUtils: Build time 0:00:52
+[2015.10.18-18.05.42:749][334]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Rock_Basalt, compiling. 
+[2015.10.18-18.05.43:086][334]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Rock_Basalt, compiling. 
+[2015.10.18-18.06.09:745][368]Job is a success!
+[2015.10.18-18.06.13:030][369]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2015.10.18-18.06.15:134][369]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.10.18-18.06.15:483][369]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.10.18-18.06.16:194][369]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2015.10.18-18.06.16:824][369]Lightmass on THEPROTO: 13.4 sec total, 1.53 sec importing, 0 ms setup, 437 ms photons, 10.2 sec processing, 0 ms extra exporting [12/12 mappings]. Threads: 20.5 sec total, 2.01 sec processing.
+[2015.10.18-18.06.17:022][369]LogStaticLightingSystem: Illumination: 1:25 min (4.26 sec encoding lightmaps)
+[2015.10.18-18.06.17:022][369]LogStaticLightingSystem: Lightmap texture memory:  0.3 MB (0.0 MB streaming, 0.3 MB non-streaming), 2 textures
+[2015.10.18-18.06.17:022][369]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.0 MB streaming, 0.2 MB non-streaming), 1 textures
+[2015.10.18-18.06.17:368][370]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.10.18-18.06.17:368][370]MapCheck: New page: Untitled_1 - Oct 19, 2015, 12:06:17 AM
+[2015.10.18-18.06.21:306][370]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 3,918.272ms to complete.
+[2015.10.18-18.09.38:563][786]LogSavePackage: Save=183.506302ms
+[2015.10.18-18.09.38:563][786]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Untitled_1_Auto529A4C0774DE2544EAA0C048B0C78F246.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Autosaves/Temp/Untitled_1_Auto5.umap'
+[2015.10.18-18.09.38:564][786]LogSavePackage: Total save time: 185.022224ms
+[2015.10.18-18.09.38:564][786]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Autosaves/Temp/Untitled_1_Auto5.umap
+[2015.10.18-18.09.38:569][786]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.289
+[2015.10.18-18.09.38:569][786]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.289
+[2015.10.18-18.20.24:778][336]LogSavePackage: Save=518.328674ms
+[2015.10.18-18.20.24:779][336]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/NewMap466C191642EE70B55F59448BD3497B38.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/NewFolder/NewMap.umap'
+[2015.10.18-18.20.24:912][336]LogSavePackage: Total save time: 654.027503ms
+[2015.10.18-18.20.24:912][336]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/NewFolder/NewMap.umap
+[2015.10.18-18.20.25:239][336]LogFileHelpers: Saving map 'NewMap' took 109.217
+[2015.10.18-18.28.04:653][315]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.18-18.28.04:906][315]LogSavePackage: Save=221.401367ms
+[2015.10.18-18.28.04:908][315]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/NewMap4A8B1AC94DD9F7DCEBAF0F9EED250470.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/NewMap.umap'
+[2015.10.18-18.28.04:929][315]LogSavePackage: Total save time: 244.386557ms
+[2015.10.18-18.28.04:929][315]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/NewMap.umap
+[2015.10.18-18.28.05:032][315]LogFileHelpers: Saving map 'NewMap' took 3.526
+[2015.10.18-19.21.11:459][735]LogSavePackage: Save=167.739624ms
+[2015.10.18-19.21.11:459][735]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/NewMap_Auto63A3F52C94EF2F76266B3859CA6A2719F.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Autosaves/Game/Maps/NewMap_Auto6.umap'
+[2015.10.18-19.21.11:460][735]LogSavePackage: Total save time: 417.251360ms
+[2015.10.18-19.21.11:460][735]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/Autosaves/Game/Maps/NewMap_Auto6.umap
+[2015.10.18-19.21.11:469][735]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.672
+[2015.10.18-19.21.11:469][735]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.672
+[2015.10.18-20.20.21:404][313]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.18-20.20.21:851][313]LogSavePackage: Save=65.165367ms
+[2015.10.18-20.20.21:851][313]LogSavePackage: Moving '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Saved/NewMapEE4A0A964B6080CF307435B0432BDD39.tmp' to '../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/NewMap.umap'
+[2015.10.18-20.20.21:861][313]LogSavePackage: Total save time: 379.538745ms
+[2015.10.18-20.20.21:862][313]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Nikolai/Documents/Unreal Projects/TwinStickShooter/Content/Maps/NewMap.umap
+[2015.10.18-20.20.24:058][400]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.10.18-20.20.26:150][401]Cmd: QUIT_EDITOR
+[2015.10.18-20.20.31:015][401]LogExit: Preparing to exit.
+[2015.10.18-20.20.37:595][401]LogExit: Editor shut down
+[2015.10.18-20.20.37:644][401]LogExit: Transaction tracking system shut down
+[2015.10.18-20.20.41:670][401]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005B41CFE340
+[2015.10.18-20.20.49:503][401]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005B4D9BD4E0
+[2015.10.18-20.20.49:503][401]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005B4E70F380
+[2015.10.18-20.20.49:503][401]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005B4E70FB00
+[2015.10.18-20.20.49:503][401]LogExit: Object subsystem successfully closed.
+[2015.10.18-20.20.53:014][401]LogD3D11RHI: Shutdown
+[2015.10.18-20.20.53:014][401]LogD3D11RHI: CleanupD3DDevice
+[2015.10.18-20.20.56:662][401]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.10.18-20.20.59:924][401]LogModuleManager: Shutting down and abandoning module TextureEditor (200)
+[2015.10.18-20.20.59:940][401]LogModuleManager: Shutting down and abandoning module NewLevelDialog (199)
+[2015.10.18-20.20.59:998][401]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (198)
+[2015.10.18-20.21.00:063][401]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.10.18-20.21.00:117][401]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.10.18-20.21.00:117][401]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.10.18-20.21.00:130][401]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.10.18-20.21.00:142][401]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.10.18-20.21.01:013][401]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.10.18-20.21.01:013][401]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.10.18-20.21.01:066][401]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.10.18-20.21.01:090][401]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.10.18-20.21.01:102][401]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.10.18-20.21.01:281][401]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.10.18-20.21.01:281][401]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.10.18-20.21.01:281][401]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.10.18-20.21.01:281][401]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.10.18-20.21.01:281][401]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.10.18-20.21.01:281][401]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.10.18-20.21.01:297][401]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.10.18-20.21.01:333][401]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.10.18-20.21.01:352][401]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.10.18-20.21.01:374][401]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.10.18-20.21.01:586][401]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.10.18-20.21.01:683][401]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.10.18-20.21.01:715][401]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.10.18-20.21.01:727][401]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.10.18-20.21.01:787][401]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.10.18-20.21.01:787][401]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.10.18-20.21.02:235][401]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.10.18-20.21.02:235][401]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.10.18-20.21.02:235][401]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.10.18-20.21.02:235][401]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.10.18-20.21.02:280][401]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.10.18-20.21.02:295][401]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.10.18-20.21.02:326][401]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.10.18-20.21.02:347][401]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.10.18-20.21.02:362][401]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.10.18-20.21.02:462][401]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.10.18-20.21.02:462][401]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.10.18-20.21.02:477][401]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.10.18-20.21.02:527][401]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.10.18-20.21.02:535][401]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.10.18-20.21.02:535][401]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.10.18-20.21.02:595][401]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.10.18-20.21.02:595][401]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.10.18-20.21.02:673][401]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.10.18-20.21.02:721][401]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.10.18-20.21.02:831][401]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.10.18-20.21.02:862][401]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.10.18-20.21.02:950][401]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.10.18-20.21.03:017][401]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.10.18-20.21.03:074][401]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.10.18-20.21.03:090][401]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.10.18-20.21.03:091][401]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.10.18-20.21.03:134][401]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.10.18-20.21.03:155][401]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.10.18-20.21.03:179][401]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.10.18-20.21.03:257][401]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.10.18-20.21.03:258][401]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.10.18-20.21.03:273][401]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.10.18-20.21.03:273][401]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.10.18-20.21.03:426][401]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.10.18-20.21.03:541][401]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.10.18-20.21.03:655][401]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.10.18-20.21.03:727][401]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.10.18-20.21.03:752][401]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.10.18-20.21.03:762][401]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.10.18-20.21.03:834][401]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.10.18-20.21.03:852][401]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.10.18-20.21.03:863][401]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.10.18-20.21.03:863][401]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.10.18-20.21.03:892][401]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.10.18-20.21.03:918][401]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.10.18-20.21.03:918][401]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.10.18-20.21.03:918][401]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.10.18-20.21.03:933][401]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.10.18-20.21.03:933][401]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.10.18-20.21.03:945][401]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.10.18-20.21.04:262][401]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.10.18-20.21.04:294][401]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.10.18-20.21.04:311][401]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.10.18-20.21.04:311][401]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.10.18-20.21.04:311][401]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.10.18-20.21.04:311][401]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.10.18-20.21.04:327][401]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.10.18-20.21.04:327][401]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.10.18-20.21.04:661][401]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.10.18-20.21.04:661][401]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.10.18-20.21.04:661][401]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.10.18-20.21.04:661][401]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.10.18-20.21.04:869][401]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.10.18-20.21.04:880][401]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.10.18-20.21.04:880][401]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.10.18-20.21.04:880][401]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.10.18-20.21.04:904][401]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.10.18-20.21.04:937][401]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.10.18-20.21.04:958][401]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.10.18-20.21.04:978][401]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.10.18-20.21.04:978][401]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.10.18-20.21.05:014][401]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.10.18-20.21.05:040][401]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.10.18-20.21.05:062][401]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.10.18-20.21.05:080][401]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.10.18-20.21.05:080][401]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.10.18-20.21.05:086][401]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.10.18-20.21.05:097][401]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.10.18-20.21.05:140][401]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.10.18-20.21.05:171][401]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.10.18-20.21.05:183][401]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.10.18-20.21.05:195][401]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.10.18-20.21.05:559][401]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.10.18-20.21.05:617][401]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.10.18-20.21.09:075][401]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.10.18-20.21.09:175][401]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.10.18-20.21.09:250][401]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.10.18-20.21.09:351][401]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.10.18-20.21.09:351][401]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.10.18-20.21.09:376][401]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.10.18-20.21.10:174][401]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.10.18-20.21.10:216][401]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.10.18-20.21.10:278][401]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.10.18-20.21.10:279][401]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.10.18-20.21.10:279][401]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.10.18-20.21.10:361][401]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.10.18-20.21.10:392][401]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.10.18-20.21.10:392][401]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.10.18-20.21.10:409][401]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.10.18-20.21.10:567][401]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.10.18-20.21.10:567][401]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.10.18-20.21.10:628][401]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.10.18-20.21.10:650][401]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.10.18-20.21.10:674][401]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.10.18-20.21.10:716][401]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.10.18-20.21.10:716][401]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.10.18-20.21.10:952][401]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.10.18-20.21.10:952][401]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.10.18-20.21.10:952][401]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.10.18-20.21.10:952][401]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.10.18-20.21.10:952][401]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.10.18-20.21.10:952][401]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.10.18-20.21.10:952][401]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.10.18-20.21.10:952][401]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.10.18-20.21.11:010][401]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.10.18-20.21.11:058][401]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.10.18-20.21.11:296][401]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.10.18-20.21.11:378][401]LogDerivedDataCache: Shutdown
+[2015.10.18-20.21.11:378][401]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.10.18-20.21.11:426][401]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.10.18-20.21.11:447][401]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.10.18-20.21.11:477][401]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.10.18-20.21.11:477][401]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.10.18-20.21.11:500][401]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.10.18-20.21.11:515][401]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.10.18-20.21.11:515][401]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.10.18-20.21.11:515][401]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.10.18-20.21.11:515][401]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.10.18-20.21.11:515][401]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.10.18-20.21.11:577][401]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.10.18-20.21.11:601][401]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.10.18-20.21.11:634][401]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.10.18-20.21.11:637][401]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.10.18-20.21.11:675][401]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.10.18-20.21.11:685][401]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.10.18-20.21.11:685][401]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.10.18-20.21.11:685][401]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.10.18-20.21.11:685][401]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.10.18-20.21.11:699][401]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.10.18-20.21.11:700][401]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.10.18-20.21.11:703][401]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.10.18-20.21.11:703][401]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.10.18-20.21.11:734][401]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.10.18-20.21.11:735][401]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.10.18-20.21.11:754][401]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.10.18-20.21.11:798][401]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.10.18-20.21.11:836][401]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.10.18-20.21.11:877][401]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.10.18-20.21.11:885][401]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.10.18-20.21.11:906][401]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.10.18-20.21.11:936][401]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.10.18-20.21.11:969][401]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.10.18-20.21.11:969][401]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.10.18-20.21.11:969][401]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.10.18-20.21.14:039][401]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.10.18-20.21.14:105][401]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.10.18-20.21.14:109][401]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.10.18-20.21.14:109][401]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.10.18-20.21.14:109][401]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.10.18-20.21.14:109][401]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.10.18-20.21.14:395][401]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.10.18-20.21.14:414][401]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.10.18-20.21.14:414][401]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.10.18-20.21.14:414][401]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.10.18-20.21.14:414][401]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.10.18-20.21.14:414][401]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.10.18-20.21.14:414][401]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.10.18-20.21.14:493][401]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.10.18-20.21.14:522][401]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.10.18-20.21.14:531][401]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.10.18-20.21.14:833][401]LogExit: Exiting.
+[2015.10.18-20.21.16:067][401]Log file closed, 10/18/15 23:21:16
